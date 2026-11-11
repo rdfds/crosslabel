@@ -1,0 +1,42 @@
+{
+  "Reinhardt": {
+    "crosslabel_point": 0.7809792860311183,
+    "crosslabel_lower": 0.7149277807293434,
+    "crosslabel_interval": [
+      0.7149277807293434,
+      0.8438547374485444
+    ],
+    "records": 15315,
+    "code_counts": [
+      2089,
+      3896,
+      6485,
+      2845
+    ],
+    "dtc_raw": 665.9252794235349,
+    "dtc_connected": 584.3570242923086,
+    "anchor_pair": 28.545679501718872,
+    "neighbor_pair": 26.476896127788585,
+    "dtc_connected_per_anchor": 0.8950646578089193
+  },
+  "Zaza": {
+    "crosslabel_point": 0.5531574109530724,
+    "crosslabel_lower": 0.5130944602137226,
+    "crosslabel_interval": [
+      0.5130944602137226,
+      0.5958337332703781
+    ],
+    "records": 13212,
+    "code_counts": [
+      2638,
+      3538,
+      3364,
+      3672
+    ],
+    "dtc_raw": 229.8278261887365,
+    "dtc_connected": 187.45837020241322,
+    "anchor_pair": 15.234426848454612,
+    "neighbor_pair": 13.900602289414064,
+    "dtc_connected_per_anchor": 0.6202951989761382
+  }
+}

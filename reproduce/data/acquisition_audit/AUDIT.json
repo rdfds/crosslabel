@@ -1,0 +1,3434 @@
+{
+  "acquisitions": 8,
+  "representations": 16,
+  "files": 64,
+  "rows": [
+    {
+      "acquisition": "fig4untreated",
+      "study": "CD20_2023",
+      "treatment": "untreated",
+      "representation": "localizations",
+      "rounds": [
+        {
+          "pre_filter_records": 658208,
+          "retained_records": 518044,
+          "columns": [
+            "frame",
+            "lp",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "frame": "<i4",
+            "lp": "<f4"
+          },
+          "extent_nm": [
+            19224.107421875,
+            42620.078125,
+            28709.619140625,
+            52087.74609375
+          ],
+          "filter": "lp<=8nm",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "frame_min_max": [
+            0,
+            39999
+          ],
+          "round": 1,
+          "file": "fig4untreated-locs-R1.npz",
+          "dataset": "10.5281/zenodo.7795826",
+          "archive_source": "https://zenodo.org/records/7795826/files/resi.rar",
+          "member": "Figure4/untreated/RESI/RESI rounds/RESI_R1_apicked.hdf5"
+        },
+        {
+          "pre_filter_records": 1976905,
+          "retained_records": 1679709,
+          "columns": [
+            "frame",
+            "lp",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "frame": "<i4",
+            "lp": "<f4"
+          },
+          "extent_nm": [
+            19226.6171875,
+            42619.53125,
+            28696.373046875,
+            52091.30859375
+          ],
+          "filter": "lp<=8nm",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "frame_min_max": [
+            0,
+            34578
+          ],
+          "round": 2,
+          "file": "fig4untreated-locs-R2.npz",
+          "dataset": "10.5281/zenodo.7795826",
+          "archive_source": "https://zenodo.org/records/7795826/files/resi.rar",
+          "member": "Figure4/untreated/RESI/RESI rounds/RESI_R2_apicked.hdf5"
+        },
+        {
+          "pre_filter_records": 2058672,
+          "retained_records": 1836353,
+          "columns": [
+            "frame",
+            "lp",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "frame": "<i4",
+            "lp": "<f4"
+          },
+          "extent_nm": [
+            19229.431640625,
+            42614.22265625,
+            28696.173828125,
+            52088.671875
+          ],
+          "filter": "lp<=8nm",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "frame_min_max": [
+            0,
+            39999
+          ],
+          "round": 3,
+          "file": "fig4untreated-locs-R3.npz",
+          "dataset": "10.5281/zenodo.7795826",
+          "archive_source": "https://zenodo.org/records/7795826/files/resi.rar",
+          "member": "Figure4/untreated/RESI/RESI rounds/RESI_R3_apicked.hdf5"
+        },
+        {
+          "pre_filter_records": 1119638,
+          "retained_records": 878511,
+          "columns": [
+            "frame",
+            "lp",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "frame": "<i4",
+            "lp": "<f4"
+          },
+          "extent_nm": [
+            19225.212890625,
+            42589.18359375,
+            28696.451171875,
+            52091.1484375
+          ],
+          "filter": "lp<=8nm",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "frame_min_max": [
+            0,
+            39999
+          ],
+          "round": 4,
+          "file": "fig4untreated-locs-R4.npz",
+          "dataset": "10.5281/zenodo.7795826",
+          "archive_source": "https://zenodo.org/records/7795826/files/resi.rar",
+          "member": "Figure4/untreated/RESI/RESI rounds/RESI_R4_apicked.hdf5"
+        }
+      ],
+      "round_counts": [
+        518044,
+        1679709,
+        1836353,
+        878511
+      ],
+      "total_records": 4912617,
+      "technical": {
+        "passed": true,
+        "common_round_extent_nm": [
+          19229.431640625,
+          42589.18359375,
+          28709.619140625,
+          52087.74609375
+        ],
+        "necessary_common_extent_over_500nm": true,
+        "interpretation": "bounding-box intersection only; no crop or biological footprint qualification"
+      },
+      "masks": {
+        "all": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            3
+          ],
+          [
+            0,
+            2,
+            3
+          ],
+          [
+            1,
+            2,
+            3
+          ]
+        ],
+        "non_consecutive": []
+      },
+      "source_code_contract": "round/file index is recorded code; permanence at physical-source level unverified",
+      "calibrated_structural_rejection_qualified": false,
+      "physical_component_cap_qualified": false,
+      "unresolved_model_requirements": [
+        "source_code_permanence",
+        "independent_component_parent_model",
+        "component_local_selection_and_errors",
+        "independent_footprint_and_common_window",
+        "pair_tail_and_intensity_background_bridge",
+        "real_input_finite_interval_qualification",
+        "validated_adapter_to_current_nested_method"
+      ],
+      "unresolved_cap_requirements": [
+        "source_code_permanence",
+        "independent_component_parent_model",
+        "component_local_selection_and_errors",
+        "independent_footprint_and_common_window",
+        "pair_tail_and_intensity_background_bridge",
+        "real_input_finite_interval_qualification",
+        "validated_adapter_to_current_nested_method",
+        "same_realized_own_component_target",
+        "one_record_per_physical_source",
+        "physical_scale_and_installed_transfer_errors"
+      ],
+      "current_scope": "technical feasibility and descriptive conditional record target only; no new inference executed"
+    },
+    {
+      "acquisition": "fig4untreated",
+      "study": "CD20_2023",
+      "treatment": "untreated",
+      "representation": "molecule_map",
+      "rounds": [
+        {
+          "pre_filter_records": 3348,
+          "retained_records": 3348,
+          "columns": [
+            "lp",
+            "n",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "lp": "<f4",
+            "n": "<u4"
+          },
+          "extent_nm": [
+            19231.931640625,
+            42602.22265625,
+            28721.67578125,
+            52059.5625
+          ],
+          "filter": "all retained map rows; no new filter",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "map_n_metadata": {
+            "min": 16.0,
+            "max": 415.0,
+            "rows_n_gt_1": 3348,
+            "interpretation": "cluster constituent metadata, not physical source identity"
+          },
+          "round": 1,
+          "file": "fig4untreated-resi-R1.npz",
+          "dataset": "10.5281/zenodo.7795826",
+          "archive_source": "https://zenodo.org/records/7795826/files/resi.rar",
+          "member": "Figure4/untreated/RESI/RESI results/RESI_R1_resi.hdf5"
+        },
+        {
+          "pre_filter_records": 5627,
+          "retained_records": 5627,
+          "columns": [
+            "lp",
+            "n",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "lp": "<f4",
+            "n": "<u4"
+          },
+          "extent_nm": [
+            19241.30078125,
+            42577.8515625,
+            28767.3828125,
+            52014.0390625
+          ],
+          "filter": "all retained map rows; no new filter",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "map_n_metadata": {
+            "min": 16.0,
+            "max": 399.0,
+            "rows_n_gt_1": 5627,
+            "interpretation": "cluster constituent metadata, not physical source identity"
+          },
+          "round": 2,
+          "file": "fig4untreated-resi-R2.npz",
+          "dataset": "10.5281/zenodo.7795826",
+          "archive_source": "https://zenodo.org/records/7795826/files/resi.rar",
+          "member": "Figure4/untreated/RESI/RESI results/RESI_R2_resi.hdf5"
+        },
+        {
+          "pre_filter_records": 10161,
+          "retained_records": 10161,
+          "columns": [
+            "lp",
+            "n",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "lp": "<f4",
+            "n": "<u4"
+          },
+          "extent_nm": [
+            19243.333984375,
+            42597.8828125,
+            28700.728515625,
+            52054.9453125
+          ],
+          "filter": "all retained map rows; no new filter",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "map_n_metadata": {
+            "min": 16.0,
+            "max": 555.0,
+            "rows_n_gt_1": 10161,
+            "interpretation": "cluster constituent metadata, not physical source identity"
+          },
+          "round": 3,
+          "file": "fig4untreated-resi-R3.npz",
+          "dataset": "10.5281/zenodo.7795826",
+          "archive_source": "https://zenodo.org/records/7795826/files/resi.rar",
+          "member": "Figure4/untreated/RESI/RESI results/RESI_R3_resi.hdf5"
+        },
+        {
+          "pre_filter_records": 2379,
+          "retained_records": 2379,
+          "columns": [
+            "lp",
+            "n",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "lp": "<f4",
+            "n": "<u4"
+          },
+          "extent_nm": [
+            19243.568359375,
+            42515.02734375,
+            28757.48046875,
+            51938.734375
+          ],
+          "filter": "all retained map rows; no new filter",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "map_n_metadata": {
+            "min": 16.0,
+            "max": 830.0,
+            "rows_n_gt_1": 2379,
+            "interpretation": "cluster constituent metadata, not physical source identity"
+          },
+          "round": 4,
+          "file": "fig4untreated-resi-R4.npz",
+          "dataset": "10.5281/zenodo.7795826",
+          "archive_source": "https://zenodo.org/records/7795826/files/resi.rar",
+          "member": "Figure4/untreated/RESI/RESI results/RESI_R4_resi.hdf5"
+        }
+      ],
+      "round_counts": [
+        3348,
+        5627,
+        10161,
+        2379
+      ],
+      "total_records": 21515,
+      "technical": {
+        "passed": true,
+        "common_round_extent_nm": [
+          19243.568359375,
+          42515.02734375,
+          28767.3828125,
+          51938.734375
+        ],
+        "necessary_common_extent_over_500nm": true,
+        "interpretation": "bounding-box intersection only; no crop or biological footprint qualification"
+      },
+      "masks": {
+        "all": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            3
+          ],
+          [
+            0,
+            2,
+            3
+          ],
+          [
+            1,
+            2,
+            3
+          ]
+        ],
+        "non_consecutive": []
+      },
+      "source_code_contract": "round/file index is recorded code; permanence at physical-source level unverified",
+      "calibrated_structural_rejection_qualified": false,
+      "physical_component_cap_qualified": false,
+      "unresolved_model_requirements": [
+        "source_code_permanence",
+        "independent_component_parent_model",
+        "component_local_selection_and_errors",
+        "independent_footprint_and_common_window",
+        "pair_tail_and_intensity_background_bridge",
+        "real_input_finite_interval_qualification",
+        "validated_adapter_to_current_nested_method"
+      ],
+      "unresolved_cap_requirements": [
+        "source_code_permanence",
+        "independent_component_parent_model",
+        "component_local_selection_and_errors",
+        "independent_footprint_and_common_window",
+        "pair_tail_and_intensity_background_bridge",
+        "real_input_finite_interval_qualification",
+        "validated_adapter_to_current_nested_method",
+        "same_realized_own_component_target",
+        "one_record_per_physical_source",
+        "physical_scale_and_installed_transfer_errors"
+      ],
+      "current_scope": "technical feasibility and descriptive conditional record target only; no new inference executed"
+    },
+    {
+      "acquisition": "edf10rep1",
+      "study": "CD20_2023",
+      "treatment": "untreated",
+      "representation": "localizations",
+      "rounds": [
+        {
+          "pre_filter_records": 1486036,
+          "retained_records": 1103024,
+          "columns": [
+            "frame",
+            "lp",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "frame": "<i4",
+            "lp": "<f4"
+          },
+          "extent_nm": [
+            12918.919921875,
+            64881.1640625,
+            18536.888671875,
+            41954.59375
+          ],
+          "filter": "lp<=8nm",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "frame_min_max": [
+            0,
+            49999
+          ],
+          "round": 1,
+          "file": "edf10rep1-locs-R1.npz",
+          "dataset": "10.5281/zenodo.7795826",
+          "archive_source": "https://zenodo.org/records/7795826/files/resi.rar",
+          "member": "EDF10/rep1/RESI/RESI rounds/RESI_R1_apicked.hdf5"
+        },
+        {
+          "pre_filter_records": 1192187,
+          "retained_records": 946515,
+          "columns": [
+            "frame",
+            "lp",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "frame": "<i4",
+            "lp": "<f4"
+          },
+          "extent_nm": [
+            12912.44140625,
+            64871.828125,
+            18551.681640625,
+            41966.14453125
+          ],
+          "filter": "lp<=8nm",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "frame_min_max": [
+            0,
+            49999
+          ],
+          "round": 2,
+          "file": "edf10rep1-locs-R2.npz",
+          "dataset": "10.5281/zenodo.7795826",
+          "archive_source": "https://zenodo.org/records/7795826/files/resi.rar",
+          "member": "EDF10/rep1/RESI/RESI rounds/RESI_R2_apicked.hdf5"
+        },
+        {
+          "pre_filter_records": 878230,
+          "retained_records": 693024,
+          "columns": [
+            "frame",
+            "lp",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "frame": "<i4",
+            "lp": "<f4"
+          },
+          "extent_nm": [
+            12919.697265625,
+            64877.234375,
+            18541.107421875,
+            41966.1171875
+          ],
+          "filter": "lp<=8nm",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "frame_min_max": [
+            0,
+            49999
+          ],
+          "round": 3,
+          "file": "edf10rep1-locs-R3.npz",
+          "dataset": "10.5281/zenodo.7795826",
+          "archive_source": "https://zenodo.org/records/7795826/files/resi.rar",
+          "member": "EDF10/rep1/RESI/RESI rounds/RESI_R3_apicked.hdf5"
+        },
+        {
+          "pre_filter_records": 1198175,
+          "retained_records": 1006625,
+          "columns": [
+            "frame",
+            "lp",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "frame": "<i4",
+            "lp": "<f4"
+          },
+          "extent_nm": [
+            12914.14453125,
+            64878.8125,
+            18538.83984375,
+            41965.13671875
+          ],
+          "filter": "lp<=8nm",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "frame_min_max": [
+            0,
+            49999
+          ],
+          "round": 4,
+          "file": "edf10rep1-locs-R4.npz",
+          "dataset": "10.5281/zenodo.7795826",
+          "archive_source": "https://zenodo.org/records/7795826/files/resi.rar",
+          "member": "EDF10/rep1/RESI/RESI rounds/RESI_R4_apicked.hdf5"
+        }
+      ],
+      "round_counts": [
+        1103024,
+        946515,
+        693024,
+        1006625
+      ],
+      "total_records": 3749188,
+      "technical": {
+        "passed": true,
+        "common_round_extent_nm": [
+          12919.697265625,
+          64871.828125,
+          18551.681640625,
+          41954.59375
+        ],
+        "necessary_common_extent_over_500nm": true,
+        "interpretation": "bounding-box intersection only; no crop or biological footprint qualification"
+      },
+      "masks": {
+        "all": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            3
+          ],
+          [
+            0,
+            2,
+            3
+          ],
+          [
+            1,
+            2,
+            3
+          ]
+        ],
+        "non_consecutive": []
+      },
+      "source_code_contract": "round/file index is recorded code; permanence at physical-source level unverified",
+      "calibrated_structural_rejection_qualified": false,
+      "physical_component_cap_qualified": false,
+      "unresolved_model_requirements": [
+        "source_code_permanence",
+        "independent_component_parent_model",
+        "component_local_selection_and_errors",
+        "independent_footprint_and_common_window",
+        "pair_tail_and_intensity_background_bridge",
+        "real_input_finite_interval_qualification",
+        "validated_adapter_to_current_nested_method"
+      ],
+      "unresolved_cap_requirements": [
+        "source_code_permanence",
+        "independent_component_parent_model",
+        "component_local_selection_and_errors",
+        "independent_footprint_and_common_window",
+        "pair_tail_and_intensity_background_bridge",
+        "real_input_finite_interval_qualification",
+        "validated_adapter_to_current_nested_method",
+        "same_realized_own_component_target",
+        "one_record_per_physical_source",
+        "physical_scale_and_installed_transfer_errors"
+      ],
+      "current_scope": "technical feasibility and descriptive conditional record target only; no new inference executed"
+    },
+    {
+      "acquisition": "edf10rep1",
+      "study": "CD20_2023",
+      "treatment": "untreated",
+      "representation": "molecule_map",
+      "rounds": [
+        {
+          "pre_filter_records": 19331,
+          "retained_records": 19331,
+          "columns": [
+            "lp",
+            "n",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "lp": "<f4",
+            "n": "<u4"
+          },
+          "extent_nm": [
+            12939.626953125,
+            64875.8671875,
+            18578.25390625,
+            41949.16796875
+          ],
+          "filter": "all retained map rows; no new filter",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "map_n_metadata": {
+            "min": 16.0,
+            "max": 184.0,
+            "rows_n_gt_1": 19331,
+            "interpretation": "cluster constituent metadata, not physical source identity"
+          },
+          "round": 1,
+          "file": "edf10rep1-resi-R1.npz",
+          "dataset": "10.5281/zenodo.7795826",
+          "archive_source": "https://zenodo.org/records/7795826/files/resi.rar",
+          "member": "EDF10/rep1/RESI/RESI results/RESI_R1_apicked_resi.hdf5"
+        },
+        {
+          "pre_filter_records": 18474,
+          "retained_records": 18474,
+          "columns": [
+            "lp",
+            "n",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "lp": "<f4",
+            "n": "<u4"
+          },
+          "extent_nm": [
+            12923.4091796875,
+            64868.9921875,
+            18589.431640625,
+            41960.02734375
+          ],
+          "filter": "all retained map rows; no new filter",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "map_n_metadata": {
+            "min": 16.0,
+            "max": 175.0,
+            "rows_n_gt_1": 18474,
+            "interpretation": "cluster constituent metadata, not physical source identity"
+          },
+          "round": 2,
+          "file": "edf10rep1-resi-R2.npz",
+          "dataset": "10.5281/zenodo.7795826",
+          "archive_source": "https://zenodo.org/records/7795826/files/resi.rar",
+          "member": "EDF10/rep1/RESI/RESI results/RESI_R2_apicked_resi.hdf5"
+        },
+        {
+          "pre_filter_records": 11129,
+          "retained_records": 11129,
+          "columns": [
+            "lp",
+            "n",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "lp": "<f4",
+            "n": "<u4"
+          },
+          "extent_nm": [
+            12927.05859375,
+            64871.12109375,
+            18548.857421875,
+            41910.34375
+          ],
+          "filter": "all retained map rows; no new filter",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "map_n_metadata": {
+            "min": 16.0,
+            "max": 126.0,
+            "rows_n_gt_1": 11129,
+            "interpretation": "cluster constituent metadata, not physical source identity"
+          },
+          "round": 3,
+          "file": "edf10rep1-resi-R3.npz",
+          "dataset": "10.5281/zenodo.7795826",
+          "archive_source": "https://zenodo.org/records/7795826/files/resi.rar",
+          "member": "EDF10/rep1/RESI/RESI results/RESI_R3_apicked_resi.hdf5"
+        },
+        {
+          "pre_filter_records": 20157,
+          "retained_records": 20157,
+          "columns": [
+            "lp",
+            "n",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "lp": "<f4",
+            "n": "<u4"
+          },
+          "extent_nm": [
+            12956.275390625,
+            64873.00390625,
+            18547.244140625,
+            41925.80859375
+          ],
+          "filter": "all retained map rows; no new filter",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "map_n_metadata": {
+            "min": 16.0,
+            "max": 135.0,
+            "rows_n_gt_1": 20157,
+            "interpretation": "cluster constituent metadata, not physical source identity"
+          },
+          "round": 4,
+          "file": "edf10rep1-resi-R4.npz",
+          "dataset": "10.5281/zenodo.7795826",
+          "archive_source": "https://zenodo.org/records/7795826/files/resi.rar",
+          "member": "EDF10/rep1/RESI/RESI results/RESI_R4_apicked_resi.hdf5"
+        }
+      ],
+      "round_counts": [
+        19331,
+        18474,
+        11129,
+        20157
+      ],
+      "total_records": 69091,
+      "technical": {
+        "passed": true,
+        "common_round_extent_nm": [
+          12956.275390625,
+          64868.9921875,
+          18589.431640625,
+          41910.34375
+        ],
+        "necessary_common_extent_over_500nm": true,
+        "interpretation": "bounding-box intersection only; no crop or biological footprint qualification"
+      },
+      "masks": {
+        "all": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            3
+          ],
+          [
+            0,
+            2,
+            3
+          ],
+          [
+            1,
+            2,
+            3
+          ]
+        ],
+        "non_consecutive": []
+      },
+      "source_code_contract": "round/file index is recorded code; permanence at physical-source level unverified",
+      "calibrated_structural_rejection_qualified": false,
+      "physical_component_cap_qualified": false,
+      "unresolved_model_requirements": [
+        "source_code_permanence",
+        "independent_component_parent_model",
+        "component_local_selection_and_errors",
+        "independent_footprint_and_common_window",
+        "pair_tail_and_intensity_background_bridge",
+        "real_input_finite_interval_qualification",
+        "validated_adapter_to_current_nested_method"
+      ],
+      "unresolved_cap_requirements": [
+        "source_code_permanence",
+        "independent_component_parent_model",
+        "component_local_selection_and_errors",
+        "independent_footprint_and_common_window",
+        "pair_tail_and_intensity_background_bridge",
+        "real_input_finite_interval_qualification",
+        "validated_adapter_to_current_nested_method",
+        "same_realized_own_component_target",
+        "one_record_per_physical_source",
+        "physical_scale_and_installed_transfer_errors"
+      ],
+      "current_scope": "technical feasibility and descriptive conditional record target only; no new inference executed"
+    },
+    {
+      "acquisition": "edf10rep2",
+      "study": "CD20_2023",
+      "treatment": "untreated",
+      "representation": "localizations",
+      "rounds": [
+        {
+          "pre_filter_records": 455664,
+          "retained_records": 317427,
+          "columns": [
+            "frame",
+            "lp",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "frame": "<i4",
+            "lp": "<f4"
+          },
+          "extent_nm": [
+            28996.611328125,
+            56212.42578125,
+            17414.060546875,
+            45838.578125
+          ],
+          "filter": "lp<=8nm",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "frame_min_max": [
+            0,
+            39999
+          ],
+          "round": 1,
+          "file": "edf10rep2-locs-R1.npz",
+          "dataset": "10.5281/zenodo.7795826",
+          "archive_source": "https://zenodo.org/records/7795826/files/resi.rar",
+          "member": "EDF10/rep2/RESI/RESI rounds/RESI_R1_apicked.hdf5"
+        },
+        {
+          "pre_filter_records": 918722,
+          "retained_records": 615380,
+          "columns": [
+            "frame",
+            "lp",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "frame": "<i4",
+            "lp": "<f4"
+          },
+          "extent_nm": [
+            29020.462890625,
+            56345.1796875,
+            17366.931640625,
+            45867.76953125
+          ],
+          "filter": "lp<=8nm",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "frame_min_max": [
+            0,
+            39999
+          ],
+          "round": 2,
+          "file": "edf10rep2-locs-R2.npz",
+          "dataset": "10.5281/zenodo.7795826",
+          "archive_source": "https://zenodo.org/records/7795826/files/resi.rar",
+          "member": "EDF10/rep2/RESI/RESI rounds/RESI_R2_apicked.hdf5"
+        },
+        {
+          "pre_filter_records": 651186,
+          "retained_records": 475004,
+          "columns": [
+            "frame",
+            "lp",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "frame": "<i4",
+            "lp": "<f4"
+          },
+          "extent_nm": [
+            28988.705078125,
+            56284.5,
+            17367.71484375,
+            45841.75390625
+          ],
+          "filter": "lp<=8nm",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "frame_min_max": [
+            0,
+            39999
+          ],
+          "round": 3,
+          "file": "edf10rep2-locs-R3.npz",
+          "dataset": "10.5281/zenodo.7795826",
+          "archive_source": "https://zenodo.org/records/7795826/files/resi.rar",
+          "member": "EDF10/rep2/RESI/RESI rounds/RESI_R3_apicked.hdf5"
+        },
+        {
+          "pre_filter_records": 809518,
+          "retained_records": 657699,
+          "columns": [
+            "frame",
+            "lp",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "frame": "<i4",
+            "lp": "<f4"
+          },
+          "extent_nm": [
+            29033.15625,
+            56342.60546875,
+            17437.49609375,
+            45821.1484375
+          ],
+          "filter": "lp<=8nm",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "frame_min_max": [
+            0,
+            39999
+          ],
+          "round": 4,
+          "file": "edf10rep2-locs-R4.npz",
+          "dataset": "10.5281/zenodo.7795826",
+          "archive_source": "https://zenodo.org/records/7795826/files/resi.rar",
+          "member": "EDF10/rep2/RESI/RESI rounds/RESI_R4_apicked.hdf5"
+        }
+      ],
+      "round_counts": [
+        317427,
+        615380,
+        475004,
+        657699
+      ],
+      "total_records": 2065510,
+      "technical": {
+        "passed": true,
+        "common_round_extent_nm": [
+          29033.15625,
+          56212.42578125,
+          17437.49609375,
+          45821.1484375
+        ],
+        "necessary_common_extent_over_500nm": true,
+        "interpretation": "bounding-box intersection only; no crop or biological footprint qualification"
+      },
+      "masks": {
+        "all": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            3
+          ],
+          [
+            0,
+            2,
+            3
+          ],
+          [
+            1,
+            2,
+            3
+          ]
+        ],
+        "non_consecutive": []
+      },
+      "source_code_contract": "round/file index is recorded code; permanence at physical-source level unverified",
+      "calibrated_structural_rejection_qualified": false,
+      "physical_component_cap_qualified": false,
+      "unresolved_model_requirements": [
+        "source_code_permanence",
+        "independent_component_parent_model",
+        "component_local_selection_and_errors",
+        "independent_footprint_and_common_window",
+        "pair_tail_and_intensity_background_bridge",
+        "real_input_finite_interval_qualification",
+        "validated_adapter_to_current_nested_method"
+      ],
+      "unresolved_cap_requirements": [
+        "source_code_permanence",
+        "independent_component_parent_model",
+        "component_local_selection_and_errors",
+        "independent_footprint_and_common_window",
+        "pair_tail_and_intensity_background_bridge",
+        "real_input_finite_interval_qualification",
+        "validated_adapter_to_current_nested_method",
+        "same_realized_own_component_target",
+        "one_record_per_physical_source",
+        "physical_scale_and_installed_transfer_errors"
+      ],
+      "current_scope": "technical feasibility and descriptive conditional record target only; no new inference executed"
+    },
+    {
+      "acquisition": "edf10rep2",
+      "study": "CD20_2023",
+      "treatment": "untreated",
+      "representation": "molecule_map",
+      "rounds": [
+        {
+          "pre_filter_records": 3521,
+          "retained_records": 3521,
+          "columns": [
+            "lp",
+            "n",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "lp": "<f4",
+            "n": "<u4"
+          },
+          "extent_nm": [
+            29053.318359375,
+            56198.2265625,
+            17497.52734375,
+            45762.21484375
+          ],
+          "filter": "all retained map rows; no new filter",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "map_n_metadata": {
+            "min": 21.0,
+            "max": 224.0,
+            "rows_n_gt_1": 3521,
+            "interpretation": "cluster constituent metadata, not physical source identity"
+          },
+          "round": 1,
+          "file": "edf10rep2-resi-R1.npz",
+          "dataset": "10.5281/zenodo.7795826",
+          "archive_source": "https://zenodo.org/records/7795826/files/resi.rar",
+          "member": "EDF10/rep2/RESI/RESI results/RESI_R1_apicked_resi.hdf5"
+        },
+        {
+          "pre_filter_records": 4864,
+          "retained_records": 4864,
+          "columns": [
+            "lp",
+            "n",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "lp": "<f4",
+            "n": "<u4"
+          },
+          "extent_nm": [
+            29182.455078125,
+            56286.48046875,
+            17603.3125,
+            45726.69140625
+          ],
+          "filter": "all retained map rows; no new filter",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "map_n_metadata": {
+            "min": 21.0,
+            "max": 264.0,
+            "rows_n_gt_1": 4864,
+            "interpretation": "cluster constituent metadata, not physical source identity"
+          },
+          "round": 2,
+          "file": "edf10rep2-resi-R2.npz",
+          "dataset": "10.5281/zenodo.7795826",
+          "archive_source": "https://zenodo.org/records/7795826/files/resi.rar",
+          "member": "EDF10/rep2/RESI/RESI results/RESI_R2_apicked_resi.hdf5"
+        },
+        {
+          "pre_filter_records": 5596,
+          "retained_records": 5596,
+          "columns": [
+            "lp",
+            "n",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "lp": "<f4",
+            "n": "<u4"
+          },
+          "extent_nm": [
+            29058.51171875,
+            56220.47265625,
+            17483.171875,
+            45645.31640625
+          ],
+          "filter": "all retained map rows; no new filter",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "map_n_metadata": {
+            "min": 21.0,
+            "max": 271.0,
+            "rows_n_gt_1": 5596,
+            "interpretation": "cluster constituent metadata, not physical source identity"
+          },
+          "round": 3,
+          "file": "edf10rep2-resi-R3.npz",
+          "dataset": "10.5281/zenodo.7795826",
+          "archive_source": "https://zenodo.org/records/7795826/files/resi.rar",
+          "member": "EDF10/rep2/RESI/RESI results/RESI_R3_apicked_resi.hdf5"
+        },
+        {
+          "pre_filter_records": 5774,
+          "retained_records": 5774,
+          "columns": [
+            "lp",
+            "n",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "lp": "<f4",
+            "n": "<u4"
+          },
+          "extent_nm": [
+            29054.6015625,
+            56158.5078125,
+            17504.9765625,
+            45567.26953125
+          ],
+          "filter": "all retained map rows; no new filter",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "map_n_metadata": {
+            "min": 21.0,
+            "max": 470.0,
+            "rows_n_gt_1": 5774,
+            "interpretation": "cluster constituent metadata, not physical source identity"
+          },
+          "round": 4,
+          "file": "edf10rep2-resi-R4.npz",
+          "dataset": "10.5281/zenodo.7795826",
+          "archive_source": "https://zenodo.org/records/7795826/files/resi.rar",
+          "member": "EDF10/rep2/RESI/RESI results/RESI_R4_apicked_resi.hdf5"
+        }
+      ],
+      "round_counts": [
+        3521,
+        4864,
+        5596,
+        5774
+      ],
+      "total_records": 19755,
+      "technical": {
+        "passed": true,
+        "common_round_extent_nm": [
+          29182.455078125,
+          56158.5078125,
+          17603.3125,
+          45567.26953125
+        ],
+        "necessary_common_extent_over_500nm": true,
+        "interpretation": "bounding-box intersection only; no crop or biological footprint qualification"
+      },
+      "masks": {
+        "all": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            3
+          ],
+          [
+            0,
+            2,
+            3
+          ],
+          [
+            1,
+            2,
+            3
+          ]
+        ],
+        "non_consecutive": []
+      },
+      "source_code_contract": "round/file index is recorded code; permanence at physical-source level unverified",
+      "calibrated_structural_rejection_qualified": false,
+      "physical_component_cap_qualified": false,
+      "unresolved_model_requirements": [
+        "source_code_permanence",
+        "independent_component_parent_model",
+        "component_local_selection_and_errors",
+        "independent_footprint_and_common_window",
+        "pair_tail_and_intensity_background_bridge",
+        "real_input_finite_interval_qualification",
+        "validated_adapter_to_current_nested_method"
+      ],
+      "unresolved_cap_requirements": [
+        "source_code_permanence",
+        "independent_component_parent_model",
+        "component_local_selection_and_errors",
+        "independent_footprint_and_common_window",
+        "pair_tail_and_intensity_background_bridge",
+        "real_input_finite_interval_qualification",
+        "validated_adapter_to_current_nested_method",
+        "same_realized_own_component_target",
+        "one_record_per_physical_source",
+        "physical_scale_and_installed_transfer_errors"
+      ],
+      "current_scope": "technical feasibility and descriptive conditional record target only; no new inference executed"
+    },
+    {
+      "acquisition": "rtx_rep1",
+      "study": "CD20_2023",
+      "treatment": "rituximab",
+      "representation": "localizations",
+      "rounds": [
+        {
+          "pre_filter_records": 625761,
+          "retained_records": 573322,
+          "columns": [
+            "frame",
+            "lp",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "frame": "<i4",
+            "lp": "<f4"
+          },
+          "extent_nm": [
+            9602.318359375,
+            49988.1875,
+            17030.244140625,
+            39773.09765625
+          ],
+          "filter": "lp<=8nm",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "frame_min_max": [
+            0,
+            39999
+          ],
+          "round": 1,
+          "file": "rtx_rep1-locs-R1.npz",
+          "dataset": "10.5281/zenodo.7795826",
+          "archive_source": "https://zenodo.org/records/7795826/files/resi.rar",
+          "member": "EDF11,EDF12/rep1/RESI/RESI rounds/RESI_R1_apicked.hdf5"
+        },
+        {
+          "pre_filter_records": 530955,
+          "retained_records": 495097,
+          "columns": [
+            "frame",
+            "lp",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "frame": "<i4",
+            "lp": "<f4"
+          },
+          "extent_nm": [
+            9552.67578125,
+            49995.42578125,
+            17049.53125,
+            39782.17578125
+          ],
+          "filter": "lp<=8nm",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "frame_min_max": [
+            0,
+            39999
+          ],
+          "round": 2,
+          "file": "rtx_rep1-locs-R2.npz",
+          "dataset": "10.5281/zenodo.7795826",
+          "archive_source": "https://zenodo.org/records/7795826/files/resi.rar",
+          "member": "EDF11,EDF12/rep1/RESI/RESI rounds/RESI_R2_apicked.hdf5"
+        },
+        {
+          "pre_filter_records": 1109868,
+          "retained_records": 1034675,
+          "columns": [
+            "frame",
+            "lp",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "frame": "<i4",
+            "lp": "<f4"
+          },
+          "extent_nm": [
+            9548.849609375,
+            49972.1328125,
+            17049.74609375,
+            39760.84765625
+          ],
+          "filter": "lp<=8nm",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "frame_min_max": [
+            0,
+            33457
+          ],
+          "round": 3,
+          "file": "rtx_rep1-locs-R3.npz",
+          "dataset": "10.5281/zenodo.7795826",
+          "archive_source": "https://zenodo.org/records/7795826/files/resi.rar",
+          "member": "EDF11,EDF12/rep1/RESI/RESI rounds/RESI_R3_apicked.hdf5"
+        },
+        {
+          "pre_filter_records": 1074190,
+          "retained_records": 995674,
+          "columns": [
+            "frame",
+            "lp",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "frame": "<i4",
+            "lp": "<f4"
+          },
+          "extent_nm": [
+            9555.2158203125,
+            49966.5234375,
+            17030.818359375,
+            39757.3828125
+          ],
+          "filter": "lp<=8nm",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "frame_min_max": [
+            0,
+            34840
+          ],
+          "round": 4,
+          "file": "rtx_rep1-locs-R4.npz",
+          "dataset": "10.5281/zenodo.7795826",
+          "archive_source": "https://zenodo.org/records/7795826/files/resi.rar",
+          "member": "EDF11,EDF12/rep1/RESI/RESI rounds/RESI_R4_apicked.hdf5"
+        }
+      ],
+      "round_counts": [
+        573322,
+        495097,
+        1034675,
+        995674
+      ],
+      "total_records": 3098768,
+      "technical": {
+        "passed": true,
+        "common_round_extent_nm": [
+          9602.318359375,
+          49966.5234375,
+          17049.74609375,
+          39757.3828125
+        ],
+        "necessary_common_extent_over_500nm": true,
+        "interpretation": "bounding-box intersection only; no crop or biological footprint qualification"
+      },
+      "masks": {
+        "all": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            3
+          ],
+          [
+            0,
+            2,
+            3
+          ],
+          [
+            1,
+            2,
+            3
+          ]
+        ],
+        "non_consecutive": []
+      },
+      "source_code_contract": "round/file index is recorded code; permanence at physical-source level unverified",
+      "calibrated_structural_rejection_qualified": false,
+      "physical_component_cap_qualified": false,
+      "unresolved_model_requirements": [
+        "source_code_permanence",
+        "independent_component_parent_model",
+        "component_local_selection_and_errors",
+        "independent_footprint_and_common_window",
+        "pair_tail_and_intensity_background_bridge",
+        "real_input_finite_interval_qualification",
+        "validated_adapter_to_current_nested_method"
+      ],
+      "unresolved_cap_requirements": [
+        "source_code_permanence",
+        "independent_component_parent_model",
+        "component_local_selection_and_errors",
+        "independent_footprint_and_common_window",
+        "pair_tail_and_intensity_background_bridge",
+        "real_input_finite_interval_qualification",
+        "validated_adapter_to_current_nested_method",
+        "same_realized_own_component_target",
+        "one_record_per_physical_source",
+        "physical_scale_and_installed_transfer_errors"
+      ],
+      "current_scope": "technical feasibility and descriptive conditional record target only; no new inference executed"
+    },
+    {
+      "acquisition": "rtx_rep1",
+      "study": "CD20_2023",
+      "treatment": "rituximab",
+      "representation": "molecule_map",
+      "rounds": [
+        {
+          "pre_filter_records": 5184,
+          "retained_records": 5184,
+          "columns": [
+            "lp",
+            "n",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "lp": "<f4",
+            "n": "<u4"
+          },
+          "extent_nm": [
+            9641.7939453125,
+            49937.1796875,
+            17037.271484375,
+            39679.9140625
+          ],
+          "filter": "all retained map rows; no new filter",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "map_n_metadata": {
+            "min": 16.0,
+            "max": 422.0,
+            "rows_n_gt_1": 5184,
+            "interpretation": "cluster constituent metadata, not physical source identity"
+          },
+          "round": 1,
+          "file": "rtx_rep1-resi-R1.npz",
+          "dataset": "10.5281/zenodo.7795826",
+          "archive_source": "https://zenodo.org/records/7795826/files/resi.rar",
+          "member": "EDF11,EDF12/rep1/RESI/RESI results/RESI_R1_apicked_resi.hdf5"
+        },
+        {
+          "pre_filter_records": 4331,
+          "retained_records": 4331,
+          "columns": [
+            "lp",
+            "n",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "lp": "<f4",
+            "n": "<u4"
+          },
+          "extent_nm": [
+            9559.6494140625,
+            49946.98046875,
+            17093.775390625,
+            39669.26171875
+          ],
+          "filter": "all retained map rows; no new filter",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "map_n_metadata": {
+            "min": 16.0,
+            "max": 206.0,
+            "rows_n_gt_1": 4331,
+            "interpretation": "cluster constituent metadata, not physical source identity"
+          },
+          "round": 2,
+          "file": "rtx_rep1-resi-R2.npz",
+          "dataset": "10.5281/zenodo.7795826",
+          "archive_source": "https://zenodo.org/records/7795826/files/resi.rar",
+          "member": "EDF11,EDF12/rep1/RESI/RESI results/RESI_R2_apicked_resi.hdf5"
+        },
+        {
+          "pre_filter_records": 6051,
+          "retained_records": 6051,
+          "columns": [
+            "lp",
+            "n",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "lp": "<f4",
+            "n": "<u4"
+          },
+          "extent_nm": [
+            9586.5732421875,
+            49978.2578125,
+            17093.162109375,
+            39672.671875
+          ],
+          "filter": "all retained map rows; no new filter",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "map_n_metadata": {
+            "min": 16.0,
+            "max": 700.0,
+            "rows_n_gt_1": 6051,
+            "interpretation": "cluster constituent metadata, not physical source identity"
+          },
+          "round": 3,
+          "file": "rtx_rep1-resi-R3.npz",
+          "dataset": "10.5281/zenodo.7795826",
+          "archive_source": "https://zenodo.org/records/7795826/files/resi.rar",
+          "member": "EDF11,EDF12/rep1/RESI/RESI results/RESI_R3_apicked_resi.hdf5"
+        },
+        {
+          "pre_filter_records": 5118,
+          "retained_records": 5118,
+          "columns": [
+            "lp",
+            "n",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "lp": "<f4",
+            "n": "<u4"
+          },
+          "extent_nm": [
+            9574.9716796875,
+            49935.4453125,
+            17041.091796875,
+            39666.61328125
+          ],
+          "filter": "all retained map rows; no new filter",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "map_n_metadata": {
+            "min": 16.0,
+            "max": 868.0,
+            "rows_n_gt_1": 5118,
+            "interpretation": "cluster constituent metadata, not physical source identity"
+          },
+          "round": 4,
+          "file": "rtx_rep1-resi-R4.npz",
+          "dataset": "10.5281/zenodo.7795826",
+          "archive_source": "https://zenodo.org/records/7795826/files/resi.rar",
+          "member": "EDF11,EDF12/rep1/RESI/RESI results/RESI_R4_apicked_resi.hdf5"
+        }
+      ],
+      "round_counts": [
+        5184,
+        4331,
+        6051,
+        5118
+      ],
+      "total_records": 20684,
+      "technical": {
+        "passed": true,
+        "common_round_extent_nm": [
+          9641.7939453125,
+          49935.4453125,
+          17093.775390625,
+          39666.61328125
+        ],
+        "necessary_common_extent_over_500nm": true,
+        "interpretation": "bounding-box intersection only; no crop or biological footprint qualification"
+      },
+      "masks": {
+        "all": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            3
+          ],
+          [
+            0,
+            2,
+            3
+          ],
+          [
+            1,
+            2,
+            3
+          ]
+        ],
+        "non_consecutive": []
+      },
+      "source_code_contract": "round/file index is recorded code; permanence at physical-source level unverified",
+      "calibrated_structural_rejection_qualified": false,
+      "physical_component_cap_qualified": false,
+      "unresolved_model_requirements": [
+        "source_code_permanence",
+        "independent_component_parent_model",
+        "component_local_selection_and_errors",
+        "independent_footprint_and_common_window",
+        "pair_tail_and_intensity_background_bridge",
+        "real_input_finite_interval_qualification",
+        "validated_adapter_to_current_nested_method"
+      ],
+      "unresolved_cap_requirements": [
+        "source_code_permanence",
+        "independent_component_parent_model",
+        "component_local_selection_and_errors",
+        "independent_footprint_and_common_window",
+        "pair_tail_and_intensity_background_bridge",
+        "real_input_finite_interval_qualification",
+        "validated_adapter_to_current_nested_method",
+        "same_realized_own_component_target",
+        "one_record_per_physical_source",
+        "physical_scale_and_installed_transfer_errors"
+      ],
+      "current_scope": "technical feasibility and descriptive conditional record target only; no new inference executed"
+    },
+    {
+      "acquisition": "rtx_rep2",
+      "study": "CD20_2023",
+      "treatment": "rituximab",
+      "representation": "localizations",
+      "rounds": [
+        {
+          "pre_filter_records": 908912,
+          "retained_records": 375366,
+          "columns": [
+            "frame",
+            "lp",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "frame": "<i4",
+            "lp": "<f4"
+          },
+          "extent_nm": [
+            2512.802978515625,
+            62095.28515625,
+            9763.87890625,
+            62641.7578125
+          ],
+          "filter": "lp<=8nm",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "frame_min_max": [
+            0,
+            34999
+          ],
+          "round": 1,
+          "file": "rtx_rep2-locs-R1.npz",
+          "dataset": "10.5281/zenodo.7795826",
+          "archive_source": "https://zenodo.org/records/7795826/files/resi.rar",
+          "member": "EDF11,EDF12/rep2/RESI/RESI rounds/RESI_R1_apicked.hdf5"
+        },
+        {
+          "pre_filter_records": 2347788,
+          "retained_records": 1077095,
+          "columns": [
+            "frame",
+            "lp",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "frame": "<i4",
+            "lp": "<f4"
+          },
+          "extent_nm": [
+            2514.153564453125,
+            62050.796875,
+            9730.33203125,
+            62740.01953125
+          ],
+          "filter": "lp<=8nm",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "frame_min_max": [
+            0,
+            34999
+          ],
+          "round": 2,
+          "file": "rtx_rep2-locs-R2.npz",
+          "dataset": "10.5281/zenodo.7795826",
+          "archive_source": "https://zenodo.org/records/7795826/files/resi.rar",
+          "member": "EDF11,EDF12/rep2/RESI/RESI rounds/RESI_R2_apicked.hdf5"
+        },
+        {
+          "pre_filter_records": 1372431,
+          "retained_records": 698071,
+          "columns": [
+            "frame",
+            "lp",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "frame": "<i4",
+            "lp": "<f4"
+          },
+          "extent_nm": [
+            2575.1142578125,
+            61915.859375,
+            9799.5888671875,
+            62556.41796875
+          ],
+          "filter": "lp<=8nm",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "frame_min_max": [
+            0,
+            34999
+          ],
+          "round": 3,
+          "file": "rtx_rep2-locs-R3.npz",
+          "dataset": "10.5281/zenodo.7795826",
+          "archive_source": "https://zenodo.org/records/7795826/files/resi.rar",
+          "member": "EDF11,EDF12/rep2/RESI/RESI rounds/RESI_R3_apicked.hdf5"
+        },
+        {
+          "pre_filter_records": 1888091,
+          "retained_records": 1050307,
+          "columns": [
+            "frame",
+            "lp",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "frame": "<i4",
+            "lp": "<f4"
+          },
+          "extent_nm": [
+            2560.1279296875,
+            61868.05078125,
+            9777.4853515625,
+            62672.796875
+          ],
+          "filter": "lp<=8nm",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "frame_min_max": [
+            0,
+            34999
+          ],
+          "round": 4,
+          "file": "rtx_rep2-locs-R4.npz",
+          "dataset": "10.5281/zenodo.7795826",
+          "archive_source": "https://zenodo.org/records/7795826/files/resi.rar",
+          "member": "EDF11,EDF12/rep2/RESI/RESI rounds/RESI_R4_apicked.hdf5"
+        }
+      ],
+      "round_counts": [
+        375366,
+        1077095,
+        698071,
+        1050307
+      ],
+      "total_records": 3200839,
+      "technical": {
+        "passed": true,
+        "common_round_extent_nm": [
+          2575.1142578125,
+          61868.05078125,
+          9799.5888671875,
+          62556.41796875
+        ],
+        "necessary_common_extent_over_500nm": true,
+        "interpretation": "bounding-box intersection only; no crop or biological footprint qualification"
+      },
+      "masks": {
+        "all": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            3
+          ],
+          [
+            0,
+            2,
+            3
+          ],
+          [
+            1,
+            2,
+            3
+          ]
+        ],
+        "non_consecutive": []
+      },
+      "source_code_contract": "round/file index is recorded code; permanence at physical-source level unverified",
+      "calibrated_structural_rejection_qualified": false,
+      "physical_component_cap_qualified": false,
+      "unresolved_model_requirements": [
+        "source_code_permanence",
+        "independent_component_parent_model",
+        "component_local_selection_and_errors",
+        "independent_footprint_and_common_window",
+        "pair_tail_and_intensity_background_bridge",
+        "real_input_finite_interval_qualification",
+        "validated_adapter_to_current_nested_method"
+      ],
+      "unresolved_cap_requirements": [
+        "source_code_permanence",
+        "independent_component_parent_model",
+        "component_local_selection_and_errors",
+        "independent_footprint_and_common_window",
+        "pair_tail_and_intensity_background_bridge",
+        "real_input_finite_interval_qualification",
+        "validated_adapter_to_current_nested_method",
+        "same_realized_own_component_target",
+        "one_record_per_physical_source",
+        "physical_scale_and_installed_transfer_errors"
+      ],
+      "current_scope": "technical feasibility and descriptive conditional record target only; no new inference executed"
+    },
+    {
+      "acquisition": "rtx_rep2",
+      "study": "CD20_2023",
+      "treatment": "rituximab",
+      "representation": "molecule_map",
+      "rounds": [
+        {
+          "pre_filter_records": 3781,
+          "retained_records": 3781,
+          "columns": [
+            "lp",
+            "n",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "lp": "<f4",
+            "n": "<u4"
+          },
+          "extent_nm": [
+            2748.4130859375,
+            61599.76171875,
+            10225.6552734375,
+            61900.97265625
+          ],
+          "filter": "all retained map rows; no new filter",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "map_n_metadata": {
+            "min": 21.0,
+            "max": 661.0,
+            "rows_n_gt_1": 3781,
+            "interpretation": "cluster constituent metadata, not physical source identity"
+          },
+          "round": 1,
+          "file": "rtx_rep2-resi-R1.npz",
+          "dataset": "10.5281/zenodo.7795826",
+          "archive_source": "https://zenodo.org/records/7795826/files/resi.rar",
+          "member": "EDF11,EDF12/rep2/RESI/RESI results/RESI_R1_apicked_resi.hdf5"
+        },
+        {
+          "pre_filter_records": 5101,
+          "retained_records": 5101,
+          "columns": [
+            "lp",
+            "n",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "lp": "<f4",
+            "n": "<u4"
+          },
+          "extent_nm": [
+            2848.271728515625,
+            61738.8359375,
+            9797.294921875,
+            62077.19921875
+          ],
+          "filter": "all retained map rows; no new filter",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "map_n_metadata": {
+            "min": 31.0,
+            "max": 398.0,
+            "rows_n_gt_1": 5101,
+            "interpretation": "cluster constituent metadata, not physical source identity"
+          },
+          "round": 2,
+          "file": "rtx_rep2-resi-R2.npz",
+          "dataset": "10.5281/zenodo.7795826",
+          "archive_source": "https://zenodo.org/records/7795826/files/resi.rar",
+          "member": "EDF11,EDF12/rep2/RESI/RESI results/RESI_R2_apicked_resi.hdf5"
+        },
+        {
+          "pre_filter_records": 6728,
+          "retained_records": 6728,
+          "columns": [
+            "lp",
+            "n",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "lp": "<f4",
+            "n": "<u4"
+          },
+          "extent_nm": [
+            2604.10986328125,
+            61738.87109375,
+            9912.7734375,
+            62184.9140625
+          ],
+          "filter": "all retained map rows; no new filter",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "map_n_metadata": {
+            "min": 21.0,
+            "max": 412.0,
+            "rows_n_gt_1": 6728,
+            "interpretation": "cluster constituent metadata, not physical source identity"
+          },
+          "round": 3,
+          "file": "rtx_rep2-resi-R3.npz",
+          "dataset": "10.5281/zenodo.7795826",
+          "archive_source": "https://zenodo.org/records/7795826/files/resi.rar",
+          "member": "EDF11,EDF12/rep2/RESI/RESI results/RESI_R3_apicked_resi.hdf5"
+        },
+        {
+          "pre_filter_records": 7288,
+          "retained_records": 7288,
+          "columns": [
+            "lp",
+            "n",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "lp": "<f4",
+            "n": "<u4"
+          },
+          "extent_nm": [
+            2613.87890625,
+            61688.46875,
+            10418.9228515625,
+            62147.734375
+          ],
+          "filter": "all retained map rows; no new filter",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "map_n_metadata": {
+            "min": 21.0,
+            "max": 368.0,
+            "rows_n_gt_1": 7288,
+            "interpretation": "cluster constituent metadata, not physical source identity"
+          },
+          "round": 4,
+          "file": "rtx_rep2-resi-R4.npz",
+          "dataset": "10.5281/zenodo.7795826",
+          "archive_source": "https://zenodo.org/records/7795826/files/resi.rar",
+          "member": "EDF11,EDF12/rep2/RESI/RESI results/RESI_R4_apicked_resi.hdf5"
+        }
+      ],
+      "round_counts": [
+        3781,
+        5101,
+        6728,
+        7288
+      ],
+      "total_records": 22898,
+      "technical": {
+        "passed": true,
+        "common_round_extent_nm": [
+          2848.271728515625,
+          61599.76171875,
+          10418.9228515625,
+          61900.97265625
+        ],
+        "necessary_common_extent_over_500nm": true,
+        "interpretation": "bounding-box intersection only; no crop or biological footprint qualification"
+      },
+      "masks": {
+        "all": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            3
+          ],
+          [
+            0,
+            2,
+            3
+          ],
+          [
+            1,
+            2,
+            3
+          ]
+        ],
+        "non_consecutive": []
+      },
+      "source_code_contract": "round/file index is recorded code; permanence at physical-source level unverified",
+      "calibrated_structural_rejection_qualified": false,
+      "physical_component_cap_qualified": false,
+      "unresolved_model_requirements": [
+        "source_code_permanence",
+        "independent_component_parent_model",
+        "component_local_selection_and_errors",
+        "independent_footprint_and_common_window",
+        "pair_tail_and_intensity_background_bridge",
+        "real_input_finite_interval_qualification",
+        "validated_adapter_to_current_nested_method"
+      ],
+      "unresolved_cap_requirements": [
+        "source_code_permanence",
+        "independent_component_parent_model",
+        "component_local_selection_and_errors",
+        "independent_footprint_and_common_window",
+        "pair_tail_and_intensity_background_bridge",
+        "real_input_finite_interval_qualification",
+        "validated_adapter_to_current_nested_method",
+        "same_realized_own_component_target",
+        "one_record_per_physical_source",
+        "physical_scale_and_installed_transfer_errors"
+      ],
+      "current_scope": "technical feasibility and descriptive conditional record target only; no new inference executed"
+    },
+    {
+      "acquisition": "rtx_rep3",
+      "study": "CD20_2023",
+      "treatment": "rituximab",
+      "representation": "localizations",
+      "rounds": [
+        {
+          "pre_filter_records": 1334786,
+          "retained_records": 635910,
+          "columns": [
+            "frame",
+            "lp",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "frame": "<i4",
+            "lp": "<f4"
+          },
+          "extent_nm": [
+            22353.697265625,
+            47164.5,
+            21213.54296875,
+            49625.9140625
+          ],
+          "filter": "lp<=8nm",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "frame_min_max": [
+            0,
+            19999
+          ],
+          "round": 1,
+          "file": "rtx_rep3-locs-R1.npz",
+          "dataset": "10.5281/zenodo.7795826",
+          "archive_source": "https://zenodo.org/records/7795826/files/resi.rar",
+          "member": "EDF11,EDF12/rep3/RESI/RESI rounds/RESI_R1_apicked.hdf5"
+        },
+        {
+          "pre_filter_records": 1688915,
+          "retained_records": 806299,
+          "columns": [
+            "frame",
+            "lp",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "frame": "<i4",
+            "lp": "<f4"
+          },
+          "extent_nm": [
+            22299.685546875,
+            47191.2109375,
+            21238.7578125,
+            49628.2734375
+          ],
+          "filter": "lp<=8nm",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "frame_min_max": [
+            0,
+            19999
+          ],
+          "round": 2,
+          "file": "rtx_rep3-locs-R2.npz",
+          "dataset": "10.5281/zenodo.7795826",
+          "archive_source": "https://zenodo.org/records/7795826/files/resi.rar",
+          "member": "EDF11,EDF12/rep3/RESI/RESI rounds/RESI_R2_apicked.hdf5"
+        },
+        {
+          "pre_filter_records": 994518,
+          "retained_records": 475599,
+          "columns": [
+            "frame",
+            "lp",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "frame": "<i4",
+            "lp": "<f4"
+          },
+          "extent_nm": [
+            22285.271484375,
+            47197.61328125,
+            21297.787109375,
+            49458.2734375
+          ],
+          "filter": "lp<=8nm",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "frame_min_max": [
+            0,
+            19999
+          ],
+          "round": 3,
+          "file": "rtx_rep3-locs-R3.npz",
+          "dataset": "10.5281/zenodo.7795826",
+          "archive_source": "https://zenodo.org/records/7795826/files/resi.rar",
+          "member": "EDF11,EDF12/rep3/RESI/RESI rounds/RESI_R3_apicked.hdf5"
+        },
+        {
+          "pre_filter_records": 1350035,
+          "retained_records": 594652,
+          "columns": [
+            "frame",
+            "lp",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "frame": "<i4",
+            "lp": "<f4"
+          },
+          "extent_nm": [
+            22302.48828125,
+            47197.375,
+            21319.306640625,
+            49477.26171875
+          ],
+          "filter": "lp<=8nm",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "frame_min_max": [
+            0,
+            19999
+          ],
+          "round": 4,
+          "file": "rtx_rep3-locs-R4.npz",
+          "dataset": "10.5281/zenodo.7795826",
+          "archive_source": "https://zenodo.org/records/7795826/files/resi.rar",
+          "member": "EDF11,EDF12/rep3/RESI/RESI rounds/RESI_R4_apicked.hdf5"
+        }
+      ],
+      "round_counts": [
+        635910,
+        806299,
+        475599,
+        594652
+      ],
+      "total_records": 2512460,
+      "technical": {
+        "passed": true,
+        "common_round_extent_nm": [
+          22353.697265625,
+          47164.5,
+          21319.306640625,
+          49458.2734375
+        ],
+        "necessary_common_extent_over_500nm": true,
+        "interpretation": "bounding-box intersection only; no crop or biological footprint qualification"
+      },
+      "masks": {
+        "all": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            3
+          ],
+          [
+            0,
+            2,
+            3
+          ],
+          [
+            1,
+            2,
+            3
+          ]
+        ],
+        "non_consecutive": []
+      },
+      "source_code_contract": "round/file index is recorded code; permanence at physical-source level unverified",
+      "calibrated_structural_rejection_qualified": false,
+      "physical_component_cap_qualified": false,
+      "unresolved_model_requirements": [
+        "source_code_permanence",
+        "independent_component_parent_model",
+        "component_local_selection_and_errors",
+        "independent_footprint_and_common_window",
+        "pair_tail_and_intensity_background_bridge",
+        "real_input_finite_interval_qualification",
+        "validated_adapter_to_current_nested_method"
+      ],
+      "unresolved_cap_requirements": [
+        "source_code_permanence",
+        "independent_component_parent_model",
+        "component_local_selection_and_errors",
+        "independent_footprint_and_common_window",
+        "pair_tail_and_intensity_background_bridge",
+        "real_input_finite_interval_qualification",
+        "validated_adapter_to_current_nested_method",
+        "same_realized_own_component_target",
+        "one_record_per_physical_source",
+        "physical_scale_and_installed_transfer_errors"
+      ],
+      "current_scope": "technical feasibility and descriptive conditional record target only; no new inference executed"
+    },
+    {
+      "acquisition": "rtx_rep3",
+      "study": "CD20_2023",
+      "treatment": "rituximab",
+      "representation": "molecule_map",
+      "rounds": [
+        {
+          "pre_filter_records": 9401,
+          "retained_records": 9401,
+          "columns": [
+            "lp",
+            "n",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "lp": "<f4",
+            "n": "<u4"
+          },
+          "extent_nm": [
+            22593.193359375,
+            47145.87890625,
+            21380.232421875,
+            49322.54296875
+          ],
+          "filter": "all retained map rows; no new filter",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "map_n_metadata": {
+            "min": 16.0,
+            "max": 219.0,
+            "rows_n_gt_1": 9401,
+            "interpretation": "cluster constituent metadata, not physical source identity"
+          },
+          "round": 1,
+          "file": "rtx_rep3-resi-R1.npz",
+          "dataset": "10.5281/zenodo.7795826",
+          "archive_source": "https://zenodo.org/records/7795826/files/resi.rar",
+          "member": "EDF11,EDF12/rep3/RESI/RESI results/RESI_R1_apicked_resi.hdf5"
+        },
+        {
+          "pre_filter_records": 9163,
+          "retained_records": 9163,
+          "columns": [
+            "lp",
+            "n",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "lp": "<f4",
+            "n": "<u4"
+          },
+          "extent_nm": [
+            22311.28515625,
+            47149.8203125,
+            21598.74609375,
+            49317.55078125
+          ],
+          "filter": "all retained map rows; no new filter",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "map_n_metadata": {
+            "min": 21.0,
+            "max": 199.0,
+            "rows_n_gt_1": 9163,
+            "interpretation": "cluster constituent metadata, not physical source identity"
+          },
+          "round": 2,
+          "file": "rtx_rep3-resi-R2.npz",
+          "dataset": "10.5281/zenodo.7795826",
+          "archive_source": "https://zenodo.org/records/7795826/files/resi.rar",
+          "member": "EDF11,EDF12/rep3/RESI/RESI results/RESI_R2_apicked_resi.hdf5"
+        },
+        {
+          "pre_filter_records": 7168,
+          "retained_records": 7168,
+          "columns": [
+            "lp",
+            "n",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "lp": "<f4",
+            "n": "<u4"
+          },
+          "extent_nm": [
+            22336.712890625,
+            47154.8359375,
+            21384.484375,
+            49278.11328125
+          ],
+          "filter": "all retained map rows; no new filter",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "map_n_metadata": {
+            "min": 21.0,
+            "max": 274.0,
+            "rows_n_gt_1": 7168,
+            "interpretation": "cluster constituent metadata, not physical source identity"
+          },
+          "round": 3,
+          "file": "rtx_rep3-resi-R3.npz",
+          "dataset": "10.5281/zenodo.7795826",
+          "archive_source": "https://zenodo.org/records/7795826/files/resi.rar",
+          "member": "EDF11,EDF12/rep3/RESI/RESI results/RESI_R3_apicked_resi.hdf5"
+        },
+        {
+          "pre_filter_records": 8266,
+          "retained_records": 8266,
+          "columns": [
+            "lp",
+            "n",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "lp": "<f4",
+            "n": "<u4"
+          },
+          "extent_nm": [
+            22661.32421875,
+            47125.05078125,
+            21471.421875,
+            49181.58984375
+          ],
+          "filter": "all retained map rows; no new filter",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "map_n_metadata": {
+            "min": 21.0,
+            "max": 317.0,
+            "rows_n_gt_1": 8266,
+            "interpretation": "cluster constituent metadata, not physical source identity"
+          },
+          "round": 4,
+          "file": "rtx_rep3-resi-R4.npz",
+          "dataset": "10.5281/zenodo.7795826",
+          "archive_source": "https://zenodo.org/records/7795826/files/resi.rar",
+          "member": "EDF11,EDF12/rep3/RESI/RESI results/RESI_R4_apicked_resi.hdf5"
+        }
+      ],
+      "round_counts": [
+        9401,
+        9163,
+        7168,
+        8266
+      ],
+      "total_records": 33998,
+      "technical": {
+        "passed": true,
+        "common_round_extent_nm": [
+          22661.32421875,
+          47125.05078125,
+          21598.74609375,
+          49181.58984375
+        ],
+        "necessary_common_extent_over_500nm": true,
+        "interpretation": "bounding-box intersection only; no crop or biological footprint qualification"
+      },
+      "masks": {
+        "all": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            3
+          ],
+          [
+            0,
+            2,
+            3
+          ],
+          [
+            1,
+            2,
+            3
+          ]
+        ],
+        "non_consecutive": []
+      },
+      "source_code_contract": "round/file index is recorded code; permanence at physical-source level unverified",
+      "calibrated_structural_rejection_qualified": false,
+      "physical_component_cap_qualified": false,
+      "unresolved_model_requirements": [
+        "source_code_permanence",
+        "independent_component_parent_model",
+        "component_local_selection_and_errors",
+        "independent_footprint_and_common_window",
+        "pair_tail_and_intensity_background_bridge",
+        "real_input_finite_interval_qualification",
+        "validated_adapter_to_current_nested_method"
+      ],
+      "unresolved_cap_requirements": [
+        "source_code_permanence",
+        "independent_component_parent_model",
+        "component_local_selection_and_errors",
+        "independent_footprint_and_common_window",
+        "pair_tail_and_intensity_background_bridge",
+        "real_input_finite_interval_qualification",
+        "validated_adapter_to_current_nested_method",
+        "same_realized_own_component_target",
+        "one_record_per_physical_source",
+        "physical_scale_and_installed_transfer_errors"
+      ],
+      "current_scope": "technical feasibility and descriptive conditional record target only; no new inference executed"
+    },
+    {
+      "acquisition": "obz_cell1_2023_Pos3",
+      "study": "G5M_2026",
+      "treatment": "obinutuzumab",
+      "representation": "localizations",
+      "rounds": [
+        {
+          "pre_filter_records": 158608,
+          "retained_records": 150592,
+          "columns": [
+            "frame",
+            "group",
+            "lp",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "frame": "<i4",
+            "lp": "<f4",
+            "group": "<i4"
+          },
+          "extent_nm": [
+            27952.447265625,
+            62701.359375,
+            19708.890625,
+            57165.65234375
+          ],
+          "filter": "lp<=8nm",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "frame_min_max": [
+            0,
+            19999
+          ],
+          "round": 1,
+          "file": "g5m-cell1_2023_Pos3-locs-R1.npz",
+          "dataset": "10.5281/zenodo.18429674",
+          "archive_source": "https://zenodo.org/api/records/18429674/files/g5m.rar/content",
+          "member": "data/Fig4/cell1_2023_Pos3/R1_picked.hdf5"
+        },
+        {
+          "pre_filter_records": 550417,
+          "retained_records": 515924,
+          "columns": [
+            "frame",
+            "group",
+            "lp",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "frame": "<i4",
+            "lp": "<f4",
+            "group": "<i4"
+          },
+          "extent_nm": [
+            27955.748046875,
+            62740.21875,
+            19700.310546875,
+            57163.8046875
+          ],
+          "filter": "lp<=8nm",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "frame_min_max": [
+            0,
+            29999
+          ],
+          "round": 2,
+          "file": "g5m-cell1_2023_Pos3-locs-R2.npz",
+          "dataset": "10.5281/zenodo.18429674",
+          "archive_source": "https://zenodo.org/api/records/18429674/files/g5m.rar/content",
+          "member": "data/Fig4/cell1_2023_Pos3/R2_picked.hdf5"
+        },
+        {
+          "pre_filter_records": 215007,
+          "retained_records": 202658,
+          "columns": [
+            "frame",
+            "group",
+            "lp",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "frame": "<i4",
+            "lp": "<f4",
+            "group": "<i4"
+          },
+          "extent_nm": [
+            27951.0859375,
+            62725.26171875,
+            19718.654296875,
+            57144.13671875
+          ],
+          "filter": "lp<=8nm",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "frame_min_max": [
+            0,
+            29999
+          ],
+          "round": 3,
+          "file": "g5m-cell1_2023_Pos3-locs-R3.npz",
+          "dataset": "10.5281/zenodo.18429674",
+          "archive_source": "https://zenodo.org/api/records/18429674/files/g5m.rar/content",
+          "member": "data/Fig4/cell1_2023_Pos3/R3_picked.hdf5"
+        },
+        {
+          "pre_filter_records": 879275,
+          "retained_records": 855767,
+          "columns": [
+            "frame",
+            "group",
+            "lp",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "frame": "<i4",
+            "lp": "<f4",
+            "group": "<i4"
+          },
+          "extent_nm": [
+            27963.0625,
+            62697.40625,
+            19743.751953125,
+            57152.20703125
+          ],
+          "filter": "lp<=8nm",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "frame_min_max": [
+            0,
+            29999
+          ],
+          "round": 4,
+          "file": "g5m-cell1_2023_Pos3-locs-R4.npz",
+          "dataset": "10.5281/zenodo.18429674",
+          "archive_source": "https://zenodo.org/api/records/18429674/files/g5m.rar/content",
+          "member": "data/Fig4/cell1_2023_Pos3/R4_picked.hdf5"
+        }
+      ],
+      "round_counts": [
+        150592,
+        515924,
+        202658,
+        855767
+      ],
+      "total_records": 1724941,
+      "technical": {
+        "passed": true,
+        "common_round_extent_nm": [
+          27963.0625,
+          62697.40625,
+          19743.751953125,
+          57144.13671875
+        ],
+        "necessary_common_extent_over_500nm": true,
+        "interpretation": "bounding-box intersection only; no crop or biological footprint qualification"
+      },
+      "masks": {
+        "all": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            3
+          ],
+          [
+            0,
+            2,
+            3
+          ],
+          [
+            1,
+            2,
+            3
+          ]
+        ],
+        "non_consecutive": []
+      },
+      "source_code_contract": "round/file index is recorded code; permanence at physical-source level unverified",
+      "calibrated_structural_rejection_qualified": false,
+      "physical_component_cap_qualified": false,
+      "unresolved_model_requirements": [
+        "source_code_permanence",
+        "independent_component_parent_model",
+        "component_local_selection_and_errors",
+        "independent_footprint_and_common_window",
+        "pair_tail_and_intensity_background_bridge",
+        "real_input_finite_interval_qualification",
+        "validated_adapter_to_current_nested_method"
+      ],
+      "unresolved_cap_requirements": [
+        "source_code_permanence",
+        "independent_component_parent_model",
+        "component_local_selection_and_errors",
+        "independent_footprint_and_common_window",
+        "pair_tail_and_intensity_background_bridge",
+        "real_input_finite_interval_qualification",
+        "validated_adapter_to_current_nested_method",
+        "same_realized_own_component_target",
+        "one_record_per_physical_source",
+        "physical_scale_and_installed_transfer_errors"
+      ],
+      "current_scope": "technical feasibility and descriptive conditional record target only; no new inference executed"
+    },
+    {
+      "acquisition": "obz_cell1_2023_Pos3",
+      "study": "G5M_2026",
+      "treatment": "obinutuzumab",
+      "representation": "molecule_map",
+      "rounds": [
+        {
+          "pre_filter_records": 2265,
+          "retained_records": 2265,
+          "columns": [
+            "lp",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "lp": "<f4"
+          },
+          "extent_nm": [
+            28234.79296875,
+            62616.16015625,
+            19782.1953125,
+            56922.40625
+          ],
+          "filter": "all retained map rows; no new filter",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "round": 1,
+          "file": "g5m-cell1_2023_Pos3-g5mmol-R1.npz",
+          "dataset": "10.5281/zenodo.18429674",
+          "archive_source": "https://zenodo.org/api/records/18429674/files/g5m.rar/content",
+          "member": "data/Fig4/cell1_2023_Pos3/R1_picked_dbscan_molmap.hdf5"
+        },
+        {
+          "pre_filter_records": 4625,
+          "retained_records": 4625,
+          "columns": [
+            "lp",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "lp": "<f4"
+          },
+          "extent_nm": [
+            28048.90234375,
+            62732.01953125,
+            19820.208984375,
+            57142.5078125
+          ],
+          "filter": "all retained map rows; no new filter",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "round": 2,
+          "file": "g5m-cell1_2023_Pos3-g5mmol-R2.npz",
+          "dataset": "10.5281/zenodo.18429674",
+          "archive_source": "https://zenodo.org/api/records/18429674/files/g5m.rar/content",
+          "member": "data/Fig4/cell1_2023_Pos3/R2_picked_dbscan_molmap.hdf5"
+        },
+        {
+          "pre_filter_records": 3784,
+          "retained_records": 3784,
+          "columns": [
+            "lp",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "lp": "<f4"
+          },
+          "extent_nm": [
+            27956.310546875,
+            62717.3671875,
+            19764.08203125,
+            57110.34375
+          ],
+          "filter": "all retained map rows; no new filter",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "round": 3,
+          "file": "g5m-cell1_2023_Pos3-g5mmol-R3.npz",
+          "dataset": "10.5281/zenodo.18429674",
+          "archive_source": "https://zenodo.org/api/records/18429674/files/g5m.rar/content",
+          "member": "data/Fig4/cell1_2023_Pos3/R3_picked_dbscan_molmap.hdf5"
+        },
+        {
+          "pre_filter_records": 7005,
+          "retained_records": 7005,
+          "columns": [
+            "lp",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "lp": "<f4"
+          },
+          "extent_nm": [
+            28152.98046875,
+            62676.7890625,
+            19762.505859375,
+            57148.57421875
+          ],
+          "filter": "all retained map rows; no new filter",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "round": 4,
+          "file": "g5m-cell1_2023_Pos3-g5mmol-R4.npz",
+          "dataset": "10.5281/zenodo.18429674",
+          "archive_source": "https://zenodo.org/api/records/18429674/files/g5m.rar/content",
+          "member": "data/Fig4/cell1_2023_Pos3/R4_picked_dbscan_molmap.hdf5"
+        }
+      ],
+      "round_counts": [
+        2265,
+        4625,
+        3784,
+        7005
+      ],
+      "total_records": 17679,
+      "technical": {
+        "passed": true,
+        "common_round_extent_nm": [
+          28234.79296875,
+          62616.16015625,
+          19820.208984375,
+          56922.40625
+        ],
+        "necessary_common_extent_over_500nm": true,
+        "interpretation": "bounding-box intersection only; no crop or biological footprint qualification"
+      },
+      "masks": {
+        "all": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            3
+          ],
+          [
+            0,
+            2,
+            3
+          ],
+          [
+            1,
+            2,
+            3
+          ]
+        ],
+        "non_consecutive": []
+      },
+      "source_code_contract": "round/file index is recorded code; permanence at physical-source level unverified",
+      "calibrated_structural_rejection_qualified": false,
+      "physical_component_cap_qualified": false,
+      "unresolved_model_requirements": [
+        "source_code_permanence",
+        "independent_component_parent_model",
+        "component_local_selection_and_errors",
+        "independent_footprint_and_common_window",
+        "pair_tail_and_intensity_background_bridge",
+        "real_input_finite_interval_qualification",
+        "validated_adapter_to_current_nested_method"
+      ],
+      "unresolved_cap_requirements": [
+        "source_code_permanence",
+        "independent_component_parent_model",
+        "component_local_selection_and_errors",
+        "independent_footprint_and_common_window",
+        "pair_tail_and_intensity_background_bridge",
+        "real_input_finite_interval_qualification",
+        "validated_adapter_to_current_nested_method",
+        "same_realized_own_component_target",
+        "one_record_per_physical_source",
+        "physical_scale_and_installed_transfer_errors"
+      ],
+      "current_scope": "technical feasibility and descriptive conditional record target only; no new inference executed"
+    },
+    {
+      "acquisition": "obz_cell4_3D",
+      "study": "G5M_2026",
+      "treatment": "obinutuzumab",
+      "representation": "localizations",
+      "rounds": [
+        {
+          "pre_filter_records": 458601,
+          "retained_records": 362452,
+          "columns": [
+            "frame",
+            "group",
+            "lp",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "frame": "<i4",
+            "lp": "<f4",
+            "group": "<i4"
+          },
+          "extent_nm": [
+            29984.138671875,
+            52738.26953125,
+            12842.8466796875,
+            41466.67578125
+          ],
+          "filter": "lp<=8nm",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "frame_min_max": [
+            0,
+            29999
+          ],
+          "round": 1,
+          "file": "g5m-cell4_3D-locs-R1.npz",
+          "dataset": "10.5281/zenodo.18429674",
+          "archive_source": "https://zenodo.org/api/records/18429674/files/g5m.rar/content",
+          "member": "data/Fig4/cell4_3D/R1_picked.hdf5"
+        },
+        {
+          "pre_filter_records": 565384,
+          "retained_records": 448045,
+          "columns": [
+            "frame",
+            "group",
+            "lp",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "frame": "<i4",
+            "lp": "<f4",
+            "group": "<i4"
+          },
+          "extent_nm": [
+            29982.595703125,
+            52733.89453125,
+            12836.443359375,
+            41473.58984375
+          ],
+          "filter": "lp<=8nm",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "frame_min_max": [
+            0,
+            29999
+          ],
+          "round": 2,
+          "file": "g5m-cell4_3D-locs-R2.npz",
+          "dataset": "10.5281/zenodo.18429674",
+          "archive_source": "https://zenodo.org/api/records/18429674/files/g5m.rar/content",
+          "member": "data/Fig4/cell4_3D/R2_picked.hdf5"
+        },
+        {
+          "pre_filter_records": 1109182,
+          "retained_records": 968125,
+          "columns": [
+            "frame",
+            "group",
+            "lp",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "frame": "<i4",
+            "lp": "<f4",
+            "group": "<i4"
+          },
+          "extent_nm": [
+            29977.80078125,
+            52742.37890625,
+            12823.0751953125,
+            41471.27734375
+          ],
+          "filter": "lp<=8nm",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "frame_min_max": [
+            0,
+            29999
+          ],
+          "round": 3,
+          "file": "g5m-cell4_3D-locs-R3.npz",
+          "dataset": "10.5281/zenodo.18429674",
+          "archive_source": "https://zenodo.org/api/records/18429674/files/g5m.rar/content",
+          "member": "data/Fig4/cell4_3D/R3_picked.hdf5"
+        },
+        {
+          "pre_filter_records": 907747,
+          "retained_records": 815981,
+          "columns": [
+            "frame",
+            "group",
+            "lp",
+            "x",
+            "y"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "frame": "<i4",
+            "lp": "<f4",
+            "group": "<i4"
+          },
+          "extent_nm": [
+            29977.82421875,
+            52738.48046875,
+            12821.783203125,
+            41475.02734375
+          ],
+          "filter": "lp<=8nm",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "frame_min_max": [
+            0,
+            29999
+          ],
+          "round": 4,
+          "file": "g5m-cell4_3D-locs-R4.npz",
+          "dataset": "10.5281/zenodo.18429674",
+          "archive_source": "https://zenodo.org/api/records/18429674/files/g5m.rar/content",
+          "member": "data/Fig4/cell4_3D/R4_picked.hdf5"
+        }
+      ],
+      "round_counts": [
+        362452,
+        448045,
+        968125,
+        815981
+      ],
+      "total_records": 2594603,
+      "technical": {
+        "passed": true,
+        "common_round_extent_nm": [
+          29984.138671875,
+          52733.89453125,
+          12842.8466796875,
+          41466.67578125
+        ],
+        "necessary_common_extent_over_500nm": true,
+        "interpretation": "bounding-box intersection only; no crop or biological footprint qualification"
+      },
+      "masks": {
+        "all": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            3
+          ],
+          [
+            0,
+            2,
+            3
+          ],
+          [
+            1,
+            2,
+            3
+          ]
+        ],
+        "non_consecutive": []
+      },
+      "source_code_contract": "round/file index is recorded code; permanence at physical-source level unverified",
+      "calibrated_structural_rejection_qualified": false,
+      "physical_component_cap_qualified": false,
+      "unresolved_model_requirements": [
+        "source_code_permanence",
+        "independent_component_parent_model",
+        "component_local_selection_and_errors",
+        "independent_footprint_and_common_window",
+        "pair_tail_and_intensity_background_bridge",
+        "real_input_finite_interval_qualification",
+        "validated_adapter_to_current_nested_method"
+      ],
+      "unresolved_cap_requirements": [
+        "source_code_permanence",
+        "independent_component_parent_model",
+        "component_local_selection_and_errors",
+        "independent_footprint_and_common_window",
+        "pair_tail_and_intensity_background_bridge",
+        "real_input_finite_interval_qualification",
+        "validated_adapter_to_current_nested_method",
+        "same_realized_own_component_target",
+        "one_record_per_physical_source",
+        "physical_scale_and_installed_transfer_errors"
+      ],
+      "current_scope": "technical feasibility and descriptive conditional record target only; no new inference executed"
+    },
+    {
+      "acquisition": "obz_cell4_3D",
+      "study": "G5M_2026",
+      "treatment": "obinutuzumab",
+      "representation": "molecule_map",
+      "rounds": [
+        {
+          "pre_filter_records": 5313,
+          "retained_records": 5313,
+          "columns": [
+            "lp",
+            "x",
+            "y",
+            "z"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "lp": "<f4",
+            "z": "<f4"
+          },
+          "extent_nm": [
+            30053.607421875,
+            52701.171875,
+            12945.431640625,
+            41440.1328125
+          ],
+          "filter": "all retained map rows; no new filter",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "z_retained_but_not_used_in_xy_target": true,
+          "round": 1,
+          "file": "g5m-cell4_3D-g5mmol-R1.npz",
+          "dataset": "10.5281/zenodo.18429674",
+          "archive_source": "https://zenodo.org/api/records/18429674/files/g5m.rar/content",
+          "member": "data/Fig4/cell4_3D/R1_picked_dbscan_molmap.hdf5"
+        },
+        {
+          "pre_filter_records": 5692,
+          "retained_records": 5692,
+          "columns": [
+            "lp",
+            "x",
+            "y",
+            "z"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "lp": "<f4",
+            "z": "<f4"
+          },
+          "extent_nm": [
+            30014.23828125,
+            52722.90625,
+            12902.2744140625,
+            41449.50390625
+          ],
+          "filter": "all retained map rows; no new filter",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "z_retained_but_not_used_in_xy_target": true,
+          "round": 2,
+          "file": "g5m-cell4_3D-g5mmol-R2.npz",
+          "dataset": "10.5281/zenodo.18429674",
+          "archive_source": "https://zenodo.org/api/records/18429674/files/g5m.rar/content",
+          "member": "data/Fig4/cell4_3D/R2_picked_dbscan_molmap.hdf5"
+        },
+        {
+          "pre_filter_records": 8698,
+          "retained_records": 8698,
+          "columns": [
+            "lp",
+            "x",
+            "y",
+            "z"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "lp": "<f4",
+            "z": "<f4"
+          },
+          "extent_nm": [
+            30004.783203125,
+            52659.78125,
+            12862.8759765625,
+            41458.37109375
+          ],
+          "filter": "all retained map rows; no new filter",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "z_retained_but_not_used_in_xy_target": true,
+          "round": 3,
+          "file": "g5m-cell4_3D-g5mmol-R3.npz",
+          "dataset": "10.5281/zenodo.18429674",
+          "archive_source": "https://zenodo.org/api/records/18429674/files/g5m.rar/content",
+          "member": "data/Fig4/cell4_3D/R3_picked_dbscan_molmap.hdf5"
+        },
+        {
+          "pre_filter_records": 7464,
+          "retained_records": 7464,
+          "columns": [
+            "lp",
+            "x",
+            "y",
+            "z"
+          ],
+          "dtypes": {
+            "x": "<f4",
+            "y": "<f4",
+            "lp": "<f4",
+            "z": "<f4"
+          },
+          "extent_nm": [
+            29998.77734375,
+            52709.30859375,
+            12840.708984375,
+            41461.46875
+          ],
+          "filter": "all retained map rows; no new filter",
+          "source_id_available": false,
+          "independent_footprint_available": false,
+          "z_retained_but_not_used_in_xy_target": true,
+          "round": 4,
+          "file": "g5m-cell4_3D-g5mmol-R4.npz",
+          "dataset": "10.5281/zenodo.18429674",
+          "archive_source": "https://zenodo.org/api/records/18429674/files/g5m.rar/content",
+          "member": "data/Fig4/cell4_3D/R4_picked_dbscan_molmap.hdf5"
+        }
+      ],
+      "round_counts": [
+        5313,
+        5692,
+        8698,
+        7464
+      ],
+      "total_records": 27167,
+      "technical": {
+        "passed": true,
+        "common_round_extent_nm": [
+          30053.607421875,
+          52659.78125,
+          12945.431640625,
+          41440.1328125
+        ],
+        "necessary_common_extent_over_500nm": true,
+        "interpretation": "bounding-box intersection only; no crop or biological footprint qualification"
+      },
+      "masks": {
+        "all": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            3
+          ],
+          [
+            0,
+            2,
+            3
+          ],
+          [
+            1,
+            2,
+            3
+          ]
+        ],
+        "non_consecutive": []
+      },
+      "source_code_contract": "round/file index is recorded code; permanence at physical-source level unverified",
+      "calibrated_structural_rejection_qualified": false,
+      "physical_component_cap_qualified": false,
+      "unresolved_model_requirements": [
+        "source_code_permanence",
+        "independent_component_parent_model",
+        "component_local_selection_and_errors",
+        "independent_footprint_and_common_window",
+        "pair_tail_and_intensity_background_bridge",
+        "real_input_finite_interval_qualification",
+        "validated_adapter_to_current_nested_method"
+      ],
+      "unresolved_cap_requirements": [
+        "source_code_permanence",
+        "independent_component_parent_model",
+        "component_local_selection_and_errors",
+        "independent_footprint_and_common_window",
+        "pair_tail_and_intensity_background_bridge",
+        "real_input_finite_interval_qualification",
+        "validated_adapter_to_current_nested_method",
+        "same_realized_own_component_target",
+        "one_record_per_physical_source",
+        "physical_scale_and_installed_transfer_errors"
+      ],
+      "current_scope": "technical feasibility and descriptive conditional record target only; no new inference executed"
+    }
+  ],
+  "canonical_CD20_files_verified": 48,
+  "all_technical_gates_pass": true,
+  "calibrated_structural_rejections_qualified": 0,
+  "physical_component_caps_qualified": 0,
+  "source_calls": 0,
+  "estimator_calls": 0,
+  "all_historical_development": true
+}

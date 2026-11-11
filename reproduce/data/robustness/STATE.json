@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "reference": 531,
+  "evaluation": 540,
+  "completed": [
+    "balanced_lower_density",
+    "low_retention_skewed_codes",
+    "varying_intensity_skewed_codes"
+  ],
+  "seconds": 6.171734083007323
+}

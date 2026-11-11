@@ -1,0 +1,20 @@
+{
+  "title": "crosslabel: cross-label moments and spatial estimators for stochastically multiplexed localization microscopy",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Variankaval, Rohan",
+      "affiliation": "Department of Computer Science, Johns Hopkins University"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "super-resolution microscopy",
+    "DNA-PAINT",
+    "RESI",
+    "spatial statistics",
+    "oligomerization"
+  ],
+  "description": "Crosslabel implements a connected three-code contrast and model interval for permanently coded localization microscopy. Includes Python source and wheel, synthetic examples, simulation and comparator results, replay scripts, and provenance for the Nup96 and CD20 analyses.",
+  "version": "0.4.0"
+}

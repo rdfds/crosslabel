@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "reference": 99,
+  "evaluation": 200,
+  "wall_seconds": 56.99585637499695,
+  "native": 2,
+  "exact_files": {
+    "NATIVE.json": "8c85ab3c21c0f65746b6179bc9cd54ba8b98747978557c28f58413f62fd2ad79",
+    "REFERENCE.jsonl": "c2b8333648276a4677e76ff6618417ee7b8264f9f2609beaf0f0234cd214ed70",
+    "PAIRED.jsonl": "d92e61e53ad6a17c34240d7ee0ab6122894bc0bfa9d9b75159c68d46b562d951"
+  },
+  "runtime": {
+    "python": "3.13.2",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "h5py": "3.16.0",
+    "numerical_threads": 1
+  }
+}

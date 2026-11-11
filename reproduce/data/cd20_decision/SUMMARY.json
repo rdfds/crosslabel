@@ -1,0 +1,740 @@
+{
+  "state": {
+    "status": "complete",
+    "completed_families": [
+      "reference",
+      "linear",
+      "wide",
+      "low_retention",
+      "low_density_six_codes",
+      "known_intensity",
+      "matched_moments",
+      "membrane_variation"
+    ],
+    "active_family": "membrane_variation",
+    "counts": {
+      "generated_1": 1024,
+      "generated_2": 8910,
+      "generated_3": 800,
+      "old_catalogue_reads": 1200,
+      "fresh_generations": 400,
+      "fresh_nested_calls": 400,
+      "completed_rows": 2400
+    },
+    "wall_seconds": 178.97605416701117
+  },
+  "verified_pair_rows": 2400,
+  "cells": [
+    {
+      "family": "reference",
+      "adequate": true,
+      "planned": 100,
+      "observed": 100,
+      "nested_supported": 100,
+      "nested_alerts": 3,
+      "pair_alerts": 0,
+      "nested_covered": 96,
+      "nested_coverage_ci": [
+        0.9007428432873401,
+        0.9889955060138118
+      ],
+      "original_coverage_gate": true,
+      "original_false_alert_gate": true,
+      "pair_only_alerts": 0,
+      "nested_only_alerts": 3,
+      "both_alert": 0,
+      "neither_alert": 97,
+      "previous_spinna_fields": 12,
+      "nested_alerts_on_spinna_fields": 0,
+      "pair_alerts_on_spinna_fields": 0,
+      "spinna_improvement_alerts": 1
+    },
+    {
+      "family": "reference",
+      "adequate": false,
+      "planned": 100,
+      "observed": 100,
+      "nested_supported": 100,
+      "nested_alerts": 66,
+      "pair_alerts": 0,
+      "nested_covered": 92,
+      "nested_coverage_ci": [
+        0.848442364135579,
+        0.9648284374818372
+      ],
+      "original_coverage_gate": true,
+      "original_false_alert_gate": null,
+      "pair_only_alerts": 0,
+      "nested_only_alerts": 66,
+      "both_alert": 0,
+      "neither_alert": 34,
+      "previous_spinna_fields": 12,
+      "nested_alerts_on_spinna_fields": 8,
+      "pair_alerts_on_spinna_fields": 0,
+      "spinna_improvement_alerts": 6
+    },
+    {
+      "family": "linear",
+      "adequate": true,
+      "planned": 100,
+      "observed": 100,
+      "nested_supported": 100,
+      "nested_alerts": 3,
+      "pair_alerts": 0,
+      "nested_covered": 95,
+      "nested_coverage_ci": [
+        0.8871650888945373,
+        0.9835681208179479
+      ],
+      "original_coverage_gate": true,
+      "original_false_alert_gate": true,
+      "pair_only_alerts": 0,
+      "nested_only_alerts": 3,
+      "both_alert": 0,
+      "neither_alert": 97,
+      "previous_spinna_fields": 12,
+      "nested_alerts_on_spinna_fields": 1,
+      "pair_alerts_on_spinna_fields": 0,
+      "spinna_improvement_alerts": 0
+    },
+    {
+      "family": "linear",
+      "adequate": false,
+      "planned": 100,
+      "observed": 100,
+      "nested_supported": 100,
+      "nested_alerts": 54,
+      "pair_alerts": 0,
+      "nested_covered": 94,
+      "nested_coverage_ci": [
+        0.8739700654191771,
+        0.9776651139286836
+      ],
+      "original_coverage_gate": true,
+      "original_false_alert_gate": null,
+      "pair_only_alerts": 0,
+      "nested_only_alerts": 54,
+      "both_alert": 0,
+      "neither_alert": 46,
+      "previous_spinna_fields": 12,
+      "nested_alerts_on_spinna_fields": 6,
+      "pair_alerts_on_spinna_fields": 0,
+      "spinna_improvement_alerts": 4
+    },
+    {
+      "family": "wide",
+      "adequate": true,
+      "planned": 100,
+      "observed": 100,
+      "nested_supported": 100,
+      "nested_alerts": 0,
+      "pair_alerts": 0,
+      "nested_covered": 98,
+      "nested_coverage_ci": [
+        0.9296160675289299,
+        0.9975686631760574
+      ],
+      "original_coverage_gate": true,
+      "original_false_alert_gate": true,
+      "pair_only_alerts": 0,
+      "nested_only_alerts": 0,
+      "both_alert": 0,
+      "neither_alert": 100,
+      "previous_spinna_fields": 12,
+      "nested_alerts_on_spinna_fields": 0,
+      "pair_alerts_on_spinna_fields": 0,
+      "spinna_improvement_alerts": 0
+    },
+    {
+      "family": "wide",
+      "adequate": false,
+      "planned": 100,
+      "observed": 100,
+      "nested_supported": 100,
+      "nested_alerts": 39,
+      "pair_alerts": 0,
+      "nested_covered": 96,
+      "nested_coverage_ci": [
+        0.9007428432873401,
+        0.9889955060138118
+      ],
+      "original_coverage_gate": true,
+      "original_false_alert_gate": null,
+      "pair_only_alerts": 0,
+      "nested_only_alerts": 39,
+      "both_alert": 0,
+      "neither_alert": 61,
+      "previous_spinna_fields": 12,
+      "nested_alerts_on_spinna_fields": 5,
+      "pair_alerts_on_spinna_fields": 0,
+      "spinna_improvement_alerts": 5
+    },
+    {
+      "family": "low_retention",
+      "adequate": true,
+      "planned": 100,
+      "observed": 100,
+      "nested_supported": 100,
+      "nested_alerts": 0,
+      "pair_alerts": 0,
+      "nested_covered": 95,
+      "nested_coverage_ci": [
+        0.8871650888945373,
+        0.9835681208179479
+      ],
+      "original_coverage_gate": true,
+      "original_false_alert_gate": true,
+      "pair_only_alerts": 0,
+      "nested_only_alerts": 0,
+      "both_alert": 0,
+      "neither_alert": 100,
+      "previous_spinna_fields": 12,
+      "nested_alerts_on_spinna_fields": 0,
+      "pair_alerts_on_spinna_fields": 0,
+      "spinna_improvement_alerts": 0
+    },
+    {
+      "family": "low_retention",
+      "adequate": false,
+      "planned": 100,
+      "observed": 100,
+      "nested_supported": 100,
+      "nested_alerts": 11,
+      "pair_alerts": 0,
+      "nested_covered": 96,
+      "nested_coverage_ci": [
+        0.9007428432873401,
+        0.9889955060138118
+      ],
+      "original_coverage_gate": true,
+      "original_false_alert_gate": null,
+      "pair_only_alerts": 0,
+      "nested_only_alerts": 11,
+      "both_alert": 0,
+      "neither_alert": 89,
+      "previous_spinna_fields": 12,
+      "nested_alerts_on_spinna_fields": 1,
+      "pair_alerts_on_spinna_fields": 0,
+      "spinna_improvement_alerts": 1
+    },
+    {
+      "family": "low_density_six_codes",
+      "adequate": true,
+      "planned": 100,
+      "observed": 100,
+      "nested_supported": 100,
+      "nested_alerts": 1,
+      "pair_alerts": 0,
+      "nested_covered": 95,
+      "nested_coverage_ci": [
+        0.8871650888945373,
+        0.9835681208179479
+      ],
+      "original_coverage_gate": true,
+      "original_false_alert_gate": true,
+      "pair_only_alerts": 0,
+      "nested_only_alerts": 1,
+      "both_alert": 0,
+      "neither_alert": 99,
+      "previous_spinna_fields": 12,
+      "nested_alerts_on_spinna_fields": 0,
+      "pair_alerts_on_spinna_fields": 0,
+      "spinna_improvement_alerts": 1
+    },
+    {
+      "family": "low_density_six_codes",
+      "adequate": false,
+      "planned": 100,
+      "observed": 100,
+      "nested_supported": 100,
+      "nested_alerts": 80,
+      "pair_alerts": 0,
+      "nested_covered": 97,
+      "nested_coverage_ci": [
+        0.91482394702572,
+        0.9937700284616936
+      ],
+      "original_coverage_gate": true,
+      "original_false_alert_gate": null,
+      "pair_only_alerts": 0,
+      "nested_only_alerts": 80,
+      "both_alert": 0,
+      "neither_alert": 20,
+      "previous_spinna_fields": 12,
+      "nested_alerts_on_spinna_fields": 11,
+      "pair_alerts_on_spinna_fields": 0,
+      "spinna_improvement_alerts": 6
+    },
+    {
+      "family": "known_intensity",
+      "adequate": true,
+      "planned": 100,
+      "observed": 100,
+      "nested_supported": 100,
+      "nested_alerts": 4,
+      "pair_alerts": 0,
+      "nested_covered": 95,
+      "nested_coverage_ci": [
+        0.8871650888945373,
+        0.9835681208179479
+      ],
+      "original_coverage_gate": true,
+      "original_false_alert_gate": true,
+      "pair_only_alerts": 0,
+      "nested_only_alerts": 4,
+      "both_alert": 0,
+      "neither_alert": 96,
+      "previous_spinna_fields": 12,
+      "nested_alerts_on_spinna_fields": 1,
+      "pair_alerts_on_spinna_fields": 0,
+      "spinna_improvement_alerts": 1
+    },
+    {
+      "family": "known_intensity",
+      "adequate": false,
+      "planned": 100,
+      "observed": 100,
+      "nested_supported": 100,
+      "nested_alerts": 52,
+      "pair_alerts": 0,
+      "nested_covered": 89,
+      "nested_coverage_ci": [
+        0.8116988678035574,
+        0.9437929797145125
+      ],
+      "original_coverage_gate": false,
+      "original_false_alert_gate": null,
+      "pair_only_alerts": 0,
+      "nested_only_alerts": 52,
+      "both_alert": 0,
+      "neither_alert": 48,
+      "previous_spinna_fields": 12,
+      "nested_alerts_on_spinna_fields": 7,
+      "pair_alerts_on_spinna_fields": 0,
+      "spinna_improvement_alerts": 9
+    },
+    {
+      "family": "matched_moments",
+      "adequate": true,
+      "planned": 100,
+      "observed": 100,
+      "nested_supported": 100,
+      "nested_alerts": 2,
+      "pair_alerts": 0,
+      "nested_covered": 96,
+      "nested_coverage_ci": [
+        0.9007428432873401,
+        0.9889955060138118
+      ],
+      "original_coverage_gate": true,
+      "original_false_alert_gate": true,
+      "pair_only_alerts": 0,
+      "nested_only_alerts": 2,
+      "both_alert": 0,
+      "neither_alert": 98,
+      "previous_spinna_fields": 0,
+      "nested_alerts_on_spinna_fields": 0,
+      "pair_alerts_on_spinna_fields": 0,
+      "spinna_improvement_alerts": 0
+    },
+    {
+      "family": "matched_moments",
+      "adequate": false,
+      "planned": 100,
+      "observed": 100,
+      "nested_supported": 100,
+      "nested_alerts": 91,
+      "pair_alerts": 0,
+      "nested_covered": 95,
+      "nested_coverage_ci": [
+        0.8871650888945373,
+        0.9835681208179479
+      ],
+      "original_coverage_gate": true,
+      "original_false_alert_gate": null,
+      "pair_only_alerts": 0,
+      "nested_only_alerts": 91,
+      "both_alert": 0,
+      "neither_alert": 9,
+      "previous_spinna_fields": 0,
+      "nested_alerts_on_spinna_fields": 0,
+      "pair_alerts_on_spinna_fields": 0,
+      "spinna_improvement_alerts": 0
+    },
+    {
+      "family": "membrane_variation",
+      "adequate": true,
+      "planned": 100,
+      "observed": 100,
+      "nested_supported": 100,
+      "nested_alerts": 2,
+      "pair_alerts": 0,
+      "nested_covered": 94,
+      "nested_coverage_ci": [
+        0.8739700654191771,
+        0.9776651139286836
+      ],
+      "original_coverage_gate": true,
+      "original_false_alert_gate": true,
+      "pair_only_alerts": 0,
+      "nested_only_alerts": 2,
+      "both_alert": 0,
+      "neither_alert": 98,
+      "previous_spinna_fields": 0,
+      "nested_alerts_on_spinna_fields": 0,
+      "pair_alerts_on_spinna_fields": 0,
+      "spinna_improvement_alerts": 0
+    },
+    {
+      "family": "membrane_variation",
+      "adequate": false,
+      "planned": 100,
+      "observed": 100,
+      "nested_supported": 100,
+      "nested_alerts": 31,
+      "pair_alerts": 0,
+      "nested_covered": 95,
+      "nested_coverage_ci": [
+        0.8871650888945373,
+        0.9835681208179479
+      ],
+      "original_coverage_gate": true,
+      "original_false_alert_gate": null,
+      "pair_only_alerts": 0,
+      "nested_only_alerts": 31,
+      "both_alert": 0,
+      "neither_alert": 69,
+      "previous_spinna_fields": 0,
+      "nested_alerts_on_spinna_fields": 0,
+      "pair_alerts_on_spinna_fields": 0,
+      "spinna_improvement_alerts": 0
+    }
+  ],
+  "offgrid": [
+    {
+      "family": "reference",
+      "q": 0.25,
+      "observed": 50,
+      "planned": 50,
+      "alerts": 0,
+      "rate_ci": [
+        0.0,
+        0.07112173646419766
+      ]
+    },
+    {
+      "family": "reference",
+      "q": 0.75,
+      "observed": 50,
+      "planned": 50,
+      "alerts": 0,
+      "rate_ci": [
+        0.0,
+        0.07112173646419766
+      ]
+    },
+    {
+      "family": "linear",
+      "q": 0.25,
+      "observed": 50,
+      "planned": 50,
+      "alerts": 0,
+      "rate_ci": [
+        0.0,
+        0.07112173646419766
+      ]
+    },
+    {
+      "family": "linear",
+      "q": 0.75,
+      "observed": 50,
+      "planned": 50,
+      "alerts": 1,
+      "rate_ci": [
+        0.0005062279830408296,
+        0.10646954571149989
+      ]
+    },
+    {
+      "family": "wide",
+      "q": 0.25,
+      "observed": 50,
+      "planned": 50,
+      "alerts": 0,
+      "rate_ci": [
+        0.0,
+        0.07112173646419766
+      ]
+    },
+    {
+      "family": "wide",
+      "q": 0.75,
+      "observed": 50,
+      "planned": 50,
+      "alerts": 0,
+      "rate_ci": [
+        0.0,
+        0.07112173646419766
+      ]
+    },
+    {
+      "family": "low_retention",
+      "q": 0.25,
+      "observed": 50,
+      "planned": 50,
+      "alerts": 0,
+      "rate_ci": [
+        0.0,
+        0.07112173646419766
+      ]
+    },
+    {
+      "family": "low_retention",
+      "q": 0.75,
+      "observed": 50,
+      "planned": 50,
+      "alerts": 0,
+      "rate_ci": [
+        0.0,
+        0.07112173646419766
+      ]
+    },
+    {
+      "family": "low_density_six_codes",
+      "q": 0.25,
+      "observed": 50,
+      "planned": 50,
+      "alerts": 0,
+      "rate_ci": [
+        0.0,
+        0.07112173646419766
+      ]
+    },
+    {
+      "family": "low_density_six_codes",
+      "q": 0.75,
+      "observed": 50,
+      "planned": 50,
+      "alerts": 0,
+      "rate_ci": [
+        0.0,
+        0.07112173646419766
+      ]
+    },
+    {
+      "family": "known_intensity",
+      "q": 0.25,
+      "observed": 50,
+      "planned": 50,
+      "alerts": 0,
+      "rate_ci": [
+        0.0,
+        0.07112173646419766
+      ]
+    },
+    {
+      "family": "known_intensity",
+      "q": 0.75,
+      "observed": 50,
+      "planned": 50,
+      "alerts": 0,
+      "rate_ci": [
+        0.0,
+        0.07112173646419766
+      ]
+    },
+    {
+      "family": "matched_moments",
+      "q": 0.25,
+      "observed": 50,
+      "planned": 50,
+      "alerts": 0,
+      "rate_ci": [
+        0.0,
+        0.07112173646419766
+      ]
+    },
+    {
+      "family": "matched_moments",
+      "q": 0.75,
+      "observed": 50,
+      "planned": 50,
+      "alerts": 0,
+      "rate_ci": [
+        0.0,
+        0.07112173646419766
+      ]
+    },
+    {
+      "family": "membrane_variation",
+      "q": 0.25,
+      "observed": 50,
+      "planned": 50,
+      "alerts": 0,
+      "rate_ci": [
+        0.0,
+        0.07112173646419766
+      ]
+    },
+    {
+      "family": "membrane_variation",
+      "q": 0.75,
+      "observed": 50,
+      "planned": 50,
+      "alerts": 0,
+      "rate_ci": [
+        0.0,
+        0.07112173646419766
+      ]
+    }
+  ],
+  "experimental_gate": {
+    "decision": "No calibrated ungrouped CD20 library decision from these inputs",
+    "source": "Reinhardt et al., Nature 617, 711-716 (2023), doi:10.1038/s41586-023-05925-9",
+    "footprints": "Coordinate extrema quantify computational support only.",
+    "documentary_findings": [
+      "The source used four sequential imagers with orthogonal docking sequences on GFP nanobodies.",
+      "Cellular drift correction and alignment included gold fiducials.",
+      "A camera ROI is documented. A registered effective cell footprint for these retained records is unavailable.",
+      "Roundwise clustering uses local density and minimum counts. Temporal filters remove suspect clusters.",
+      "The source already reports higher-order organization after rituximab using nearest-neighbor analysis."
+    ],
+    "transfer_gaps": [
+      "Effective common membrane footprint and spatial detection for each retained field and round",
+      "An observation model for overlap, exclusions and clustering with independently constrained errors",
+      "Applicable coverage and false-alert checks that include these observation effects"
+    ],
+    "fields": [
+      {
+        "acquisition": "fig4untreated",
+        "treatment": "untreated",
+        "retained_localizations": 4912617,
+        "map_records": 21515,
+        "map_round_counts": [
+          3348,
+          5627,
+          10161,
+          2379
+        ],
+        "round_max_to_min": 4.2711223203026485,
+        "common_coordinate_extent_um": [
+          23.271458984375,
+          23.1713515625
+        ],
+        "union_rectangle_records_per_um2": 39.41178182158501,
+        "independent_footprint": false,
+        "source_ids": false,
+        "result": "abstain_before_fitting"
+      },
+      {
+        "acquisition": "edf10rep1",
+        "treatment": "untreated",
+        "retained_localizations": 3749188,
+        "map_records": 69091,
+        "map_round_counts": [
+          19331,
+          18474,
+          11129,
+          20157
+        ],
+        "round_max_to_min": 1.8112139455476683,
+        "common_coordinate_extent_um": [
+          51.912716796875,
+          23.320912109375
+        ],
+        "union_rectangle_records_per_um2": 56.80183093721579,
+        "independent_footprint": false,
+        "source_ids": false,
+        "result": "abstain_before_fitting"
+      },
+      {
+        "acquisition": "edf10rep2",
+        "treatment": "untreated",
+        "retained_localizations": 2065510,
+        "map_records": 19755,
+        "map_round_counts": [
+          3521,
+          4864,
+          5596,
+          5774
+        ],
+        "round_max_to_min": 1.6398750355012781,
+        "common_coordinate_extent_um": [
+          26.976052734375,
+          27.96395703125
+        ],
+        "union_rectangle_records_per_um2": 25.65158794223448,
+        "independent_footprint": false,
+        "source_ids": false,
+        "result": "abstain_before_fitting"
+      },
+      {
+        "acquisition": "rtx_rep1",
+        "treatment": "rituximab",
+        "retained_localizations": 3098768,
+        "map_records": 20684,
+        "map_round_counts": [
+          5184,
+          4331,
+          6051,
+          5118
+        ],
+        "round_max_to_min": 1.3971369198799353,
+        "common_coordinate_extent_um": [
+          40.2936513671875,
+          22.572837890625
+        ],
+        "union_rectangle_records_per_um2": 22.600917041228897,
+        "independent_footprint": false,
+        "source_ids": false,
+        "result": "abstain_before_fitting"
+      },
+      {
+        "acquisition": "rtx_rep2",
+        "treatment": "rituximab",
+        "retained_localizations": 3200839,
+        "map_records": 22898,
+        "map_round_counts": [
+          3781,
+          5101,
+          6728,
+          7288
+        ],
+        "round_max_to_min": 1.9275323988362867,
+        "common_coordinate_extent_um": [
+          58.751489990234376,
+          51.4820498046875
+        ],
+        "union_rectangle_records_per_um2": 7.3913887045466335,
+        "independent_footprint": false,
+        "source_ids": false,
+        "result": "abstain_before_fitting"
+      },
+      {
+        "acquisition": "rtx_rep3",
+        "treatment": "rituximab",
+        "retained_localizations": 2512460,
+        "map_records": 33998,
+        "map_round_counts": [
+          9401,
+          9163,
+          7168,
+          8266
+        ],
+        "round_max_to_min": 1.3115234375,
+        "common_coordinate_extent_um": [
+          24.4637265625,
+          27.58284375
+        ],
+        "union_rectangle_records_per_um2": 48.97533177762852,
+        "independent_footprint": false,
+        "source_ids": false,
+        "result": "abstain_before_fitting"
+      }
+    ]
+  },
+  "fresh_families": [
+    "matched_moments",
+    "membrane_variation"
+  ]
+}

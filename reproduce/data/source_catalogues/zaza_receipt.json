@@ -1,0 +1,126 @@
+{
+  "report": {
+    "source": "https://ndownloader.figshare.com/files/53497595",
+    "member": "Data_submission/Fig 3/RESI/NUP96_resi.hdf5",
+    "bytes": 966884,
+    "zip_member_crc32": "fb2583e3",
+    "sha256": "31e919a5b0fad147677c0d70e74e5b03dd532359ecdd12e6e58647689042014a",
+    "matching_sidecars": [
+      "Data_submission/Fig 3/RESI/NUP96_resi.yaml",
+      "Data_submission/Fig 3/RESI/NUP96_round1_SDC-OPR_4x.yaml",
+      "Data_submission/Fig 3/RESI/NUP96_round2_SDC-OPR_4x.yaml",
+      "Data_submission/Fig 3/RESI/NUP96_round3_SDC-OPR_4x.yaml",
+      "Data_submission/Fig 3/RESI/NUP96_round4_SDC-OPR_4x.yaml"
+    ],
+    "rows": 13212,
+    "columns": [
+      "frame",
+      "std_frame",
+      "x",
+      "y",
+      "std_x",
+      "std_y",
+      "photons",
+      "sx",
+      "sy",
+      "bg",
+      "lpx",
+      "lpy",
+      "ellipticity",
+      "net_gradient",
+      "n",
+      "area",
+      "convexhull",
+      "cluster_id",
+      "resi_channel_id"
+    ],
+    "round_counts": {
+      "0": 2638,
+      "1": 3538,
+      "2": 3364,
+      "3": 3672
+    }
+  },
+  "receipts": [
+    {
+      "url": "https://ndownloader.figshare.com/files/53497595",
+      "lo": 0,
+      "hi": 1,
+      "total": 7233219606,
+      "status": 206,
+      "bytes": 1,
+      "sha256": "5c62e091b8c0565f1bafad0dad5934276143ae2ccef7a5381e8ada5b1a8d26d2",
+      "validator": "\"c84e6c3bd5c22172dc1edf652804a0c2-7\""
+    },
+    {
+      "url": "https://ndownloader.figshare.com/files/53497595",
+      "lo": 7233219584,
+      "hi": 7233219606,
+      "total": 7233219606,
+      "status": 206,
+      "bytes": 22,
+      "sha256": "acbd1289b810eb512e0405315039c6814d0d6b651d84c9f59630a2708364175a",
+      "validator": "\"c84e6c3bd5c22172dc1edf652804a0c2-7\""
+    },
+    {
+      "url": "https://ndownloader.figshare.com/files/53497595",
+      "lo": 7233219564,
+      "hi": 7233219606,
+      "total": 7233219606,
+      "status": 206,
+      "bytes": 42,
+      "sha256": "49731c068315b48c61f45e973f39c52ca66df847ac9dcf3ff8730072075758d8",
+      "validator": "\"c84e6c3bd5c22172dc1edf652804a0c2-7\""
+    },
+    {
+      "url": "https://ndownloader.figshare.com/files/53497595",
+      "lo": 7233219508,
+      "hi": 7233219606,
+      "total": 7233219606,
+      "status": 206,
+      "bytes": 98,
+      "sha256": "1362d397050ac5636d8305c3ea61498d4c0758fcdaf54e94c2f386d300d3e597",
+      "validator": "\"c84e6c3bd5c22172dc1edf652804a0c2-7\""
+    },
+    {
+      "url": "https://ndownloader.figshare.com/files/53497595",
+      "lo": 7233203844,
+      "hi": 7233219606,
+      "total": 7233219606,
+      "status": 206,
+      "bytes": 15762,
+      "sha256": "80c1ba08b62465b8b356ab7712cec551bb903c7cc0c6d2bde14f117c814ab5ec",
+      "validator": "\"c84e6c3bd5c22172dc1edf652804a0c2-7\""
+    },
+    {
+      "url": "https://ndownloader.figshare.com/files/53497595",
+      "lo": 6935056888,
+      "hi": 6935122424,
+      "total": 7233219606,
+      "status": 206,
+      "bytes": 65536,
+      "sha256": "7266637abfb11524f11768d44114f4ecc9795e714326fd229c734b457b2eed9e",
+      "validator": "\"c84e6c3bd5c22172dc1edf652804a0c2-7\""
+    },
+    {
+      "url": "https://ndownloader.figshare.com/files/53497595",
+      "lo": 6935122424,
+      "hi": 6935843320,
+      "total": 7233219606,
+      "status": 206,
+      "bytes": 720896,
+      "sha256": "98029e2dc6b6b7c6148aab2fc21a6c811b45fc70f812f4be3859e7a9d01d0a7c",
+      "validator": "\"c84e6c3bd5c22172dc1edf652804a0c2-7\""
+    },
+    {
+      "url": "https://ndownloader.figshare.com/files/53497595",
+      "lo": 6935843320,
+      "hi": 6935908856,
+      "total": 7233219606,
+      "status": 206,
+      "bytes": 65536,
+      "sha256": "d20cfe341c6736967881935dc88a74219216fa93e677f7aeded89d03ce0e899a",
+      "validator": "\"c84e6c3bd5c22172dc1edf652804a0c2-7\""
+    }
+  ]
+}

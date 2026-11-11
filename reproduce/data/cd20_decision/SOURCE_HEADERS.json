@@ -1,0 +1,129 @@
+[
+  {
+    "field": "fig4untreated",
+    "member": "Figure4/untreated/RESI/RESI results/RESI_R1,R2,R3,R4_multi.hdf5",
+    "sha256": "35028badcb8151975cd2045274cbf6e4f04ae03b16c7aeebd40d696cdd4e964a",
+    "row_count": 21515,
+    "fields": [
+      "frame",
+      "x",
+      "y",
+      "photons",
+      "sx",
+      "sy",
+      "bg",
+      "lpx",
+      "lpy",
+      "n"
+    ],
+    "root_attributes": [],
+    "dataset_attributes": [],
+    "original_dataset_rows_read": 0
+  },
+  {
+    "field": "edf10rep1",
+    "member": "EDF10/rep1/RESI/RESI results/RESI_R1,R2,R3,R4_multi.hdf5",
+    "sha256": "3e9a7e8a8951802185c938a8cfc5a045faf854b83b1b345e5ee2df75cea4833f",
+    "row_count": 69091,
+    "fields": [
+      "frame",
+      "x",
+      "y",
+      "photons",
+      "sx",
+      "sy",
+      "bg",
+      "lpx",
+      "lpy",
+      "n"
+    ],
+    "root_attributes": [],
+    "dataset_attributes": [],
+    "original_dataset_rows_read": 0
+  },
+  {
+    "field": "edf10rep2",
+    "member": "EDF10/rep2/RESI/RESI results/RESI_R1,R2,R3,R4_multi.hdf5",
+    "sha256": "6aaa2b9b1a836b1f45fd2e669d4266270aff63b270754ca626eceb8746e64607",
+    "row_count": 19755,
+    "fields": [
+      "frame",
+      "x",
+      "y",
+      "photons",
+      "sx",
+      "sy",
+      "bg",
+      "lpx",
+      "lpy",
+      "n",
+      "group"
+    ],
+    "root_attributes": [],
+    "dataset_attributes": [],
+    "original_dataset_rows_read": 0
+  },
+  {
+    "field": "rtx_rep1",
+    "member": "EDF11,EDF12/rep1/RESI/RESI results/RESI_R1,R2,R3,R4_multi.hdf5",
+    "sha256": "47d2cad234aef585c000e00947b5e507d7b062509fb47853ba25c888f0a92029",
+    "row_count": 20684,
+    "fields": [
+      "frame",
+      "x",
+      "y",
+      "photons",
+      "sx",
+      "sy",
+      "bg",
+      "lpx",
+      "lpy",
+      "n"
+    ],
+    "root_attributes": [],
+    "dataset_attributes": [],
+    "original_dataset_rows_read": 0
+  },
+  {
+    "field": "rtx_rep2",
+    "member": "EDF11,EDF12/rep2/RESI/RESI results/RESI_R1,R2,R3,R4_multi.hdf5",
+    "sha256": "e266d50d522efa0626b71434dde4dd79d74c636cff9dbb1b1c8dcd026808d6c3",
+    "row_count": 22898,
+    "fields": [
+      "frame",
+      "x",
+      "y",
+      "photons",
+      "sx",
+      "sy",
+      "bg",
+      "lpx",
+      "lpy",
+      "n"
+    ],
+    "root_attributes": [],
+    "dataset_attributes": [],
+    "original_dataset_rows_read": 0
+  },
+  {
+    "field": "rtx_rep3",
+    "member": "EDF11,EDF12/rep3/RESI/RESI results/RESI_R1,R2,R3,R4_multi.hdf5",
+    "sha256": "0a93403482de0c3dc5f53a4f13e1d63391008035c39f71662466be3d43e575ea",
+    "row_count": 33998,
+    "fields": [
+      "frame",
+      "x",
+      "y",
+      "photons",
+      "sx",
+      "sy",
+      "bg",
+      "lpx",
+      "lpy",
+      "n"
+    ],
+    "root_attributes": [],
+    "dataset_attributes": [],
+    "original_dataset_rows_read": 0
+  }
+]

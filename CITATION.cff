@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use crosslabel, please cite it, and cite the original data sources for any reanalysed data."
+title: "crosslabel: cross-label moments and spatial estimators for stochastically multiplexed localization microscopy"
+type: software
+version: 0.4.0
+authors:
+  - family-names: Variankaval
+    given-names: Rohan
+    affiliation: "Department of Computer Science, Johns Hopkins University, Baltimore, MD, USA"
+repository-code: "https://github.com/rdfds/crosslabel"
+license: MIT
+keywords:
+  - super-resolution microscopy
+  - DNA-PAINT
+  - RESI
+  - spatial statistics
+  - oligomerization

@@ -1,0 +1,214 @@
+{
+  "matched_adequate": {
+    "first_alerts": 4,
+    "second_alerts": 5,
+    "first_ci": [
+      0.011004493986188206,
+      0.09925715671265992
+    ],
+    "second_ci": [
+      0.016431879182052165,
+      0.11283491110546269
+    ],
+    "first_only": 4,
+    "second_only": 5,
+    "both": 0,
+    "neither": 91,
+    "mcnemar_exact_p": 1.0,
+    "model_interval_covered": 93
+  },
+  "matched_alternative": {
+    "first_alerts": 89,
+    "second_alerts": 8,
+    "first_ci": [
+      0.8116988678035574,
+      0.9437929797145125
+    ],
+    "second_ci": [
+      0.03517156251816281,
+      0.15155763586442092
+    ],
+    "first_only": 82,
+    "second_only": 1,
+    "both": 7,
+    "neither": 10,
+    "mcnemar_exact_p": 1.737079286361358e-23,
+    "model_interval_covered": 93
+  },
+  "templates": {
+    "first_alerts": 100,
+    "second_alerts": 2,
+    "first_ci": [
+      0.9637833073548235,
+      1.0
+    ],
+    "second_ci": [
+      0.0024313368239425436,
+      0.07038393247107015
+    ],
+    "first_only": 98,
+    "second_only": 0,
+    "both": 2,
+    "neither": 0,
+    "mcnemar_exact_p": 6.310887241768095e-30,
+    "alternatives_with_witnesses": 100
+  },
+  "density_screen": [
+    {
+      "family": "reference",
+      "adequate": true,
+      "fields": 100,
+      "reference_fields": 100,
+      "flagged": 4,
+      "retained_covered": 92
+    },
+    {
+      "family": "reference",
+      "adequate": false,
+      "fields": 100,
+      "reference_fields": 0,
+      "flagged": 3,
+      "retained_covered": 89
+    },
+    {
+      "family": "linear",
+      "adequate": true,
+      "fields": 100,
+      "reference_fields": 0,
+      "flagged": 2,
+      "retained_covered": 93
+    },
+    {
+      "family": "linear",
+      "adequate": false,
+      "fields": 100,
+      "reference_fields": 0,
+      "flagged": 1,
+      "retained_covered": 93
+    },
+    {
+      "family": "wide",
+      "adequate": true,
+      "fields": 100,
+      "reference_fields": 0,
+      "flagged": 3,
+      "retained_covered": 95
+    },
+    {
+      "family": "wide",
+      "adequate": false,
+      "fields": 100,
+      "reference_fields": 0,
+      "flagged": 2,
+      "retained_covered": 94
+    },
+    {
+      "family": "low_retention",
+      "adequate": true,
+      "fields": 100,
+      "reference_fields": 0,
+      "flagged": 0,
+      "retained_covered": 95
+    },
+    {
+      "family": "low_retention",
+      "adequate": false,
+      "fields": 100,
+      "reference_fields": 0,
+      "flagged": 0,
+      "retained_covered": 96
+    },
+    {
+      "family": "low_density_six_codes",
+      "adequate": true,
+      "fields": 100,
+      "reference_fields": 0,
+      "flagged": 98,
+      "retained_covered": 2
+    },
+    {
+      "family": "low_density_six_codes",
+      "adequate": false,
+      "fields": 100,
+      "reference_fields": 0,
+      "flagged": 94,
+      "retained_covered": 6
+    },
+    {
+      "family": "known_intensity",
+      "adequate": true,
+      "fields": 100,
+      "reference_fields": 0,
+      "flagged": 100,
+      "retained_covered": 0
+    },
+    {
+      "family": "known_intensity",
+      "adequate": false,
+      "fields": 100,
+      "reference_fields": 0,
+      "flagged": 100,
+      "retained_covered": 0
+    },
+    {
+      "family": "matched_moments_fresh",
+      "adequate": true,
+      "fields": 100,
+      "reference_fields": 0,
+      "flagged": 41,
+      "retained_covered": 55
+    },
+    {
+      "family": "matched_moments_fresh",
+      "adequate": false,
+      "fields": 100,
+      "reference_fields": 0,
+      "flagged": 36,
+      "retained_covered": 58
+    }
+  ],
+  "npc_original": {
+    "status": "estimated",
+    "reason": null,
+    "point": 0.7809792860311183,
+    "ci": [
+      0.7149277807293434,
+      0.8438547374485444
+    ],
+    "records": 15315,
+    "codes": [
+      2089,
+      3896,
+      6485,
+      2845
+    ],
+    "fine_geometry": {
+      "window": [
+        23171.060546875,
+        49415.921875,
+        18041.2421875,
+        47851.24609375
+      ],
+      "shape": [
+        263,
+        299
+      ],
+      "cell_nm": 100.0,
+      "dependence_nm": 600.0,
+      "records_retained": 15315,
+      "ordered_pairs_enumerated": 132320,
+      "coarse_blocks": 116,
+      "true_footprint_verified": false,
+      "finite_separation_covariance_approximation": true
+    },
+    "density": {
+      "score": 0.7170963749720342,
+      "cv_squared_by_grid": {
+        "4": 0.5400323407591733,
+        "8": 0.894160409184895
+      }
+    },
+    "unit": "nm",
+    "source": "10.5281/zenodo.7795826"
+  }
+}

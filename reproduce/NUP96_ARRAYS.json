@@ -1,0 +1,270 @@
+{
+  "npc-locs-R1.npz": {
+    "x": {
+      "dtype": "<f4",
+      "shape": [
+        109205
+      ],
+      "sha256": "5d284ac29e4b88a088f79824b20c2f670f04a38184823e51688ecc630081fc22"
+    },
+    "y": {
+      "dtype": "<f4",
+      "shape": [
+        109205
+      ],
+      "sha256": "366d8f0a779ac5a7f8678a9caadb84da21a75ebe6f92452b4a5c83bc618ad760"
+    },
+    "frame": {
+      "dtype": "<i4",
+      "shape": [
+        109205
+      ],
+      "sha256": "3d963e09bac607e478e67ef975a45d5061df254489c04b1dee1e4f134668f92f"
+    },
+    "lp": {
+      "dtype": "<f4",
+      "shape": [
+        109205
+      ],
+      "sha256": "0305aaa0427f3b436374affdc1e9b65eb61bb27baed2711815d6dab74c81765e"
+    },
+    "group": {
+      "dtype": "<i4",
+      "shape": [
+        109205
+      ],
+      "sha256": "26d1a9e1047751b7f617a5b99af09269414c7aca781ad05a603b218766bbc0c9"
+    }
+  },
+  "npc-locs-R2.npz": {
+    "x": {
+      "dtype": "<f4",
+      "shape": [
+        332401
+      ],
+      "sha256": "c41aac2c9989ebf5502657c6074b94d445ca88c6ce695a147d9907ce7e87add3"
+    },
+    "y": {
+      "dtype": "<f4",
+      "shape": [
+        332401
+      ],
+      "sha256": "e90a86c4c5bc0925c1fc1e657c490b26c7c411ac8ce098ab24adfd05ba28f359"
+    },
+    "frame": {
+      "dtype": "<i4",
+      "shape": [
+        332401
+      ],
+      "sha256": "1726db6d019f526a1453b453300eb5b8d8657d61c22716853e3ac5a953dbb37c"
+    },
+    "lp": {
+      "dtype": "<f4",
+      "shape": [
+        332401
+      ],
+      "sha256": "69713d295bfed6c248ce6c0509057a25901516de86f787777a91114ec3caf115"
+    },
+    "group": {
+      "dtype": "<i4",
+      "shape": [
+        332401
+      ],
+      "sha256": "ad916f827c96f4f41d513200cf24c75c44a5418a60d0f6c2d3ceae170a63ea2a"
+    }
+  },
+  "npc-locs-R3.npz": {
+    "x": {
+      "dtype": "<f4",
+      "shape": [
+        363880
+      ],
+      "sha256": "71803ed43f0b26544e96fb6332dc2d842b75cd2ca93d05fd942f979fcb69f5a0"
+    },
+    "y": {
+      "dtype": "<f4",
+      "shape": [
+        363880
+      ],
+      "sha256": "cf6e0d4d57932011fc16c0d7c540d3f3976162fddc01f159b6ab1a0ef8f2e6e7"
+    },
+    "frame": {
+      "dtype": "<i4",
+      "shape": [
+        363880
+      ],
+      "sha256": "b7a80e7f8f3cc836d83ed928e9caa35f69760c8966db3e3f50d5f96e6510a032"
+    },
+    "lp": {
+      "dtype": "<f4",
+      "shape": [
+        363880
+      ],
+      "sha256": "ec75c4a2a4536801056dd4431892b77366320a8226f50393ca54661195829b8e"
+    },
+    "group": {
+      "dtype": "<i4",
+      "shape": [
+        363880
+      ],
+      "sha256": "1da4c4dc82a92e8ae90fa229ff1c7f9481555c552551ae5633fe198318d88b29"
+    }
+  },
+  "npc-locs-R4.npz": {
+    "x": {
+      "dtype": "<f4",
+      "shape": [
+        216811
+      ],
+      "sha256": "6cbea5354e020cba331de08f73c641c90ca23d87554d43897a52882497e9d993"
+    },
+    "y": {
+      "dtype": "<f4",
+      "shape": [
+        216811
+      ],
+      "sha256": "d39cd8a5abb1c0c8bb59480fdf6c0425024b9e193751a06554a53f75a34ad54f"
+    },
+    "frame": {
+      "dtype": "<i4",
+      "shape": [
+        216811
+      ],
+      "sha256": "93b0ee6690956e986f67545a1f381bd359fc199c81777658cafe5f0c86c7e7cf"
+    },
+    "lp": {
+      "dtype": "<f4",
+      "shape": [
+        216811
+      ],
+      "sha256": "48ac352976c600db9947b43faf8b7689d20d0c0ab5c62017f6c2fcc134d9563a"
+    },
+    "group": {
+      "dtype": "<i4",
+      "shape": [
+        216811
+      ],
+      "sha256": "94caf6a06d636b0b6795fc450bfc8773d5b3f021ed4adfe49679d46940e09584"
+    }
+  },
+  "npc-resi-R1.npz": {
+    "x": {
+      "dtype": "<f4",
+      "shape": [
+        2089
+      ],
+      "sha256": "a85ffbed19d540c932ed9b627192363e7493c5144e9edf87ba6858388cdf7f2d"
+    },
+    "y": {
+      "dtype": "<f4",
+      "shape": [
+        2089
+      ],
+      "sha256": "9293c577bd1d7dc87268efa57ae7d4e2009140f1b65a3e4ab96f37adf210bc88"
+    },
+    "lp": {
+      "dtype": "<f4",
+      "shape": [
+        2089
+      ],
+      "sha256": "0d7491aa536d040d237f53f5d313b9a062ffb3e5773d35598c8475ead9d0b91e"
+    },
+    "n": {
+      "dtype": "<u4",
+      "shape": [
+        2089
+      ],
+      "sha256": "18896b3c88ec5f1c4b7efa509a293d4f81b7ccb49a586ab79bad6734e01413bb"
+    }
+  },
+  "npc-resi-R2.npz": {
+    "x": {
+      "dtype": "<f4",
+      "shape": [
+        3896
+      ],
+      "sha256": "f086457a293ad1e9bbf193ebe9dd793cbcd955ae4c9b8f43d7e186920f8e305b"
+    },
+    "y": {
+      "dtype": "<f4",
+      "shape": [
+        3896
+      ],
+      "sha256": "ad1c60708703ed4f8e56bbdcd8d3e7c8fdc7b8174fdb852f769d844338232a3b"
+    },
+    "lp": {
+      "dtype": "<f4",
+      "shape": [
+        3896
+      ],
+      "sha256": "a6a48cc9e1a67505c486b3481ff7f44e61c370435e134b44696bec944872998f"
+    },
+    "n": {
+      "dtype": "<u4",
+      "shape": [
+        3896
+      ],
+      "sha256": "71d3d61daefed109fcda231cf10848892cebd05939369b299243222280188f42"
+    }
+  },
+  "npc-resi-R3.npz": {
+    "x": {
+      "dtype": "<f4",
+      "shape": [
+        6485
+      ],
+      "sha256": "2b6be4c407b740fd9af59ba2bbf681d3b0518f0d9b2215a16072a285009c19fb"
+    },
+    "y": {
+      "dtype": "<f4",
+      "shape": [
+        6485
+      ],
+      "sha256": "b7900cb5412cd576b5fd627768d1f35700ad2b71bad06cfa640c048d3bcee551"
+    },
+    "lp": {
+      "dtype": "<f4",
+      "shape": [
+        6485
+      ],
+      "sha256": "bc30741b8de74621af1cb79b2b4d9b0cf0fd3bfec65d580155d9f1404430e885"
+    },
+    "n": {
+      "dtype": "<u4",
+      "shape": [
+        6485
+      ],
+      "sha256": "5c9ef5fee4c270c65b8ada7acb0aacb15963b6ff0a4fed9f88909d1f5b3ba3f3"
+    }
+  },
+  "npc-resi-R4.npz": {
+    "x": {
+      "dtype": "<f4",
+      "shape": [
+        2845
+      ],
+      "sha256": "59a33a9ff70d96335916335f886a0d2a34d76c66a75ac2586fe38e4af3373494"
+    },
+    "y": {
+      "dtype": "<f4",
+      "shape": [
+        2845
+      ],
+      "sha256": "b6ed128f0692ae01a244f0c39ad4cc470a0ffa86f117b3601965728cf7a88449"
+    },
+    "lp": {
+      "dtype": "<f4",
+      "shape": [
+        2845
+      ],
+      "sha256": "6495612cd61a5a7d02fe1e5e686c00e61365264052da629799d359eb380cfd97"
+    },
+    "n": {
+      "dtype": "<u4",
+      "shape": [
+        2845
+      ],
+      "sha256": "c252fa87580d50e1804282bba80c98ba4ee19bbd48e81637d28306bd227f50e2"
+    }
+  }
+}

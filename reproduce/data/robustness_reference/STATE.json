@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "completed": [
+    "balanced_lower_density",
+    "low_retention_skewed_codes",
+    "varying_intensity_skewed_codes"
+  ],
+  "counts": {
+    "field_calls": 1071,
+    "pair_training_fields": 384,
+    "evaluation_fields": 540
+  },
+  "seconds": 352.4197926670022
+}

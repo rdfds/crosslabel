@@ -1,0 +1,42 @@
+{
+  "status": "estimated",
+  "reason": null,
+  "estimate": 0.00532934824089064,
+  "interval_95_model": [
+    -0.013655242875824902,
+    0.039597874039468246
+  ],
+  "positive_lower_limit": false,
+  "density_screen": {
+    "score": 0.009886242528640652,
+    "cv_squared_by_grid": {
+      "4": 0.003989668812994074,
+      "8": 0.01578281624428723
+    },
+    "reference_p": null,
+    "flagged": null
+  },
+  "support": {
+    "records": 5496,
+    "K": 4,
+    "counts": [
+      858,
+      1362,
+      2662,
+      614
+    ],
+    "fine_cells": 10100,
+    "coarse_blocks": 27,
+    "units": "nm",
+    "no_records_discarded": true
+  },
+  "window_nm": [
+    3.2456330302955427,
+    10000.23344100511,
+    -2.05705870290668,
+    10014.823616243417
+  ],
+  "seed": 984000,
+  "radius_nm": 30.0,
+  "interpretation": "model_based_contrast_requires_applicability_review"
+}

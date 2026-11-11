@@ -1,0 +1,4587 @@
+{
+  "complete": true,
+  "nested_replayed": 1200,
+  "paired_verified": 144,
+  "paired_unknown": 0,
+  "missing": [],
+  "cells": [
+    {
+      "family": "reference",
+      "adequate": true,
+      "paired_planned": 12,
+      "paired_unknown": 0,
+      "official_not_planned": 88,
+      "nested_variants": [
+        {
+          "mask": "all",
+          "method": "nested/spatial_bootstrap_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 3,
+          "rejection_CP95": [
+            0.006229971538306393,
+            0.08517605297428002
+          ],
+          "coverable": 100,
+          "covered": 96,
+          "coverage_CP95": [
+            0.9007428432873401,
+            0.9889955060138118
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "primary/spatial_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 1,
+          "rejection_CP95": [
+            0.00025314603297742064,
+            0.054459385392080645
+          ],
+          "coverable": 100,
+          "covered": 97,
+          "coverage_CP95": [
+            0.91482394702572,
+            0.9937700284616936
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "primary/normal_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 1,
+          "rejection_CP95": [
+            0.00025314603297742064,
+            0.054459385392080645
+          ],
+          "coverable": 100,
+          "covered": 96,
+          "coverage_CP95": [
+            0.9007428432873401,
+            0.9889955060138118
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s3/studentized_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 3,
+          "rejection_CP95": [
+            0.006229971538306393,
+            0.08517605297428002
+          ],
+          "coverable": 100,
+          "covered": 96,
+          "coverage_CP95": [
+            0.9007428432873401,
+            0.9889955060138118
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s3/percentile_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 2,
+          "rejection_CP95": [
+            0.002431336823942542,
+            0.07038393247107011
+          ],
+          "coverable": 100,
+          "covered": 95,
+          "coverage_CP95": [
+            0.8871650888945373,
+            0.9835681208179479
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s3/delta_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 1,
+          "rejection_CP95": [
+            0.00025314603297742064,
+            0.054459385392080645
+          ],
+          "coverable": 100,
+          "covered": 97,
+          "coverage_CP95": [
+            0.91482394702572,
+            0.9937700284616936
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s2/studentized_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 3,
+          "rejection_CP95": [
+            0.006229971538306393,
+            0.08517605297428002
+          ],
+          "coverable": 100,
+          "covered": 96,
+          "coverage_CP95": [
+            0.9007428432873401,
+            0.9889955060138118
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s2/percentile_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 2,
+          "rejection_CP95": [
+            0.002431336823942542,
+            0.07038393247107011
+          ],
+          "coverable": 100,
+          "covered": 96,
+          "coverage_CP95": [
+            0.9007428432873401,
+            0.9889955060138118
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s2/delta_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 1,
+          "rejection_CP95": [
+            0.00025314603297742064,
+            0.054459385392080645
+          ],
+          "coverable": 100,
+          "covered": 97,
+          "coverage_CP95": [
+            0.91482394702572,
+            0.9937700284616936
+          ]
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "nested/spatial_bootstrap_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "primary/spatial_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "primary/normal_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s3/studentized_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s3/percentile_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s3/delta_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s2/studentized_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s2/percentile_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s2/delta_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        }
+      ],
+      "flags": [],
+      "paired": {
+        "observed": 12,
+        "nested_unsupported": 0,
+        "nested": {
+          "rejected": 0,
+          "supported": 12,
+          "rejection_CP95": [
+            0.0,
+            0.2646484693970512
+          ]
+        },
+        "omnibus": {
+          "rejected": 0,
+          "supported": 12,
+          "rejection_CP95": [
+            0.0,
+            0.2646484693970512
+          ]
+        },
+        "improvement": {
+          "rejected": 1,
+          "supported": 12,
+          "rejection_CP95": [
+            0.0021075932318602264,
+            0.38479616515094406
+          ]
+        },
+        "paired_omnibus": {
+          "both_correct": 12,
+          "nested_only_correct": 0,
+          "comparator_only_correct": 0,
+          "both_wrong": 0,
+          "unsupported": 0
+        },
+        "paired_improvement": {
+          "both_correct": 11,
+          "nested_only_correct": 1,
+          "comparator_only_correct": 0,
+          "both_wrong": 0,
+          "unsupported": 0
+        }
+      }
+    },
+    {
+      "family": "reference",
+      "adequate": false,
+      "paired_planned": 12,
+      "paired_unknown": 0,
+      "official_not_planned": 88,
+      "nested_variants": [
+        {
+          "mask": "all",
+          "method": "nested/spatial_bootstrap_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 66,
+          "rejection_CP95": [
+            0.5584667322490411,
+            0.7517764984551558
+          ],
+          "coverable": 100,
+          "covered": 92,
+          "coverage_CP95": [
+            0.848442364135579,
+            0.9648284374818372
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "primary/spatial_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 55,
+          "rejection_CP95": [
+            0.44728018877393605,
+            0.649679770760328
+          ],
+          "coverable": 100,
+          "covered": 92,
+          "coverage_CP95": [
+            0.848442364135579,
+            0.9648284374818372
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "primary/normal_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 61,
+          "rejection_CP95": [
+            0.5073144796323635,
+            0.7059895851465829
+          ],
+          "coverable": 100,
+          "covered": 91,
+          "coverage_CP95": [
+            0.8360177449703647,
+            0.9580164043716077
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s3/studentized_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 69,
+          "rejection_CP95": [
+            0.5896854458398009,
+            0.778711207869329
+          ],
+          "coverable": 100,
+          "covered": 93,
+          "coverage_CP95": [
+            0.8610802715441427,
+            0.9713947110925613
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s3/percentile_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 66,
+          "rejection_CP95": [
+            0.5584667322490411,
+            0.7517764984551558
+          ],
+          "coverable": 100,
+          "covered": 90,
+          "coverage_CP95": [
+            0.8237774022599773,
+            0.9509953107785141
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s3/delta_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 58,
+          "rejection_CP95": [
+            0.4771191957239137,
+            0.678014460645203
+          ],
+          "coverable": 100,
+          "covered": 91,
+          "coverage_CP95": [
+            0.8360177449703647,
+            0.9580164043716077
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s2/studentized_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 71,
+          "rejection_CP95": [
+            0.6107340410925517,
+            0.7964258107492681
+          ],
+          "coverable": 100,
+          "covered": 93,
+          "coverage_CP95": [
+            0.8610802715441427,
+            0.9713947110925613
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s2/percentile_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 70,
+          "rejection_CP95": [
+            0.6001853238201958,
+            0.7875935795104634
+          ],
+          "coverable": 100,
+          "covered": 91,
+          "coverage_CP95": [
+            0.8360177449703647,
+            0.9580164043716077
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s2/delta_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 61,
+          "rejection_CP95": [
+            0.5073144796323635,
+            0.7059895851465829
+          ],
+          "coverable": 100,
+          "covered": 92,
+          "coverage_CP95": [
+            0.848442364135579,
+            0.9648284374818372
+          ]
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "nested/spatial_bootstrap_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "primary/spatial_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "primary/normal_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s3/studentized_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s3/percentile_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s3/delta_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s2/studentized_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s2/percentile_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s2/delta_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        }
+      ],
+      "flags": [],
+      "paired": {
+        "observed": 12,
+        "nested_unsupported": 0,
+        "nested": {
+          "rejected": 8,
+          "supported": 12,
+          "rejection_CP95": [
+            0.34887550641881554,
+            0.9007539088504167
+          ]
+        },
+        "omnibus": {
+          "rejected": 3,
+          "supported": 12,
+          "rejection_CP95": [
+            0.05486064452799272,
+            0.5718584618781891
+          ]
+        },
+        "improvement": {
+          "rejected": 6,
+          "supported": 12,
+          "rejection_CP95": [
+            0.21094463823929666,
+            0.7890553617607033
+          ]
+        },
+        "paired_omnibus": {
+          "both_correct": 2,
+          "nested_only_correct": 6,
+          "comparator_only_correct": 1,
+          "both_wrong": 3,
+          "unsupported": 0
+        },
+        "paired_improvement": {
+          "both_correct": 5,
+          "nested_only_correct": 3,
+          "comparator_only_correct": 1,
+          "both_wrong": 3,
+          "unsupported": 0
+        }
+      }
+    },
+    {
+      "family": "linear",
+      "adequate": true,
+      "paired_planned": 12,
+      "paired_unknown": 0,
+      "official_not_planned": 88,
+      "nested_variants": [
+        {
+          "mask": "all",
+          "method": "nested/spatial_bootstrap_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 3,
+          "rejection_CP95": [
+            0.006229971538306393,
+            0.08517605297428002
+          ],
+          "coverable": 100,
+          "covered": 95,
+          "coverage_CP95": [
+            0.8871650888945373,
+            0.9835681208179479
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "primary/spatial_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 2,
+          "rejection_CP95": [
+            0.002431336823942542,
+            0.07038393247107011
+          ],
+          "coverable": 100,
+          "covered": 96,
+          "coverage_CP95": [
+            0.9007428432873401,
+            0.9889955060138118
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "primary/normal_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 2,
+          "rejection_CP95": [
+            0.002431336823942542,
+            0.07038393247107011
+          ],
+          "coverable": 100,
+          "covered": 95,
+          "coverage_CP95": [
+            0.8871650888945373,
+            0.9835681208179479
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s3/studentized_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 4,
+          "rejection_CP95": [
+            0.011004493986188198,
+            0.09925715671265992
+          ],
+          "coverable": 100,
+          "covered": 94,
+          "coverage_CP95": [
+            0.8739700654191771,
+            0.9776651139286836
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s3/percentile_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 4,
+          "rejection_CP95": [
+            0.011004493986188198,
+            0.09925715671265992
+          ],
+          "coverable": 100,
+          "covered": 93,
+          "coverage_CP95": [
+            0.8610802715441427,
+            0.9713947110925613
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s3/delta_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 2,
+          "rejection_CP95": [
+            0.002431336823942542,
+            0.07038393247107011
+          ],
+          "coverable": 100,
+          "covered": 96,
+          "coverage_CP95": [
+            0.9007428432873401,
+            0.9889955060138118
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s2/studentized_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 6,
+          "rejection_CP95": [
+            0.022334886071316378,
+            0.12602993458082296
+          ],
+          "coverable": 100,
+          "covered": 92,
+          "coverage_CP95": [
+            0.848442364135579,
+            0.9648284374818372
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s2/percentile_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 6,
+          "rejection_CP95": [
+            0.022334886071316378,
+            0.12602993458082296
+          ],
+          "coverable": 100,
+          "covered": 92,
+          "coverage_CP95": [
+            0.848442364135579,
+            0.9648284374818372
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s2/delta_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 3,
+          "rejection_CP95": [
+            0.006229971538306393,
+            0.08517605297428002
+          ],
+          "coverable": 100,
+          "covered": 95,
+          "coverage_CP95": [
+            0.8871650888945373,
+            0.9835681208179479
+          ]
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "nested/spatial_bootstrap_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "primary/spatial_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "primary/normal_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s3/studentized_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s3/percentile_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s3/delta_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s2/studentized_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s2/percentile_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s2/delta_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        }
+      ],
+      "flags": [],
+      "paired": {
+        "observed": 12,
+        "nested_unsupported": 0,
+        "nested": {
+          "rejected": 1,
+          "supported": 12,
+          "rejection_CP95": [
+            0.0021075932318602264,
+            0.38479616515094406
+          ]
+        },
+        "omnibus": {
+          "rejected": 1,
+          "supported": 12,
+          "rejection_CP95": [
+            0.0021075932318602264,
+            0.38479616515094406
+          ]
+        },
+        "improvement": {
+          "rejected": 0,
+          "supported": 12,
+          "rejection_CP95": [
+            0.0,
+            0.2646484693970512
+          ]
+        },
+        "paired_omnibus": {
+          "both_correct": 10,
+          "nested_only_correct": 1,
+          "comparator_only_correct": 1,
+          "both_wrong": 0,
+          "unsupported": 0
+        },
+        "paired_improvement": {
+          "both_correct": 11,
+          "nested_only_correct": 0,
+          "comparator_only_correct": 1,
+          "both_wrong": 0,
+          "unsupported": 0
+        }
+      }
+    },
+    {
+      "family": "linear",
+      "adequate": false,
+      "paired_planned": 12,
+      "paired_unknown": 0,
+      "official_not_planned": 88,
+      "nested_variants": [
+        {
+          "mask": "all",
+          "method": "nested/spatial_bootstrap_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 54,
+          "rejection_CP95": [
+            0.4374115798664713,
+            0.640156647020588
+          ],
+          "coverable": 100,
+          "covered": 94,
+          "coverage_CP95": [
+            0.8739700654191771,
+            0.9776651139286836
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "primary/spatial_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 39,
+          "rejection_CP95": [
+            0.294010414853417,
+            0.49268552036763646
+          ],
+          "coverable": 100,
+          "covered": 95,
+          "coverage_CP95": [
+            0.8871650888945373,
+            0.9835681208179479
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "primary/normal_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 45,
+          "rejection_CP95": [
+            0.35032022923967204,
+            0.552719811226064
+          ],
+          "coverable": 100,
+          "covered": 93,
+          "coverage_CP95": [
+            0.8610802715441427,
+            0.9713947110925613
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s3/studentized_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 52,
+          "rejection_CP95": [
+            0.4177897654063066,
+            0.6209945198220413
+          ],
+          "coverable": 100,
+          "covered": 97,
+          "coverage_CP95": [
+            0.91482394702572,
+            0.9937700284616936
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s3/percentile_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 51,
+          "rejection_CP95": [
+            0.40803632915545374,
+            0.6113558348383622
+          ],
+          "coverable": 100,
+          "covered": 94,
+          "coverage_CP95": [
+            0.8739700654191771,
+            0.9776651139286836
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s3/delta_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 37,
+          "rejection_CP95": [
+            0.2755665796145515,
+            0.47235164055168316
+          ],
+          "coverable": 100,
+          "covered": 95,
+          "coverage_CP95": [
+            0.8871650888945373,
+            0.9835681208179479
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s2/studentized_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 56,
+          "rejection_CP95": [
+            0.45718749706331757,
+            0.6591639762765418
+          ],
+          "coverable": 100,
+          "covered": 95,
+          "coverage_CP95": [
+            0.8871650888945373,
+            0.9835681208179479
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s2/percentile_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 57,
+          "rejection_CP95": [
+            0.4671337383248462,
+            0.6686089833686167
+          ],
+          "coverable": 100,
+          "covered": 93,
+          "coverage_CP95": [
+            0.8610802715441427,
+            0.9713947110925613
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s2/delta_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 43,
+          "rejection_CP95": [
+            0.33139101663138315,
+            0.5328662616751537
+          ],
+          "coverable": 100,
+          "covered": 96,
+          "coverage_CP95": [
+            0.9007428432873401,
+            0.9889955060138118
+          ]
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "nested/spatial_bootstrap_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "primary/spatial_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "primary/normal_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s3/studentized_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s3/percentile_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s3/delta_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s2/studentized_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s2/percentile_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s2/delta_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        }
+      ],
+      "flags": [],
+      "paired": {
+        "observed": 12,
+        "nested_unsupported": 0,
+        "nested": {
+          "rejected": 6,
+          "supported": 12,
+          "rejection_CP95": [
+            0.21094463823929666,
+            0.7890553617607033
+          ]
+        },
+        "omnibus": {
+          "rejected": 2,
+          "supported": 12,
+          "rejection_CP95": [
+            0.020862525460092384,
+            0.48413774868596704
+          ]
+        },
+        "improvement": {
+          "rejected": 4,
+          "supported": 12,
+          "rejection_CP95": [
+            0.09924609114958328,
+            0.6511244935811844
+          ]
+        },
+        "paired_omnibus": {
+          "both_correct": 1,
+          "nested_only_correct": 5,
+          "comparator_only_correct": 1,
+          "both_wrong": 5,
+          "unsupported": 0
+        },
+        "paired_improvement": {
+          "both_correct": 3,
+          "nested_only_correct": 3,
+          "comparator_only_correct": 1,
+          "both_wrong": 5,
+          "unsupported": 0
+        }
+      }
+    },
+    {
+      "family": "wide",
+      "adequate": true,
+      "paired_planned": 12,
+      "paired_unknown": 0,
+      "official_not_planned": 88,
+      "nested_variants": [
+        {
+          "mask": "all",
+          "method": "nested/spatial_bootstrap_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 0,
+          "rejection_CP95": [
+            0.0,
+            0.03621669264517641
+          ],
+          "coverable": 100,
+          "covered": 98,
+          "coverage_CP95": [
+            0.9296160675289299,
+            0.9975686631760574
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "primary/spatial_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 0,
+          "rejection_CP95": [
+            0.0,
+            0.03621669264517641
+          ],
+          "coverable": 100,
+          "covered": 96,
+          "coverage_CP95": [
+            0.9007428432873401,
+            0.9889955060138118
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "primary/normal_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 0,
+          "rejection_CP95": [
+            0.0,
+            0.03621669264517641
+          ],
+          "coverable": 100,
+          "covered": 94,
+          "coverage_CP95": [
+            0.8739700654191771,
+            0.9776651139286836
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s3/studentized_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 0,
+          "rejection_CP95": [
+            0.0,
+            0.03621669264517641
+          ],
+          "coverable": 100,
+          "covered": 97,
+          "coverage_CP95": [
+            0.91482394702572,
+            0.9937700284616936
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s3/percentile_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 0,
+          "rejection_CP95": [
+            0.0,
+            0.03621669264517641
+          ],
+          "coverable": 100,
+          "covered": 95,
+          "coverage_CP95": [
+            0.8871650888945373,
+            0.9835681208179479
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s3/delta_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 0,
+          "rejection_CP95": [
+            0.0,
+            0.03621669264517641
+          ],
+          "coverable": 100,
+          "covered": 96,
+          "coverage_CP95": [
+            0.9007428432873401,
+            0.9889955060138118
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s2/studentized_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 0,
+          "rejection_CP95": [
+            0.0,
+            0.03621669264517641
+          ],
+          "coverable": 100,
+          "covered": 98,
+          "coverage_CP95": [
+            0.9296160675289299,
+            0.9975686631760574
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s2/percentile_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 0,
+          "rejection_CP95": [
+            0.0,
+            0.03621669264517641
+          ],
+          "coverable": 100,
+          "covered": 96,
+          "coverage_CP95": [
+            0.9007428432873401,
+            0.9889955060138118
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s2/delta_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 0,
+          "rejection_CP95": [
+            0.0,
+            0.03621669264517641
+          ],
+          "coverable": 100,
+          "covered": 96,
+          "coverage_CP95": [
+            0.9007428432873401,
+            0.9889955060138118
+          ]
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "nested/spatial_bootstrap_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "primary/spatial_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "primary/normal_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s3/studentized_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s3/percentile_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s3/delta_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s2/studentized_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s2/percentile_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s2/delta_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        }
+      ],
+      "flags": [],
+      "paired": {
+        "observed": 12,
+        "nested_unsupported": 0,
+        "nested": {
+          "rejected": 0,
+          "supported": 12,
+          "rejection_CP95": [
+            0.0,
+            0.2646484693970512
+          ]
+        },
+        "omnibus": {
+          "rejected": 0,
+          "supported": 12,
+          "rejection_CP95": [
+            0.0,
+            0.2646484693970512
+          ]
+        },
+        "improvement": {
+          "rejected": 0,
+          "supported": 12,
+          "rejection_CP95": [
+            0.0,
+            0.2646484693970512
+          ]
+        },
+        "paired_omnibus": {
+          "both_correct": 12,
+          "nested_only_correct": 0,
+          "comparator_only_correct": 0,
+          "both_wrong": 0,
+          "unsupported": 0
+        },
+        "paired_improvement": {
+          "both_correct": 12,
+          "nested_only_correct": 0,
+          "comparator_only_correct": 0,
+          "both_wrong": 0,
+          "unsupported": 0
+        }
+      }
+    },
+    {
+      "family": "wide",
+      "adequate": false,
+      "paired_planned": 12,
+      "paired_unknown": 0,
+      "official_not_planned": 88,
+      "nested_variants": [
+        {
+          "mask": "all",
+          "method": "nested/spatial_bootstrap_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 39,
+          "rejection_CP95": [
+            0.294010414853417,
+            0.49268552036763646
+          ],
+          "coverable": 100,
+          "covered": 96,
+          "coverage_CP95": [
+            0.9007428432873401,
+            0.9889955060138118
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "primary/spatial_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 27,
+          "rejection_CP95": [
+            0.18606642229074058,
+            0.3680162729089749
+          ],
+          "coverable": 100,
+          "covered": 98,
+          "coverage_CP95": [
+            0.9296160675289299,
+            0.9975686631760574
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "primary/normal_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 31,
+          "rejection_CP95": [
+            0.221288792130671,
+            0.41031455416019924
+          ],
+          "coverable": 100,
+          "covered": 96,
+          "coverage_CP95": [
+            0.9007428432873401,
+            0.9889955060138118
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s3/studentized_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 38,
+          "rejection_CP95": [
+            0.28476747614147946,
+            0.4825393057508065
+          ],
+          "coverable": 100,
+          "covered": 97,
+          "coverage_CP95": [
+            0.91482394702572,
+            0.9937700284616936
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s3/percentile_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 36,
+          "rejection_CP95": [
+            0.2664084227332345,
+            0.46212189332742326
+          ],
+          "coverable": 100,
+          "covered": 95,
+          "coverage_CP95": [
+            0.8871650888945373,
+            0.9835681208179479
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s3/delta_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 30,
+          "rejection_CP95": [
+            0.21240642048953665,
+            0.39981467617980426
+          ],
+          "coverable": 100,
+          "covered": 95,
+          "coverage_CP95": [
+            0.8871650888945373,
+            0.9835681208179479
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s2/studentized_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 40,
+          "rejection_CP95": [
+            0.30329476870287736,
+            0.5027908495776652
+          ],
+          "coverable": 100,
+          "covered": 96,
+          "coverage_CP95": [
+            0.9007428432873401,
+            0.9889955060138118
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s2/percentile_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 39,
+          "rejection_CP95": [
+            0.294010414853417,
+            0.49268552036763646
+          ],
+          "coverable": 100,
+          "covered": 93,
+          "coverage_CP95": [
+            0.8610802715441427,
+            0.9713947110925613
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s2/delta_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 32,
+          "rejection_CP95": [
+            0.230219916761577,
+            0.4207668616316226
+          ],
+          "coverable": 100,
+          "covered": 95,
+          "coverage_CP95": [
+            0.8871650888945373,
+            0.9835681208179479
+          ]
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "nested/spatial_bootstrap_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "primary/spatial_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "primary/normal_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s3/studentized_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s3/percentile_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s3/delta_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s2/studentized_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s2/percentile_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s2/delta_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        }
+      ],
+      "flags": [],
+      "paired": {
+        "observed": 12,
+        "nested_unsupported": 0,
+        "nested": {
+          "rejected": 5,
+          "supported": 12,
+          "rejection_CP95": [
+            0.15165222980843013,
+            0.7233303143178942
+          ]
+        },
+        "omnibus": {
+          "rejected": 2,
+          "supported": 12,
+          "rejection_CP95": [
+            0.020862525460092384,
+            0.48413774868596704
+          ]
+        },
+        "improvement": {
+          "rejected": 5,
+          "supported": 12,
+          "rejection_CP95": [
+            0.15165222980843013,
+            0.7233303143178942
+          ]
+        },
+        "paired_omnibus": {
+          "both_correct": 2,
+          "nested_only_correct": 3,
+          "comparator_only_correct": 0,
+          "both_wrong": 7,
+          "unsupported": 0
+        },
+        "paired_improvement": {
+          "both_correct": 4,
+          "nested_only_correct": 1,
+          "comparator_only_correct": 1,
+          "both_wrong": 6,
+          "unsupported": 0
+        }
+      }
+    },
+    {
+      "family": "low_retention",
+      "adequate": true,
+      "paired_planned": 12,
+      "paired_unknown": 0,
+      "official_not_planned": 88,
+      "nested_variants": [
+        {
+          "mask": "all",
+          "method": "nested/spatial_bootstrap_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 0,
+          "rejection_CP95": [
+            0.0,
+            0.03621669264517641
+          ],
+          "coverable": 100,
+          "covered": 95,
+          "coverage_CP95": [
+            0.8871650888945373,
+            0.9835681208179479
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "primary/spatial_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 0,
+          "rejection_CP95": [
+            0.0,
+            0.03621669264517641
+          ],
+          "coverable": 100,
+          "covered": 94,
+          "coverage_CP95": [
+            0.8739700654191771,
+            0.9776651139286836
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "primary/normal_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 0,
+          "rejection_CP95": [
+            0.0,
+            0.03621669264517641
+          ],
+          "coverable": 100,
+          "covered": 93,
+          "coverage_CP95": [
+            0.8610802715441427,
+            0.9713947110925613
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s3/studentized_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 1,
+          "rejection_CP95": [
+            0.00025314603297742064,
+            0.054459385392080645
+          ],
+          "coverable": 100,
+          "covered": 96,
+          "coverage_CP95": [
+            0.9007428432873401,
+            0.9889955060138118
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s3/percentile_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 2,
+          "rejection_CP95": [
+            0.002431336823942542,
+            0.07038393247107011
+          ],
+          "coverable": 100,
+          "covered": 92,
+          "coverage_CP95": [
+            0.848442364135579,
+            0.9648284374818372
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s3/delta_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 0,
+          "rejection_CP95": [
+            0.0,
+            0.03621669264517641
+          ],
+          "coverable": 100,
+          "covered": 95,
+          "coverage_CP95": [
+            0.8871650888945373,
+            0.9835681208179479
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s2/studentized_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 2,
+          "rejection_CP95": [
+            0.002431336823942542,
+            0.07038393247107011
+          ],
+          "coverable": 100,
+          "covered": 95,
+          "coverage_CP95": [
+            0.8871650888945373,
+            0.9835681208179479
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s2/percentile_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 2,
+          "rejection_CP95": [
+            0.002431336823942542,
+            0.07038393247107011
+          ],
+          "coverable": 100,
+          "covered": 94,
+          "coverage_CP95": [
+            0.8739700654191771,
+            0.9776651139286836
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s2/delta_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 1,
+          "rejection_CP95": [
+            0.00025314603297742064,
+            0.054459385392080645
+          ],
+          "coverable": 100,
+          "covered": 95,
+          "coverage_CP95": [
+            0.8871650888945373,
+            0.9835681208179479
+          ]
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "nested/spatial_bootstrap_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "primary/spatial_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "primary/normal_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s3/studentized_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s3/percentile_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s3/delta_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s2/studentized_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s2/percentile_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s2/delta_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        }
+      ],
+      "flags": [],
+      "paired": {
+        "observed": 12,
+        "nested_unsupported": 0,
+        "nested": {
+          "rejected": 0,
+          "supported": 12,
+          "rejection_CP95": [
+            0.0,
+            0.2646484693970512
+          ]
+        },
+        "omnibus": {
+          "rejected": 1,
+          "supported": 12,
+          "rejection_CP95": [
+            0.0021075932318602264,
+            0.38479616515094406
+          ]
+        },
+        "improvement": {
+          "rejected": 0,
+          "supported": 12,
+          "rejection_CP95": [
+            0.0,
+            0.2646484693970512
+          ]
+        },
+        "paired_omnibus": {
+          "both_correct": 11,
+          "nested_only_correct": 1,
+          "comparator_only_correct": 0,
+          "both_wrong": 0,
+          "unsupported": 0
+        },
+        "paired_improvement": {
+          "both_correct": 12,
+          "nested_only_correct": 0,
+          "comparator_only_correct": 0,
+          "both_wrong": 0,
+          "unsupported": 0
+        }
+      }
+    },
+    {
+      "family": "low_retention",
+      "adequate": false,
+      "paired_planned": 12,
+      "paired_unknown": 0,
+      "official_not_planned": 88,
+      "nested_variants": [
+        {
+          "mask": "all",
+          "method": "nested/spatial_bootstrap_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 11,
+          "rejection_CP95": [
+            0.05620702028548744,
+            0.18830113219644257
+          ],
+          "coverable": 100,
+          "covered": 96,
+          "coverage_CP95": [
+            0.9007428432873401,
+            0.9889955060138118
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "primary/spatial_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 5,
+          "rejection_CP95": [
+            0.016431879182052155,
+            0.11283491110546275
+          ],
+          "coverable": 100,
+          "covered": 97,
+          "coverage_CP95": [
+            0.91482394702572,
+            0.9937700284616936
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "primary/normal_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 7,
+          "rejection_CP95": [
+            0.028605288907438704,
+            0.13891972845585732
+          ],
+          "coverable": 100,
+          "covered": 96,
+          "coverage_CP95": [
+            0.9007428432873401,
+            0.9889955060138118
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s3/studentized_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 8,
+          "rejection_CP95": [
+            0.03517156251816281,
+            0.15155763586442095
+          ],
+          "coverable": 100,
+          "covered": 97,
+          "coverage_CP95": [
+            0.91482394702572,
+            0.9937700284616936
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s3/percentile_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 8,
+          "rejection_CP95": [
+            0.03517156251816281,
+            0.15155763586442095
+          ],
+          "coverable": 100,
+          "covered": 95,
+          "coverage_CP95": [
+            0.8871650888945373,
+            0.9835681208179479
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s3/delta_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 5,
+          "rejection_CP95": [
+            0.016431879182052155,
+            0.11283491110546275
+          ],
+          "coverable": 100,
+          "covered": 97,
+          "coverage_CP95": [
+            0.91482394702572,
+            0.9937700284616936
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s2/studentized_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 10,
+          "rejection_CP95": [
+            0.04900468922148595,
+            0.17622259774002266
+          ],
+          "coverable": 100,
+          "covered": 97,
+          "coverage_CP95": [
+            0.91482394702572,
+            0.9937700284616936
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s2/percentile_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 10,
+          "rejection_CP95": [
+            0.04900468922148595,
+            0.17622259774002266
+          ],
+          "coverable": 100,
+          "covered": 95,
+          "coverage_CP95": [
+            0.8871650888945373,
+            0.9835681208179479
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s2/delta_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 5,
+          "rejection_CP95": [
+            0.016431879182052155,
+            0.11283491110546275
+          ],
+          "coverable": 100,
+          "covered": 96,
+          "coverage_CP95": [
+            0.9007428432873401,
+            0.9889955060138118
+          ]
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "nested/spatial_bootstrap_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "primary/spatial_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "primary/normal_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s3/studentized_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s3/percentile_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s3/delta_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s2/studentized_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s2/percentile_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s2/delta_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        }
+      ],
+      "flags": [],
+      "paired": {
+        "observed": 12,
+        "nested_unsupported": 0,
+        "nested": {
+          "rejected": 1,
+          "supported": 12,
+          "rejection_CP95": [
+            0.0021075932318602264,
+            0.38479616515094406
+          ]
+        },
+        "omnibus": {
+          "rejected": 0,
+          "supported": 12,
+          "rejection_CP95": [
+            0.0,
+            0.2646484693970512
+          ]
+        },
+        "improvement": {
+          "rejected": 1,
+          "supported": 12,
+          "rejection_CP95": [
+            0.0021075932318602264,
+            0.38479616515094406
+          ]
+        },
+        "paired_omnibus": {
+          "both_correct": 0,
+          "nested_only_correct": 1,
+          "comparator_only_correct": 0,
+          "both_wrong": 11,
+          "unsupported": 0
+        },
+        "paired_improvement": {
+          "both_correct": 0,
+          "nested_only_correct": 1,
+          "comparator_only_correct": 1,
+          "both_wrong": 10,
+          "unsupported": 0
+        }
+      }
+    },
+    {
+      "family": "low_density_six_codes",
+      "adequate": true,
+      "paired_planned": 12,
+      "paired_unknown": 0,
+      "official_not_planned": 88,
+      "nested_variants": [
+        {
+          "mask": "all",
+          "method": "nested/spatial_bootstrap_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 1,
+          "rejection_CP95": [
+            0.00025314603297742064,
+            0.054459385392080645
+          ],
+          "coverable": 100,
+          "covered": 95,
+          "coverage_CP95": [
+            0.8871650888945373,
+            0.9835681208179479
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "primary/spatial_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 0,
+          "rejection_CP95": [
+            0.0,
+            0.03621669264517641
+          ],
+          "coverable": 100,
+          "covered": 94,
+          "coverage_CP95": [
+            0.8739700654191771,
+            0.9776651139286836
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "primary/normal_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 0,
+          "rejection_CP95": [
+            0.0,
+            0.03621669264517641
+          ],
+          "coverable": 100,
+          "covered": 93,
+          "coverage_CP95": [
+            0.8610802715441427,
+            0.9713947110925613
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s3/studentized_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 1,
+          "rejection_CP95": [
+            0.00025314603297742064,
+            0.054459385392080645
+          ],
+          "coverable": 100,
+          "covered": 94,
+          "coverage_CP95": [
+            0.8739700654191771,
+            0.9776651139286836
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s3/percentile_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 0,
+          "rejection_CP95": [
+            0.0,
+            0.03621669264517641
+          ],
+          "coverable": 100,
+          "covered": 93,
+          "coverage_CP95": [
+            0.8610802715441427,
+            0.9713947110925613
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s3/delta_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 0,
+          "rejection_CP95": [
+            0.0,
+            0.03621669264517641
+          ],
+          "coverable": 100,
+          "covered": 93,
+          "coverage_CP95": [
+            0.8610802715441427,
+            0.9713947110925613
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s2/studentized_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 1,
+          "rejection_CP95": [
+            0.00025314603297742064,
+            0.054459385392080645
+          ],
+          "coverable": 100,
+          "covered": 95,
+          "coverage_CP95": [
+            0.8871650888945373,
+            0.9835681208179479
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s2/percentile_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 2,
+          "rejection_CP95": [
+            0.002431336823942542,
+            0.07038393247107011
+          ],
+          "coverable": 100,
+          "covered": 91,
+          "coverage_CP95": [
+            0.8360177449703647,
+            0.9580164043716077
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s2/delta_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 0,
+          "rejection_CP95": [
+            0.0,
+            0.03621669264517641
+          ],
+          "coverable": 100,
+          "covered": 94,
+          "coverage_CP95": [
+            0.8739700654191771,
+            0.9776651139286836
+          ]
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "nested/spatial_bootstrap_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 1,
+          "rejection_CP95": [
+            0.00025314603297742064,
+            0.054459385392080645
+          ],
+          "coverable": 100,
+          "covered": 95,
+          "coverage_CP95": [
+            0.8871650888945373,
+            0.9835681208179479
+          ]
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "primary/spatial_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 0,
+          "rejection_CP95": [
+            0.0,
+            0.03621669264517641
+          ],
+          "coverable": 100,
+          "covered": 86,
+          "coverage_CP95": [
+            0.7762720186294323,
+            0.9212945950730342
+          ]
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "primary/normal_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 0,
+          "rejection_CP95": [
+            0.0,
+            0.03621669264517641
+          ],
+          "coverable": 100,
+          "covered": 85,
+          "coverage_CP95": [
+            0.7646924998510451,
+            0.9135456143583515
+          ]
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s3/studentized_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 1,
+          "rejection_CP95": [
+            0.00025314603297742064,
+            0.054459385392080645
+          ],
+          "coverable": 100,
+          "covered": 94,
+          "coverage_CP95": [
+            0.8739700654191771,
+            0.9776651139286836
+          ]
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s3/percentile_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 2,
+          "rejection_CP95": [
+            0.002431336823942542,
+            0.07038393247107011
+          ],
+          "coverable": 100,
+          "covered": 85,
+          "coverage_CP95": [
+            0.7646924998510451,
+            0.9135456143583515
+          ]
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s3/delta_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 0,
+          "rejection_CP95": [
+            0.0,
+            0.03621669264517641
+          ],
+          "coverable": 100,
+          "covered": 87,
+          "coverage_CP95": [
+            0.7879593229125502,
+            0.9289269538145705
+          ]
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s2/studentized_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 1,
+          "rejection_CP95": [
+            0.00025314603297742064,
+            0.054459385392080645
+          ],
+          "coverable": 100,
+          "covered": 94,
+          "coverage_CP95": [
+            0.8739700654191771,
+            0.9776651139286836
+          ]
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s2/percentile_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 2,
+          "rejection_CP95": [
+            0.002431336823942542,
+            0.07038393247107011
+          ],
+          "coverable": 100,
+          "covered": 85,
+          "coverage_CP95": [
+            0.7646924998510451,
+            0.9135456143583515
+          ]
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s2/delta_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 0,
+          "rejection_CP95": [
+            0.0,
+            0.03621669264517641
+          ],
+          "coverable": 100,
+          "covered": 87,
+          "coverage_CP95": [
+            0.7879593229125502,
+            0.9289269538145705
+          ]
+        }
+      ],
+      "flags": [],
+      "paired": {
+        "observed": 12,
+        "nested_unsupported": 0,
+        "nested": {
+          "rejected": 0,
+          "supported": 12,
+          "rejection_CP95": [
+            0.0,
+            0.2646484693970512
+          ]
+        },
+        "omnibus": {
+          "rejected": 0,
+          "supported": 12,
+          "rejection_CP95": [
+            0.0,
+            0.2646484693970512
+          ]
+        },
+        "improvement": {
+          "rejected": 1,
+          "supported": 12,
+          "rejection_CP95": [
+            0.0021075932318602264,
+            0.38479616515094406
+          ]
+        },
+        "paired_omnibus": {
+          "both_correct": 12,
+          "nested_only_correct": 0,
+          "comparator_only_correct": 0,
+          "both_wrong": 0,
+          "unsupported": 0
+        },
+        "paired_improvement": {
+          "both_correct": 11,
+          "nested_only_correct": 1,
+          "comparator_only_correct": 0,
+          "both_wrong": 0,
+          "unsupported": 0
+        }
+      }
+    },
+    {
+      "family": "low_density_six_codes",
+      "adequate": false,
+      "paired_planned": 12,
+      "paired_unknown": 0,
+      "official_not_planned": 88,
+      "nested_variants": [
+        {
+          "mask": "all",
+          "method": "nested/spatial_bootstrap_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 80,
+          "rejection_CP95": [
+            0.7081573109113719,
+            0.8733444478980441
+          ],
+          "coverable": 100,
+          "covered": 97,
+          "coverage_CP95": [
+            0.91482394702572,
+            0.9937700284616936
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "primary/spatial_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 67,
+          "rejection_CP95": [
+            0.5688272492224368,
+            0.7608014653773982
+          ],
+          "coverable": 100,
+          "covered": 94,
+          "coverage_CP95": [
+            0.8739700654191771,
+            0.9776651139286836
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "primary/normal_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 69,
+          "rejection_CP95": [
+            0.5896854458398009,
+            0.778711207869329
+          ],
+          "coverable": 100,
+          "covered": 94,
+          "coverage_CP95": [
+            0.8739700654191771,
+            0.9776651139286836
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s3/studentized_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 77,
+          "rejection_CP95": [
+            0.6751412672248971,
+            0.8482683886989524
+          ],
+          "coverable": 100,
+          "covered": 98,
+          "coverage_CP95": [
+            0.9296160675289299,
+            0.9975686631760574
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s3/percentile_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 78,
+          "rejection_CP95": [
+            0.686080346213682,
+            0.8566964232501855
+          ],
+          "coverable": 100,
+          "covered": 93,
+          "coverage_CP95": [
+            0.8610802715441427,
+            0.9713947110925613
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s3/delta_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 66,
+          "rejection_CP95": [
+            0.5584667322490411,
+            0.7517764984551558
+          ],
+          "coverable": 100,
+          "covered": 94,
+          "coverage_CP95": [
+            0.8739700654191771,
+            0.9776651139286836
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s2/studentized_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 78,
+          "rejection_CP95": [
+            0.686080346213682,
+            0.8566964232501855
+          ],
+          "coverable": 100,
+          "covered": 97,
+          "coverage_CP95": [
+            0.91482394702572,
+            0.9937700284616936
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s2/percentile_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 79,
+          "rejection_CP95": [
+            0.6970846206494593,
+            0.8650563042946708
+          ],
+          "coverable": 100,
+          "covered": 94,
+          "coverage_CP95": [
+            0.8739700654191771,
+            0.9776651139286836
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s2/delta_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 71,
+          "rejection_CP95": [
+            0.6107340410925517,
+            0.7964258107492681
+          ],
+          "coverable": 100,
+          "covered": 95,
+          "coverage_CP95": [
+            0.8871650888945373,
+            0.9835681208179479
+          ]
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "nested/spatial_bootstrap_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 25,
+          "rejection_CP95": [
+            0.16877973809934185,
+            0.3465524957588082
+          ],
+          "coverable": 100,
+          "covered": 97,
+          "coverage_CP95": [
+            0.91482394702572,
+            0.9937700284616936
+          ]
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "primary/spatial_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 6,
+          "rejection_CP95": [
+            0.022334886071316378,
+            0.12602993458082296
+          ],
+          "coverable": 100,
+          "covered": 91,
+          "coverage_CP95": [
+            0.8360177449703647,
+            0.9580164043716077
+          ]
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "primary/normal_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 11,
+          "rejection_CP95": [
+            0.05620702028548744,
+            0.18830113219644257
+          ],
+          "coverable": 100,
+          "covered": 90,
+          "coverage_CP95": [
+            0.8237774022599773,
+            0.9509953107785141
+          ]
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s3/studentized_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 20,
+          "rejection_CP95": [
+            0.12665555210195586,
+            0.2918426890886281
+          ],
+          "coverable": 100,
+          "covered": 98,
+          "coverage_CP95": [
+            0.9296160675289299,
+            0.9975686631760574
+          ]
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s3/percentile_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 16,
+          "rejection_CP95": [
+            0.0943102899739462,
+            0.24678759741086234
+          ],
+          "coverable": 100,
+          "covered": 90,
+          "coverage_CP95": [
+            0.8237774022599773,
+            0.9509953107785141
+          ]
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s3/delta_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 11,
+          "rejection_CP95": [
+            0.05620702028548744,
+            0.18830113219644257
+          ],
+          "coverable": 100,
+          "covered": 90,
+          "coverage_CP95": [
+            0.8237774022599773,
+            0.9509953107785141
+          ]
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s2/studentized_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 21,
+          "rejection_CP95": [
+            0.13494369570532916,
+            0.3029153793505408
+          ],
+          "coverable": 100,
+          "covered": 98,
+          "coverage_CP95": [
+            0.9296160675289299,
+            0.9975686631760574
+          ]
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s2/percentile_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 17,
+          "rejection_CP95": [
+            0.10226491003552825,
+            0.25817541063215865
+          ],
+          "coverable": 100,
+          "covered": 90,
+          "coverage_CP95": [
+            0.8237774022599773,
+            0.9509953107785141
+          ]
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s2/delta_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 11,
+          "rejection_CP95": [
+            0.05620702028548744,
+            0.18830113219644257
+          ],
+          "coverable": 100,
+          "covered": 90,
+          "coverage_CP95": [
+            0.8237774022599773,
+            0.9509953107785141
+          ]
+        }
+      ],
+      "flags": [],
+      "paired": {
+        "observed": 12,
+        "nested_unsupported": 0,
+        "nested": {
+          "rejected": 11,
+          "supported": 12,
+          "rejection_CP95": [
+            0.6152038348490559,
+            0.9978924067681397
+          ]
+        },
+        "omnibus": {
+          "rejected": 3,
+          "supported": 12,
+          "rejection_CP95": [
+            0.05486064452799272,
+            0.5718584618781891
+          ]
+        },
+        "improvement": {
+          "rejected": 6,
+          "supported": 12,
+          "rejection_CP95": [
+            0.21094463823929666,
+            0.7890553617607033
+          ]
+        },
+        "paired_omnibus": {
+          "both_correct": 3,
+          "nested_only_correct": 8,
+          "comparator_only_correct": 0,
+          "both_wrong": 1,
+          "unsupported": 0
+        },
+        "paired_improvement": {
+          "both_correct": 6,
+          "nested_only_correct": 5,
+          "comparator_only_correct": 0,
+          "both_wrong": 1,
+          "unsupported": 0
+        }
+      }
+    },
+    {
+      "family": "known_intensity",
+      "adequate": true,
+      "paired_planned": 12,
+      "paired_unknown": 0,
+      "official_not_planned": 88,
+      "nested_variants": [
+        {
+          "mask": "all",
+          "method": "nested/spatial_bootstrap_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 4,
+          "rejection_CP95": [
+            0.011004493986188198,
+            0.09925715671265992
+          ],
+          "coverable": 100,
+          "covered": 95,
+          "coverage_CP95": [
+            0.8871650888945373,
+            0.9835681208179479
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "primary/spatial_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 1,
+          "rejection_CP95": [
+            0.00025314603297742064,
+            0.054459385392080645
+          ],
+          "coverable": 100,
+          "covered": 96,
+          "coverage_CP95": [
+            0.9007428432873401,
+            0.9889955060138118
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "primary/normal_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 2,
+          "rejection_CP95": [
+            0.002431336823942542,
+            0.07038393247107011
+          ],
+          "coverable": 100,
+          "covered": 95,
+          "coverage_CP95": [
+            0.8871650888945373,
+            0.9835681208179479
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s3/studentized_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 3,
+          "rejection_CP95": [
+            0.006229971538306393,
+            0.08517605297428002
+          ],
+          "coverable": 100,
+          "covered": 96,
+          "coverage_CP95": [
+            0.9007428432873401,
+            0.9889955060138118
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s3/percentile_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 2,
+          "rejection_CP95": [
+            0.002431336823942542,
+            0.07038393247107011
+          ],
+          "coverable": 100,
+          "covered": 95,
+          "coverage_CP95": [
+            0.8871650888945373,
+            0.9835681208179479
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s3/delta_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 1,
+          "rejection_CP95": [
+            0.00025314603297742064,
+            0.054459385392080645
+          ],
+          "coverable": 100,
+          "covered": 97,
+          "coverage_CP95": [
+            0.91482394702572,
+            0.9937700284616936
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s2/studentized_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 3,
+          "rejection_CP95": [
+            0.006229971538306393,
+            0.08517605297428002
+          ],
+          "coverable": 100,
+          "covered": 96,
+          "coverage_CP95": [
+            0.9007428432873401,
+            0.9889955060138118
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s2/percentile_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 3,
+          "rejection_CP95": [
+            0.006229971538306393,
+            0.08517605297428002
+          ],
+          "coverable": 100,
+          "covered": 95,
+          "coverage_CP95": [
+            0.8871650888945373,
+            0.9835681208179479
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s2/delta_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 2,
+          "rejection_CP95": [
+            0.002431336823942542,
+            0.07038393247107011
+          ],
+          "coverable": 100,
+          "covered": 96,
+          "coverage_CP95": [
+            0.9007428432873401,
+            0.9889955060138118
+          ]
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "nested/spatial_bootstrap_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "primary/spatial_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "primary/normal_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s3/studentized_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s3/percentile_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s3/delta_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s2/studentized_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s2/percentile_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s2/delta_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        }
+      ],
+      "flags": [],
+      "paired": {
+        "observed": 12,
+        "nested_unsupported": 0,
+        "nested": {
+          "rejected": 1,
+          "supported": 12,
+          "rejection_CP95": [
+            0.0021075932318602264,
+            0.38479616515094406
+          ]
+        },
+        "omnibus": {
+          "rejected": 0,
+          "supported": 12,
+          "rejection_CP95": [
+            0.0,
+            0.2646484693970512
+          ]
+        },
+        "improvement": {
+          "rejected": 1,
+          "supported": 12,
+          "rejection_CP95": [
+            0.0021075932318602264,
+            0.38479616515094406
+          ]
+        },
+        "paired_omnibus": {
+          "both_correct": 11,
+          "nested_only_correct": 0,
+          "comparator_only_correct": 1,
+          "both_wrong": 0,
+          "unsupported": 0
+        },
+        "paired_improvement": {
+          "both_correct": 11,
+          "nested_only_correct": 0,
+          "comparator_only_correct": 0,
+          "both_wrong": 1,
+          "unsupported": 0
+        }
+      }
+    },
+    {
+      "family": "known_intensity",
+      "adequate": false,
+      "paired_planned": 12,
+      "paired_unknown": 0,
+      "official_not_planned": 88,
+      "nested_variants": [
+        {
+          "mask": "all",
+          "method": "nested/spatial_bootstrap_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 52,
+          "rejection_CP95": [
+            0.4177897654063066,
+            0.6209945198220413
+          ],
+          "coverable": 100,
+          "covered": 89,
+          "coverage_CP95": [
+            0.8116988678035574,
+            0.9437929797145126
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "primary/spatial_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 39,
+          "rejection_CP95": [
+            0.294010414853417,
+            0.49268552036763646
+          ],
+          "coverable": 100,
+          "covered": 90,
+          "coverage_CP95": [
+            0.8237774022599773,
+            0.9509953107785141
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "primary/normal_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 45,
+          "rejection_CP95": [
+            0.35032022923967204,
+            0.552719811226064
+          ],
+          "coverable": 100,
+          "covered": 90,
+          "coverage_CP95": [
+            0.8237774022599773,
+            0.9509953107785141
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s3/studentized_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 54,
+          "rejection_CP95": [
+            0.4374115798664713,
+            0.640156647020588
+          ],
+          "coverable": 100,
+          "covered": 90,
+          "coverage_CP95": [
+            0.8237774022599773,
+            0.9509953107785141
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s3/percentile_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 54,
+          "rejection_CP95": [
+            0.4374115798664713,
+            0.640156647020588
+          ],
+          "coverable": 100,
+          "covered": 88,
+          "coverage_CP95": [
+            0.7997643163800312,
+            0.9364310974388407
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s3/delta_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 37,
+          "rejection_CP95": [
+            0.2755665796145515,
+            0.47235164055168316
+          ],
+          "coverable": 100,
+          "covered": 91,
+          "coverage_CP95": [
+            0.8360177449703647,
+            0.9580164043716077
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s2/studentized_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 59,
+          "rejection_CP95": [
+            0.4871442037667709,
+            0.6873800234324292
+          ],
+          "coverable": 100,
+          "covered": 88,
+          "coverage_CP95": [
+            0.7997643163800312,
+            0.9364310974388407
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s2/percentile_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 59,
+          "rejection_CP95": [
+            0.4871442037667709,
+            0.6873800234324292
+          ],
+          "coverable": 100,
+          "covered": 89,
+          "coverage_CP95": [
+            0.8116988678035574,
+            0.9437929797145126
+          ]
+        },
+        {
+          "mask": "all",
+          "method": "s2/delta_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 100,
+          "unsupported": 0,
+          "rejected": 50,
+          "rejection_CP95": [
+            0.39832112950330095,
+            0.601678870496699
+          ],
+          "coverable": 100,
+          "covered": 91,
+          "coverage_CP95": [
+            0.8360177449703647,
+            0.9580164043716077
+          ]
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "nested/spatial_bootstrap_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "primary/spatial_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "primary/normal_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s3/studentized_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s3/percentile_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s3/delta_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s2/studentized_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s2/percentile_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        },
+        {
+          "mask": "non_consecutive",
+          "method": "s2/delta_t_ci",
+          "planned": 100,
+          "observed": 100,
+          "unknown": 0,
+          "supported": 0,
+          "unsupported": 100,
+          "rejected": 0,
+          "rejection_CP95": null,
+          "coverable": 0,
+          "covered": 0,
+          "coverage_CP95": null
+        }
+      ],
+      "flags": [
+        "coverage_not_compatible_with_95_percent"
+      ],
+      "paired": {
+        "observed": 12,
+        "nested_unsupported": 0,
+        "nested": {
+          "rejected": 7,
+          "supported": 12,
+          "rejection_CP95": [
+            0.2766696856821058,
+            0.8483477701915698
+          ]
+        },
+        "omnibus": {
+          "rejected": 4,
+          "supported": 12,
+          "rejection_CP95": [
+            0.09924609114958328,
+            0.6511244935811844
+          ]
+        },
+        "improvement": {
+          "rejected": 9,
+          "supported": 12,
+          "rejection_CP95": [
+            0.4281415381218108,
+            0.9451393554720072
+          ]
+        },
+        "paired_omnibus": {
+          "both_correct": 3,
+          "nested_only_correct": 4,
+          "comparator_only_correct": 1,
+          "both_wrong": 4,
+          "unsupported": 0
+        },
+        "paired_improvement": {
+          "both_correct": 6,
+          "nested_only_correct": 1,
+          "comparator_only_correct": 3,
+          "both_wrong": 2,
+          "unsupported": 0
+        }
+      }
+    }
+  ],
+  "totals": {
+    "adequate": {
+      "observed": 72,
+      "nested_unsupported": 0,
+      "nested": {
+        "rejected": 2,
+        "supported": 72,
+        "rejection_CP95": [
+          0.003381900326173238,
+          0.09676728911341521
+        ]
+      },
+      "omnibus": {
+        "rejected": 2,
+        "supported": 72,
+        "rejection_CP95": [
+          0.003381900326173238,
+          0.09676728911341521
+        ]
+      },
+      "improvement": {
+        "rejected": 3,
+        "supported": 72,
+        "rejection_CP95": [
+          0.008676497316343759,
+          0.11697481982594136
+        ]
+      },
+      "paired_omnibus": {
+        "both_correct": 68,
+        "nested_only_correct": 2,
+        "comparator_only_correct": 2,
+        "both_wrong": 0,
+        "unsupported": 0
+      },
+      "paired_improvement": {
+        "both_correct": 68,
+        "nested_only_correct": 2,
+        "comparator_only_correct": 1,
+        "both_wrong": 1,
+        "unsupported": 0
+      }
+    },
+    "alternative": {
+      "observed": 72,
+      "nested_unsupported": 0,
+      "nested": {
+        "rejected": 38,
+        "supported": 72,
+        "rejection_CP95": [
+          0.4065290765256738,
+          0.6466702759433274
+        ]
+      },
+      "omnibus": {
+        "rejected": 14,
+        "supported": 72,
+        "rejection_CP95": [
+          0.1105837866784895,
+          0.3046689332986832
+        ]
+      },
+      "improvement": {
+        "rejected": 31,
+        "supported": 72,
+        "rejection_CP95": [
+          0.3143406522440227,
+          0.5526642096839558
+        ]
+      },
+      "paired_omnibus": {
+        "both_correct": 11,
+        "nested_only_correct": 27,
+        "comparator_only_correct": 3,
+        "both_wrong": 31,
+        "unsupported": 0
+      },
+      "paired_improvement": {
+        "both_correct": 24,
+        "nested_only_correct": 14,
+        "comparator_only_correct": 7,
+        "both_wrong": 27,
+        "unsupported": 0
+      }
+    },
+    "all": {
+      "observed": 144,
+      "nested_unsupported": 0,
+      "nested": {
+        "rejected": 40,
+        "supported": 144,
+        "rejection_CP95": [
+          0.2064417286064307,
+          0.35849688392182566
+        ]
+      },
+      "omnibus": {
+        "rejected": 16,
+        "supported": 144,
+        "rejection_CP95": [
+          0.06485903597078638,
+          0.1741607503941491
+        ]
+      },
+      "improvement": {
+        "rejected": 34,
+        "supported": 144,
+        "rejection_CP95": [
+          0.16939217558188147,
+          0.31400592518901327
+        ]
+      },
+      "paired_omnibus": {
+        "both_correct": 79,
+        "nested_only_correct": 29,
+        "comparator_only_correct": 5,
+        "both_wrong": 31,
+        "unsupported": 0
+      },
+      "paired_improvement": {
+        "both_correct": 92,
+        "nested_only_correct": 16,
+        "comparator_only_correct": 8,
+        "both_wrong": 28,
+        "unsupported": 0
+      }
+    }
+  },
+  "measured_verified_pair_cost": {
+    "nested_union_wall": 78.01363015174866,
+    "official_union_wall": 21632.950288534164,
+    "official_union_cpu": 21443.99794,
+    "top_level_fits": 5760,
+    "scorer_calls": 14400,
+    "candidate_entries": 255189,
+    "native_bootstrap_refits": 5760,
+    "additional_procedure_refits": 5472
+  },
+  "prior_failed_pair_restricted_fit": {
+    "proportions": [
+      50.0,
+      50.0
+    ],
+    "score": 0.010635572436188845,
+    "best_counts": [
+      7467,
+      3733
+    ],
+    "uncertainty": {
+      "prop_std": [
+        3.269174098968506,
+        3.269174098968506
+      ],
+      "score_std": 0.001267922196161987,
+      "dtype": "float32"
+    },
+    "seed": 180300100,
+    "expanded": false,
+    "native_bootstrap": true,
+    "full_grid_size": 21,
+    "scorer_calls": 21,
+    "score_entries": 161,
+    "seeded_unseeded_rng_calls": 0,
+    "spans": {
+      "wall": 15.384098052978516,
+      "monotonic": 15.383988249996037,
+      "cpu": 15.376434999999999
+    }
+  },
+  "new_independent_fields": 0,
+  "new_nested_fits": 0,
+  "native_backend_refits_during_verification": 0
+}

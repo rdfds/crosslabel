@@ -1,0 +1,44 @@
+{
+  "status": "estimated",
+  "reason": null,
+  "point": 0.7809792860311183,
+  "ci": [
+    0.7149277807293434,
+    0.8438547374485444
+  ],
+  "records": 15315,
+  "codes": [
+    2089,
+    3896,
+    6485,
+    2845
+  ],
+  "fine_geometry": {
+    "window": [
+      23171.060546875,
+      49415.921875,
+      18041.2421875,
+      47851.24609375
+    ],
+    "shape": [
+      263,
+      299
+    ],
+    "cell_nm": 100.0,
+    "dependence_nm": 600.0,
+    "records_retained": 15315,
+    "ordered_pairs_enumerated": 132320,
+    "coarse_blocks": 116,
+    "true_footprint_verified": false,
+    "finite_separation_covariance_approximation": true
+  },
+  "density": {
+    "score": 0.7170963749720342,
+    "cv_squared_by_grid": {
+      "4": 0.5400323407591733,
+      "8": 0.894160409184895
+    }
+  },
+  "unit": "nm",
+  "source": "10.5281/zenodo.7795826"
+}

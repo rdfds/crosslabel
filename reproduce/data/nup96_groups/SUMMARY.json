@@ -1,0 +1,21 @@
+{
+  "planned_group_ids": 1218,
+  "eligible_consistency": 1206,
+  "unsupported_groups": 12,
+  "supported_native_witnesses": 1205,
+  "supported_both_half_witnesses": 1198,
+  "native_retained_records": 917449,
+  "supported_group_records": 911477,
+  "supported_occupancy_min_record_edits": 226604,
+  "paired_two_code_and_pooling_zeros": true,
+  "temporal_midpoints": [
+    6249,
+    6249,
+    6249,
+    6249
+  ],
+  "acquisitions": 1,
+  "biological_replication_established": false,
+  "clinical_or_physical_source_rejection_qualified": false,
+  "nested_group_unknown_real_coverage_qualified": false
+}

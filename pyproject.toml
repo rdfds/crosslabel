@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crosslabel"
+version = "0.4.0"
+description = "Cross-label moments and spatial estimators for stochastically multiplexed localization microscopy"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+authors = [{name = "Rohan Variankaval", email = "rvarian1@jh.edu"}]
+dependencies = [
+    "numpy>=1.23",
+    # Avoid false floating-point exceptions from the NumPy 2.0 Accelerate build.
+    "numpy<2; python_version == '3.9' and sys_platform == 'darwin' and platform_machine == 'arm64'",
+    "scipy>=1.10",
+]
+keywords = ["super-resolution", "DNA-PAINT", "RESI", "localization microscopy", "spatial statistics", "oligomerization"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "Topic :: Scientific/Engineering :: Image Processing",
+]
+
+[project.scripts]
+crosslabel = "crosslabel.cli:main"
+crosslabel-field = "crosslabel.field_cli:main"
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+hdf5 = ["h5py>=3"]
+figures = ["matplotlib>=3.6"]
+
+[project.urls]
+Repository = "https://github.com/rdfds/crosslabel"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

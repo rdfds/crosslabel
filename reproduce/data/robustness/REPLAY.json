@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "reference": 531,
+  "evaluation": 540,
+  "completed": [
+    "balanced_lower_density",
+    "low_retention_skewed_codes",
+    "varying_intensity_skewed_codes"
+  ],
+  "seconds": 6.59405566600617,
+  "exact_files": {
+    "REFERENCE.jsonl": "0ece9c4f4aae60dc9880da754d32627150240b847bb5ecd5ad9997379c804312",
+    "EVALUATION.jsonl": "f53eda5eae5c8d6d4bf627d03626d3278306fb098f6aa6472a57fa28eb90f835"
+  },
+  "independent_new_fields": 0
+}

@@ -1,0 +1,52 @@
+{
+  "status": "estimated",
+  "reason": null,
+  "estimate": 0.5531574109530724,
+  "interval_95_model": [
+    0.5130944602137226,
+    0.5958337332703781
+  ],
+  "positive_lower_limit": true,
+  "density_screen": {
+    "score": 0.5314485340669117,
+    "cv_squared_by_grid": {
+      "4": 0.38885052891393423,
+      "8": 0.6740465392198892
+    },
+    "reference_p": null,
+    "flagged": null
+  },
+  "support": {
+    "records": 13212,
+    "K": 4,
+    "counts": [
+      2638,
+      3538,
+      3364,
+      3672
+    ],
+    "fine_cells": 46170,
+    "coarse_blocks": 102,
+    "units": "nm",
+    "no_records_discarded": true
+  },
+  "window_nm": [
+    4536.0758056640625,
+    31441.480224609375,
+    2893.922836303711,
+    19961.018920898438
+  ],
+  "seed": 984900,
+  "radius_nm": 30.0,
+  "interpretation": "model_based_contrast_requires_applicability_review",
+  "source_doi": "10.6084/m9.figshare.28741373",
+  "source_sha256": "31e919a5b0fad147677c0d70e74e5b03dd532359ecdd12e6e58647689042014a",
+  "original_round_counts": [
+    2638,
+    3538,
+    3364,
+    3672
+  ],
+  "pixel_nm": 108.0,
+  "scope": "descriptive single catalogue from a polygon pick"
+}

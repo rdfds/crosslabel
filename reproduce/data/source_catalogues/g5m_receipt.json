@@ -1,0 +1,100 @@
+{
+  "receipts": [
+    {
+      "url": "https://zenodo.org/api/records/18429674/files/g5m.rar/content",
+      "lo": 0,
+      "hi": 29,
+      "total": 10708357550,
+      "status": 206,
+      "bytes": 29,
+      "sha256": "c39533b68e8097da245e174ffe45b9f66ae4e5aec38435323055ae5ed6796e39",
+      "validator": null
+    },
+    {
+      "url": "https://zenodo.org/api/records/18429674/files/g5m.rar/content",
+      "lo": 7820128046,
+      "hi": 7820131127,
+      "total": 10708357550,
+      "status": 206,
+      "bytes": 3081,
+      "sha256": "93a740155420c29c9c1a34834f601ef8bcc32b5ecbda43fbd09a57a438e2d270",
+      "validator": null
+    },
+    {
+      "url": "https://zenodo.org/api/records/18429674/files/g5m.rar/content",
+      "lo": 7987713857,
+      "hi": 7987717335,
+      "total": 10708357550,
+      "status": 206,
+      "bytes": 3478,
+      "sha256": "5428da9938aa9b5a8660de4c684376592db68bfa0273a9887a82993579ff96ee",
+      "validator": null
+    },
+    {
+      "url": "https://zenodo.org/api/records/18429674/files/g5m.rar/content",
+      "lo": 8460650755,
+      "hi": 8460654209,
+      "total": 10708357550,
+      "status": 206,
+      "bytes": 3454,
+      "sha256": "7582fdb247a45c931a7df72f6f27b4ece5481a91a6c3f056dc12a1721c753afe",
+      "validator": null
+    },
+    {
+      "url": "https://zenodo.org/api/records/18429674/files/g5m.rar/content",
+      "lo": 8879937145,
+      "hi": 8879941242,
+      "total": 10708357550,
+      "status": 206,
+      "bytes": 4097,
+      "sha256": "5a63e2946fae334c298d798f792f28eb56d154be72b0eb474e20bc6a4476c469",
+      "validator": null
+    }
+  ],
+  "sidecars": {
+    "data/Fig4/cell1_2023_Pos3/R1_picked.yaml": {
+      "sha256": "a9dbd9c9ce59d965e15e5704d2a9461a4fe5315bf5829df0093f7c5201045124",
+      "raw_movie_basename": "well7_10ugml_RESI_GFPNb_R1_500pM_1_MMStack_Pos3.ome.tif",
+      "pick_metadata": [
+        "Pick Diameter: 50.0",
+        "Pick Shape: Circle"
+      ],
+      "mask_geometry_keys": [
+        "ROI: null"
+      ]
+    },
+    "data/Fig4/cell1_2023_Pos3/RESI_G5M.yaml": {
+      "sha256": "c81af1113d3428a14812074abeedf7a7d2c2a116a4fbc7506be16929b8d93198",
+      "raw_movie_basename": "well7_10ugml_RESI_GFPNb_R1_500pM_1_MMStack_Pos3.ome.tif",
+      "pick_metadata": [
+        "Pick Diameter: 50.0",
+        "Pick Shape: Circle"
+      ],
+      "mask_geometry_keys": [
+        "ROI: null"
+      ]
+    },
+    "data/Fig4/cell4_3D/R1_picked.yaml": {
+      "sha256": "c7d5db6ecf8c58e3c7268f675e52692726f67a8719f709d29d6f3009eb95726c",
+      "raw_movie_basename": "well3_10ug_mL_GFPRESI_R1_500pM_1_MMStack_Pos0.ome.tif",
+      "pick_metadata": [
+        "Pick Diameter: 55.0",
+        "Pick Shape: Circle"
+      ],
+      "mask_geometry_keys": [
+        "ROI: null"
+      ]
+    },
+    "data/Fig4/cell4_3D/RESI_G5M.yaml": {
+      "sha256": "cf6af33ec0debd357578dd7ebf9423a01d129531baa86dd1eb2172ecba44cfbc",
+      "raw_movie_basename": "well3_10ug_mL_GFPRESI_R1_500pM_1_MMStack_Pos0.ome.tif",
+      "pick_metadata": [
+        "Pick Diameter: 55.0",
+        "Pick Shape: Circle"
+      ],
+      "mask_geometry_keys": [
+        "ROI: null"
+      ]
+    }
+  }
+}

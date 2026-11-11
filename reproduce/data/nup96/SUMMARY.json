@@ -1,0 +1,218 @@
+{
+  "native": {
+    "Reinhardt": {
+      "crosslabel_point": 0.7809792860311183,
+      "crosslabel_lower": 0.7149277807293434,
+      "crosslabel_interval": [
+        0.7149277807293434,
+        0.8438547374485444
+      ],
+      "records": 15315,
+      "code_counts": [
+        2089,
+        3896,
+        6485,
+        2845
+      ],
+      "dtc_raw": 665.9252794235349,
+      "dtc_connected": 584.3570242923086,
+      "anchor_pair": 28.545679501718872,
+      "neighbor_pair": 26.476896127788585,
+      "dtc_connected_per_anchor": 0.8950646578089193
+    },
+    "Zaza": {
+      "crosslabel_point": 0.5531574109530724,
+      "crosslabel_lower": 0.5130944602137226,
+      "crosslabel_interval": [
+        0.5130944602137226,
+        0.5958337332703781
+      ],
+      "records": 13212,
+      "code_counts": [
+        2638,
+        3538,
+        3364,
+        3672
+      ],
+      "dtc_raw": 229.8278261887365,
+      "dtc_connected": 187.45837020241322,
+      "anchor_pair": 15.234426848454612,
+      "neighbor_pair": 13.900602289414064,
+      "dtc_connected_per_anchor": 0.6202951989761382
+    }
+  },
+  "methods": {
+    "dtc_raw": {
+      "reference_count": 99,
+      "reference_min": 1.2845267138915732,
+      "reference_max": 147.9588826878754,
+      "alternative_higher": 100,
+      "control_higher": 0,
+      "ties": 0,
+      "two_code": {
+        "planned": 100,
+        "unsupported": 0,
+        "positive": 3,
+        "supported": 100,
+        "exact_95_ci": [
+          0.006229971538306395,
+          0.08517605297428
+        ],
+        "compared_with_crosslabel_lower": 100,
+        "both_positive": 2,
+        "both_negative": 95,
+        "only_method": 1,
+        "only_crosslabel_lower": 2,
+        "exact_paired_p": 1.0
+      },
+      "four_code": {
+        "planned": 100,
+        "unsupported": 0,
+        "positive": 100,
+        "supported": 100,
+        "exact_95_ci": [
+          0.9637833073548235,
+          1.0
+        ],
+        "compared_with_crosslabel_lower": 100,
+        "both_positive": 100,
+        "both_negative": 0,
+        "only_method": 0,
+        "only_crosslabel_lower": 0,
+        "exact_paired_p": 1.0
+      }
+    },
+    "dtc_connected": {
+      "reference_count": 99,
+      "reference_min": -43.8150006207857,
+      "reference_max": 100.03553506588197,
+      "alternative_higher": 100,
+      "control_higher": 0,
+      "ties": 0,
+      "two_code": {
+        "planned": 100,
+        "unsupported": 0,
+        "positive": 3,
+        "supported": 100,
+        "exact_95_ci": [
+          0.006229971538306395,
+          0.08517605297428
+        ],
+        "compared_with_crosslabel_lower": 100,
+        "both_positive": 2,
+        "both_negative": 95,
+        "only_method": 1,
+        "only_crosslabel_lower": 2,
+        "exact_paired_p": 1.0
+      },
+      "four_code": {
+        "planned": 100,
+        "unsupported": 0,
+        "positive": 100,
+        "supported": 100,
+        "exact_95_ci": [
+          0.9637833073548235,
+          1.0
+        ],
+        "compared_with_crosslabel_lower": 100,
+        "both_positive": 100,
+        "both_negative": 0,
+        "only_method": 0,
+        "only_crosslabel_lower": 0,
+        "exact_paired_p": 1.0
+      }
+    },
+    "crosslabel_point": {
+      "reference_count": 99,
+      "reference_min": -0.5237141090228699,
+      "reference_max": 1.1638040967410723,
+      "alternative_higher": 100,
+      "control_higher": 0,
+      "ties": 0,
+      "two_code": {
+        "planned": 100,
+        "unsupported": 0,
+        "positive": 4,
+        "supported": 100,
+        "exact_95_ci": [
+          0.011004493986188206,
+          0.09925715671265992
+        ],
+        "compared_with_crosslabel_lower": 100,
+        "both_positive": 2,
+        "both_negative": 94,
+        "only_method": 2,
+        "only_crosslabel_lower": 2,
+        "exact_paired_p": 1.0
+      },
+      "four_code": {
+        "planned": 100,
+        "unsupported": 0,
+        "positive": 100,
+        "supported": 100,
+        "exact_95_ci": [
+          0.9637833073548235,
+          1.0
+        ],
+        "compared_with_crosslabel_lower": 100,
+        "both_positive": 100,
+        "both_negative": 0,
+        "only_method": 0,
+        "only_crosslabel_lower": 0,
+        "exact_paired_p": 1.0
+      }
+    },
+    "crosslabel_lower": {
+      "reference_count": 99,
+      "reference_min": -0.8937841084133156,
+      "reference_max": 0.0032883881663672287,
+      "alternative_higher": 100,
+      "control_higher": 0,
+      "ties": 0,
+      "two_code": {
+        "planned": 100,
+        "unsupported": 0,
+        "positive": 4,
+        "supported": 100,
+        "exact_95_ci": [
+          0.011004493986188206,
+          0.09925715671265992
+        ],
+        "compared_with_crosslabel_lower": 100,
+        "both_positive": 4,
+        "both_negative": 96,
+        "only_method": 0,
+        "only_crosslabel_lower": 0,
+        "exact_paired_p": 1.0
+      },
+      "four_code": {
+        "planned": 100,
+        "unsupported": 0,
+        "positive": 100,
+        "supported": 100,
+        "exact_95_ci": [
+          0.9637833073548235,
+          1.0
+        ],
+        "compared_with_crosslabel_lower": 100,
+        "both_positive": 100,
+        "both_negative": 0,
+        "only_method": 0,
+        "only_crosslabel_lower": 0,
+        "exact_paired_p": 1.0
+      }
+    }
+  },
+  "collection": {
+    "status": "complete",
+    "reference": 99,
+    "evaluation": 200,
+    "wall_seconds": 54.52428441699885
+  },
+  "sha256": {
+    "REFERENCE.jsonl": "c2b8333648276a4677e76ff6618417ee7b8264f9f2609beaf0f0234cd214ed70",
+    "PAIRED.jsonl": "d92e61e53ad6a17c34240d7ee0ab6122894bc0bfa9d9b75159c68d46b562d951",
+    "NATIVE.json": "8c85ab3c21c0f65746b6179bc9cd54ba8b98747978557c28f58413f62fd2ad79",
+    "STATE.json": "cab45b25693619ddc7cd8c809dbdcf6e5605a3e46527de0512b34a7bd45fe87d"
+  }
+}
