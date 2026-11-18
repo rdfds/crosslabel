@@ -1,0 +1,17 @@
+{
+  "records": 911477,
+  "eligible_groups": 1206,
+  "groups_with_packed_witnesses": 1205,
+  "disjoint_witnesses": 110732,
+  "lower_bound_record_edits": 110732,
+  "fraction_record_edits": 0.12148633481700581,
+  "radius_nm": 30.0,
+  "maximum_packing_claimed": false,
+  "all_witnesses_verified": true,
+  "input_sha256": {
+    "npc-locs-R1.npz": "d56986b7e7dac8aaaf0242e6587e110c0fbd26f72c9816189c90c2f8286c92c1",
+    "npc-locs-R2.npz": "1870abae273ee823673b0330e5fb81456056d4a38dbc44f73dd55bc768e9ff63",
+    "npc-locs-R3.npz": "7dc87c31b38c062e1fd842418b139e3dffcb8676acbd1e9817bc28811eaa82fe",
+    "npc-locs-R4.npz": "d4cf45781af7643bdb5370352b4b80b2b2cd26e1055ec44c4cb111fcb0f524b6"
+  }
+}

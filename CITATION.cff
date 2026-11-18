@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use crosslabel, please cite it, and cite the original data sources for any reanalysed data."
 title: "crosslabel: cross-label moments and spatial estimators for stochastically multiplexed localization microscopy"
 type: software
-version: 0.4.0
+version: 0.4.1
 authors:
   - family-names: Variankaval
     given-names: Rohan
@@ -15,3 +15,5 @@ keywords:
   - RESI
   - spatial statistics
   - oligomerization
+doi: 10.5281/zenodo.24354693
+date-released: 2026-11-18

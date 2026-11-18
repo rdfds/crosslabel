@@ -1,0 +1,578 @@
+{
+  "status": "complete",
+  "cells": [
+    {
+      "retention": 0.15,
+      "expected_records": 3500,
+      "alternative": false,
+      "planned": 80,
+      "completed": 80,
+      "supported": 80,
+      "alerts": 2,
+      "ci95": [
+        0.0030420861648096003,
+        0.08740715593059226
+      ],
+      "covered": 75,
+      "mean_target": 0.0,
+      "mean_records": 3498.3875
+    },
+    {
+      "retention": 0.15,
+      "expected_records": 3500,
+      "alternative": true,
+      "planned": 80,
+      "completed": 80,
+      "supported": 80,
+      "alerts": 10,
+      "ci95": [
+        0.06160209655843426,
+        0.21788913406943633
+      ],
+      "covered": 75,
+      "mean_target": 0.002168848029177315,
+      "mean_records": 3501.8
+    },
+    {
+      "retention": 0.15,
+      "expected_records": 7000,
+      "alternative": false,
+      "planned": 80,
+      "completed": 80,
+      "supported": 80,
+      "alerts": 6,
+      "ci95": [
+        0.02802054617684124,
+        0.15612793173607215
+      ],
+      "covered": 72,
+      "mean_target": 0.0,
+      "mean_records": 7016.875
+    },
+    {
+      "retention": 0.15,
+      "expected_records": 7000,
+      "alternative": true,
+      "planned": 80,
+      "completed": 80,
+      "supported": 80,
+      "alerts": 3,
+      "ci95": [
+        0.007801187265716697,
+        0.10570198501650858
+      ],
+      "covered": 78,
+      "mean_target": 0.002249989656842329,
+      "mean_records": 6990.1125
+    },
+    {
+      "retention": 0.15,
+      "expected_records": 14000,
+      "alternative": false,
+      "planned": 80,
+      "completed": 80,
+      "supported": 80,
+      "alerts": 3,
+      "ci95": [
+        0.007801187265716697,
+        0.10570198501650858
+      ],
+      "covered": 73,
+      "mean_target": 0.0,
+      "mean_records": 14014.2375
+    },
+    {
+      "retention": 0.15,
+      "expected_records": 14000,
+      "alternative": true,
+      "planned": 80,
+      "completed": 80,
+      "supported": 80,
+      "alerts": 3,
+      "ci95": [
+        0.007801187265716697,
+        0.10570198501650858
+      ],
+      "covered": 77,
+      "mean_target": 0.002221465796823091,
+      "mean_records": 14018.4625
+    },
+    {
+      "retention": 0.25,
+      "expected_records": 3500,
+      "alternative": false,
+      "planned": 80,
+      "completed": 80,
+      "supported": 80,
+      "alerts": 0,
+      "ci95": [
+        0.0,
+        0.045064035067692285
+      ],
+      "covered": 76,
+      "mean_target": 0.0,
+      "mean_records": 3504.25
+    },
+    {
+      "retention": 0.25,
+      "expected_records": 3500,
+      "alternative": true,
+      "planned": 80,
+      "completed": 80,
+      "supported": 80,
+      "alerts": 13,
+      "ci95": [
+        0.0894616417225293,
+        0.2618368938251129
+      ],
+      "covered": 74,
+      "mean_target": 0.005848591331384071,
+      "mean_records": 3497.3
+    },
+    {
+      "retention": 0.25,
+      "expected_records": 7000,
+      "alternative": false,
+      "planned": 80,
+      "completed": 80,
+      "supported": 80,
+      "alerts": 1,
+      "ci95": [
+        0.0003164225276327065,
+        0.0676877844639224
+      ],
+      "covered": 75,
+      "mean_target": 0.0,
+      "mean_records": 7001.925
+    },
+    {
+      "retention": 0.25,
+      "expected_records": 7000,
+      "alternative": true,
+      "planned": 80,
+      "completed": 80,
+      "supported": 80,
+      "alerts": 8,
+      "ci95": [
+        0.04417094015362904,
+        0.1875651074634316
+      ],
+      "covered": 78,
+      "mean_target": 0.005818095796441906,
+      "mean_records": 6989.175
+    },
+    {
+      "retention": 0.25,
+      "expected_records": 14000,
+      "alternative": false,
+      "planned": 80,
+      "completed": 80,
+      "supported": 80,
+      "alerts": 2,
+      "ci95": [
+        0.0030420861648096003,
+        0.08740715593059226
+      ],
+      "covered": 76,
+      "mean_target": 0.0,
+      "mean_records": 13986.1875
+    },
+    {
+      "retention": 0.25,
+      "expected_records": 14000,
+      "alternative": true,
+      "planned": 80,
+      "completed": 80,
+      "supported": 80,
+      "alerts": 6,
+      "ci95": [
+        0.02802054617684124,
+        0.15612793173607215
+      ],
+      "covered": 78,
+      "mean_target": 0.005989193920883077,
+      "mean_records": 13984.1625
+    },
+    {
+      "retention": 0.5,
+      "expected_records": 3500,
+      "alternative": false,
+      "planned": 80,
+      "completed": 80,
+      "supported": 80,
+      "alerts": 1,
+      "ci95": [
+        0.0003164225276327065,
+        0.0676877844639224
+      ],
+      "covered": 77,
+      "mean_target": 0.0,
+      "mean_records": 3496.0625
+    },
+    {
+      "retention": 0.5,
+      "expected_records": 3500,
+      "alternative": true,
+      "planned": 80,
+      "completed": 80,
+      "supported": 80,
+      "alerts": 64,
+      "ci95": [
+        0.6956311329945357,
+        0.8811409135950147
+      ],
+      "covered": 76,
+      "mean_target": 0.024875275885507538,
+      "mean_records": 3492.2375
+    },
+    {
+      "retention": 0.5,
+      "expected_records": 7000,
+      "alternative": false,
+      "planned": 80,
+      "completed": 80,
+      "supported": 80,
+      "alerts": 1,
+      "ci95": [
+        0.0003164225276327065,
+        0.0676877844639224
+      ],
+      "covered": 75,
+      "mean_target": 0.0,
+      "mean_records": 6979.2
+    },
+    {
+      "retention": 0.5,
+      "expected_records": 7000,
+      "alternative": true,
+      "planned": 80,
+      "completed": 80,
+      "supported": 80,
+      "alerts": 52,
+      "ci95": [
+        0.5352031145206643,
+        0.7533280635274648
+      ],
+      "covered": 75,
+      "mean_target": 0.024356383085955127,
+      "mean_records": 6989.625
+    },
+    {
+      "retention": 0.5,
+      "expected_records": 14000,
+      "alternative": false,
+      "planned": 80,
+      "completed": 80,
+      "supported": 80,
+      "alerts": 2,
+      "ci95": [
+        0.0030420861648096003,
+        0.08740715593059226
+      ],
+      "covered": 74,
+      "mean_target": 0.0,
+      "mean_records": 13988.0375
+    },
+    {
+      "retention": 0.5,
+      "expected_records": 14000,
+      "alternative": true,
+      "planned": 80,
+      "completed": 80,
+      "supported": 80,
+      "alerts": 45,
+      "ci95": [
+        0.4469975713881804,
+        0.6732360465662212
+      ],
+      "covered": 78,
+      "mean_target": 0.024614895491506066,
+      "mean_records": 14013.625
+    },
+    {
+      "retention": 0.75,
+      "expected_records": 3500,
+      "alternative": false,
+      "planned": 80,
+      "completed": 80,
+      "supported": 80,
+      "alerts": 1,
+      "ci95": [
+        0.0003164225276327065,
+        0.0676877844639224
+      ],
+      "covered": 76,
+      "mean_target": 0.0,
+      "mean_records": 3491.4
+    },
+    {
+      "retention": 0.75,
+      "expected_records": 3500,
+      "alternative": true,
+      "planned": 80,
+      "completed": 80,
+      "supported": 80,
+      "alerts": 79,
+      "ci95": [
+        0.9323122155360776,
+        0.9996835774723675
+      ],
+      "covered": 75,
+      "mean_target": 0.05533810218685549,
+      "mean_records": 3498.975
+    },
+    {
+      "retention": 0.75,
+      "expected_records": 7000,
+      "alternative": false,
+      "planned": 80,
+      "completed": 80,
+      "supported": 80,
+      "alerts": 2,
+      "ci95": [
+        0.0030420861648096003,
+        0.08740715593059226
+      ],
+      "covered": 73,
+      "mean_target": 0.0,
+      "mean_records": 7005.85
+    },
+    {
+      "retention": 0.75,
+      "expected_records": 7000,
+      "alternative": true,
+      "planned": 80,
+      "completed": 80,
+      "supported": 80,
+      "alerts": 79,
+      "ci95": [
+        0.9323122155360776,
+        0.9996835774723675
+      ],
+      "covered": 78,
+      "mean_target": 0.054755893909572785,
+      "mean_records": 6995.1625
+    },
+    {
+      "retention": 0.75,
+      "expected_records": 14000,
+      "alternative": false,
+      "planned": 80,
+      "completed": 80,
+      "supported": 80,
+      "alerts": 1,
+      "ci95": [
+        0.0003164225276327065,
+        0.0676877844639224
+      ],
+      "covered": 77,
+      "mean_target": 0.0,
+      "mean_records": 13996.7125
+    },
+    {
+      "retention": 0.75,
+      "expected_records": 14000,
+      "alternative": true,
+      "planned": 80,
+      "completed": 80,
+      "supported": 80,
+      "alerts": 78,
+      "ci95": [
+        0.9125928440694078,
+        0.9969579138351904
+      ],
+      "covered": 72,
+      "mean_target": 0.054906476766863534,
+      "mean_records": 14016.15
+    },
+    {
+      "retention": 1.0,
+      "expected_records": 3500,
+      "alternative": false,
+      "planned": 80,
+      "completed": 80,
+      "supported": 80,
+      "alerts": 4,
+      "ci95": [
+        0.01378939397646181,
+        0.12309873644315295
+      ],
+      "covered": 71,
+      "mean_target": 0.0,
+      "mean_records": 3505.425
+    },
+    {
+      "retention": 1.0,
+      "expected_records": 3500,
+      "alternative": true,
+      "planned": 80,
+      "completed": 80,
+      "supported": 80,
+      "alerts": 80,
+      "ci95": [
+        0.9549359649323077,
+        1.0
+      ],
+      "covered": 75,
+      "mean_target": 0.09735146772684845,
+      "mean_records": 3491.6625
+    },
+    {
+      "retention": 1.0,
+      "expected_records": 7000,
+      "alternative": false,
+      "planned": 80,
+      "completed": 80,
+      "supported": 80,
+      "alerts": 0,
+      "ci95": [
+        0.0,
+        0.045064035067692285
+      ],
+      "covered": 79,
+      "mean_target": 0.0,
+      "mean_records": 6984.625
+    },
+    {
+      "retention": 1.0,
+      "expected_records": 7000,
+      "alternative": true,
+      "planned": 80,
+      "completed": 80,
+      "supported": 80,
+      "alerts": 80,
+      "ci95": [
+        0.9549359649323077,
+        1.0
+      ],
+      "covered": 77,
+      "mean_target": 0.09787181900548023,
+      "mean_records": 6989.3625
+    },
+    {
+      "retention": 1.0,
+      "expected_records": 14000,
+      "alternative": false,
+      "planned": 80,
+      "completed": 80,
+      "supported": 80,
+      "alerts": 1,
+      "ci95": [
+        0.0003164225276327065,
+        0.0676877844639224
+      ],
+      "covered": 78,
+      "mean_target": 0.0,
+      "mean_records": 14001.7875
+    },
+    {
+      "retention": 1.0,
+      "expected_records": 14000,
+      "alternative": true,
+      "planned": 80,
+      "completed": 80,
+      "supported": 80,
+      "alerts": 80,
+      "ci95": [
+        0.9549359649323077,
+        1.0
+      ],
+      "covered": 76,
+      "mean_target": 0.09855888650923997,
+      "mean_records": 14003.75
+    }
+  ],
+  "timings": [
+    {
+      "expected_records": 3500,
+      "calls": 800,
+      "records_quantiles": [
+        3454.0,
+        3496.0,
+        3543.0
+      ],
+      "wall_quantiles": [
+        0.2676829479751177,
+        0.27361920854309574,
+        0.2816748858022038
+      ],
+      "cpu_quantiles": [
+        0.2674337499999808,
+        0.2730629999999792,
+        0.2809152499999925
+      ]
+    },
+    {
+      "expected_records": 7000,
+      "calls": 800,
+      "records_quantiles": [
+        6928.0,
+        6988.0,
+        7058.25
+      ],
+      "wall_quantiles": [
+        0.3001742289343383,
+        0.3096815210301429,
+        0.3182271877594758
+      ],
+      "cpu_quantiles": [
+        0.29967450000000184,
+        0.30906500000003234,
+        0.3174692499999985
+      ]
+    },
+    {
+      "expected_records": 14000,
+      "calls": 800,
+      "records_quantiles": [
+        13911.75,
+        14001.0,
+        14091.25
+      ],
+      "wall_quantiles": [
+        0.3714938433258794,
+        0.3796335210208781,
+        0.38715702047920786
+      ],
+      "cpu_quantiles": [
+        0.37073875000004364,
+        0.3786359999999789,
+        0.38612424999996087
+      ]
+    }
+  ],
+  "regenerated_and_replayed_seeds": [
+    18000001,
+    18001001,
+    18010001,
+    18011001,
+    18020001,
+    18021001,
+    18100001,
+    18101001,
+    18110001,
+    18111001,
+    18120001,
+    18121001,
+    18200001,
+    18201001,
+    18210001,
+    18211001,
+    18220001,
+    18221001,
+    18300001,
+    18301001,
+    18310001,
+    18311001,
+    18320001,
+    18321001,
+    18400001,
+    18401001,
+    18410001,
+    18411001,
+    18420001,
+    18421001
+  ],
+  "independent_fields": 2400,
+  "verified_catalogue_hashes": 2400
+}

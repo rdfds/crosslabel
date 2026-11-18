@@ -3,12 +3,12 @@
 Install the wheel with its HDF5 extra and run these commands from the
 repository root. The forward replays were checked on Python 3.13 with
 NumPy 2.5.3, SciPy 1.18.1, and h5py 3.16.0. Use one thread for numerical
-comparisons. To install the original numerical dependencies in a fresh
+comparisons. To install the recorded numerical dependencies in a fresh
 Python 3.13 environment, run the following from the repository root.
 
 ```sh
 python -m pip install 'numpy==2.5.3' 'scipy==1.18.1' 'h5py==3.16.0' \
-  './dist/crosslabel-0.4.0-py3-none-any.whl'
+  './dist/crosslabel-0.4.1-py3-none-any.whl'
 ```
 
 ## Verify the tables
@@ -110,3 +110,73 @@ python -B reproduce/plot_benchmarks.py /path/to/new-figures/viability_rates.pdf
 - [Nup96 comparison](data/nup96/REPORT.md)
 - [Field-only intervals, intensity control, and CD20 sensitivity](data/field_only/REPORT.md)
 - [Experimental acquisition audit](data/acquisition_audit/REPORT.md)
+
+## Retention, field area and runtime
+
+The retention study uses 2,400 fields. The area study reuses 480 of these
+and adds 960 independent fields, holding density fixed while changing area.
+These commands regenerate every catalogue and verify its identity, target,
+counts, coverage and exact binomial limits. `--replay` also recomputes the
+complete interval for the first field in each class and setting (30 and
+12 intervals, respectively).
+
+```sh
+python -B reproduce/verify_retention.py --replay
+python -B reproduce/verify_area.py --replay
+```
+
+To run all intervals, use new output directories:
+
+```sh
+python -B reproduce/retention_study.py --output /path/to/new-retention
+python -B reproduce/retention_study.py --summarize /path/to/new-retention
+python -B reproduce/area_study.py --engineering
+python -B reproduce/area_study.py --output /path/to/new-area
+python -B reproduce/area_study.py --summarize /path/to/new-area --replay
+```
+
+The [retention design](data/retention/STUDY_DESIGN.md) and
+[area design](data/area/STUDY_DESIGN.md) give the full settings and seeds.
+The retention dataset also includes the measured runtime profile and environment.
+
+## Shared interval for connected triple correlation
+
+This analysis applies the spatial linearization and nested interval to the
+full-field connected triple-correlation score, retaining cross-block
+neighborhoods. It uses all 540 saved follow-up fields. The shared-interval
+comparison includes counts, coverage and paired disagreements; it is separate
+from the six-condition interval qualification.
+
+```sh
+python -B reproduce/check_shared_interval.py
+python -B reproduce/verify_shared_interval.py
+python -B reproduce/shared_interval.py --output /path/to/new-shared-interval
+python -B reproduce/shared_interval.py --summarize /path/to/new-shared-interval
+```
+
+The first two commands check the objective and derivatives, all 540 saved
+point scores and 30 complete interval replays. The last two regenerate all
+catalogues and recompute all 540 intervals. See the
+[study design](data/shared_interval/STUDY_DESIGN.md).
+
+## Record-disjoint Nup96 witnesses
+
+```sh
+python -B reproduce/witness_packing.py --regenerate
+```
+
+This verifies every distinct-code triple and regenerates the deterministic
+greedy packing from the included reduced observations. No record is reused.
+The packing gives a lower bound on record edits needed to remove every
+witness at fixed coordinates. It is not a source-count or labeling-error
+estimate. See [data attribution](../THIRD_PARTY_NOTICES.md).
+
+## Manuscript figure sources
+
+The `figures/` directory contains the display inputs, renderer and style for
+the four main figures and Supplementary Figures S1–S4. Each displayed count
+and interval is in `figure_values.json`. Render to a new directory:
+
+```sh
+python -B figures/render.py /path/to/manuscript-figures --from-values figures/figure_values.json
+```

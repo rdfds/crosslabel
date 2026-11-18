@@ -1,0 +1,83 @@
+{
+  "groups": [
+    {
+      "setting": "balanced_lower_density",
+      "adequate": true,
+      "planned": 100,
+      "supported": 100,
+      "dtc_alerts": 6,
+      "crosslabel_alerts": 5,
+      "crosslabel_only": 0,
+      "dtc_only": 1,
+      "both": 5,
+      "paired_p": 1.0,
+      "dtc_covered": 94
+    },
+    {
+      "setting": "balanced_lower_density",
+      "adequate": false,
+      "planned": 80,
+      "supported": 80,
+      "dtc_alerts": 78,
+      "crosslabel_alerts": 78,
+      "crosslabel_only": 0,
+      "dtc_only": 0,
+      "both": 78,
+      "paired_p": 1.0,
+      "dtc_covered": 75
+    },
+    {
+      "setting": "low_retention_skewed_codes",
+      "adequate": true,
+      "planned": 100,
+      "supported": 100,
+      "dtc_alerts": 0,
+      "crosslabel_alerts": 2,
+      "crosslabel_only": 2,
+      "dtc_only": 0,
+      "both": 0,
+      "paired_p": 0.5,
+      "dtc_covered": 95
+    },
+    {
+      "setting": "low_retention_skewed_codes",
+      "adequate": false,
+      "planned": 80,
+      "supported": 80,
+      "dtc_alerts": 22,
+      "crosslabel_alerts": 22,
+      "crosslabel_only": 1,
+      "dtc_only": 1,
+      "both": 21,
+      "paired_p": 1.0,
+      "dtc_covered": 73
+    },
+    {
+      "setting": "varying_intensity_skewed_codes",
+      "adequate": true,
+      "planned": 100,
+      "supported": 100,
+      "dtc_alerts": 8,
+      "crosslabel_alerts": 4,
+      "crosslabel_only": 0,
+      "dtc_only": 4,
+      "both": 4,
+      "paired_p": 0.125,
+      "dtc_covered": 92
+    },
+    {
+      "setting": "varying_intensity_skewed_codes",
+      "adequate": false,
+      "planned": 80,
+      "supported": 80,
+      "dtc_alerts": 66,
+      "crosslabel_alerts": 46,
+      "crosslabel_only": 0,
+      "dtc_only": 20,
+      "both": 46,
+      "paired_p": 1.9073486328125e-06,
+      "dtc_covered": 74
+    }
+  ],
+  "fields": 540
+}

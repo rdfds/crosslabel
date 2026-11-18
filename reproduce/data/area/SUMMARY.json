@@ -1,0 +1,272 @@
+{
+  "groups": [
+    {
+      "retention": 0.25,
+      "area": 100.0,
+      "alternative": false,
+      "planned": 80,
+      "supported": 80,
+      "alerts": 1,
+      "ci95": [
+        0.0003164225276327065,
+        0.0676877844639224
+      ],
+      "covered": 75,
+      "mean_records": 7001.925
+    },
+    {
+      "retention": 0.25,
+      "area": 100.0,
+      "alternative": true,
+      "planned": 80,
+      "supported": 80,
+      "alerts": 8,
+      "ci95": [
+        0.04417094015362904,
+        0.1875651074634316
+      ],
+      "covered": 78,
+      "mean_records": 6989.175
+    },
+    {
+      "retention": 0.25,
+      "area": 200.0,
+      "alternative": false,
+      "planned": 80,
+      "supported": 80,
+      "alerts": 0,
+      "ci95": [
+        0.0,
+        0.045064035067692285
+      ],
+      "covered": 76,
+      "mean_records": 14014.175
+    },
+    {
+      "retention": 0.25,
+      "area": 200.0,
+      "alternative": true,
+      "planned": 80,
+      "supported": 80,
+      "alerts": 18,
+      "ci95": [
+        0.13913721049893166,
+        0.33208632006125105
+      ],
+      "covered": 77,
+      "mean_records": 13989.65
+    },
+    {
+      "retention": 0.25,
+      "area": 400.0,
+      "alternative": false,
+      "planned": 80,
+      "supported": 80,
+      "alerts": 4,
+      "ci95": [
+        0.01378939397646181,
+        0.12309873644315295
+      ],
+      "covered": 74,
+      "mean_records": 27981.6375
+    },
+    {
+      "retention": 0.25,
+      "area": 400.0,
+      "alternative": true,
+      "planned": 80,
+      "supported": 80,
+      "alerts": 36,
+      "ci95": [
+        0.33848638448981544,
+        0.5653260209058472
+      ],
+      "covered": 80,
+      "mean_records": 28039.5875
+    },
+    {
+      "retention": 0.5,
+      "area": 100.0,
+      "alternative": false,
+      "planned": 80,
+      "supported": 80,
+      "alerts": 1,
+      "ci95": [
+        0.0003164225276327065,
+        0.0676877844639224
+      ],
+      "covered": 75,
+      "mean_records": 6979.2
+    },
+    {
+      "retention": 0.5,
+      "area": 100.0,
+      "alternative": true,
+      "planned": 80,
+      "supported": 80,
+      "alerts": 52,
+      "ci95": [
+        0.5352031145206643,
+        0.7533280635274648
+      ],
+      "covered": 75,
+      "mean_records": 6989.625
+    },
+    {
+      "retention": 0.5,
+      "area": 200.0,
+      "alternative": false,
+      "planned": 80,
+      "supported": 80,
+      "alerts": 5,
+      "ci95": [
+        0.020603072302010243,
+        0.13985707529763905
+      ],
+      "covered": 74,
+      "mean_records": 14009.8625
+    },
+    {
+      "retention": 0.5,
+      "area": 200.0,
+      "alternative": true,
+      "planned": 80,
+      "supported": 80,
+      "alerts": 75,
+      "ci95": [
+        0.860142924702361,
+        0.9793969276979898
+      ],
+      "covered": 74,
+      "mean_records": 13998.2625
+    },
+    {
+      "retention": 0.5,
+      "area": 400.0,
+      "alternative": false,
+      "planned": 80,
+      "supported": 80,
+      "alerts": 1,
+      "ci95": [
+        0.0003164225276327065,
+        0.0676877844639224
+      ],
+      "covered": 77,
+      "mean_records": 28011.8
+    },
+    {
+      "retention": 0.5,
+      "area": 400.0,
+      "alternative": true,
+      "planned": 80,
+      "supported": 80,
+      "alerts": 80,
+      "ci95": [
+        0.9549359649323077,
+        1.0
+      ],
+      "covered": 79,
+      "mean_records": 28039.4625
+    },
+    {
+      "retention": 0.75,
+      "area": 100.0,
+      "alternative": false,
+      "planned": 80,
+      "supported": 80,
+      "alerts": 2,
+      "ci95": [
+        0.0030420861648096003,
+        0.08740715593059226
+      ],
+      "covered": 73,
+      "mean_records": 7005.85
+    },
+    {
+      "retention": 0.75,
+      "area": 100.0,
+      "alternative": true,
+      "planned": 80,
+      "supported": 80,
+      "alerts": 79,
+      "ci95": [
+        0.9323122155360776,
+        0.9996835774723675
+      ],
+      "covered": 78,
+      "mean_records": 6995.1625
+    },
+    {
+      "retention": 0.75,
+      "area": 200.0,
+      "alternative": false,
+      "planned": 80,
+      "supported": 80,
+      "alerts": 2,
+      "ci95": [
+        0.0030420861648096003,
+        0.08740715593059226
+      ],
+      "covered": 75,
+      "mean_records": 13985.0375
+    },
+    {
+      "retention": 0.75,
+      "area": 200.0,
+      "alternative": true,
+      "planned": 80,
+      "supported": 80,
+      "alerts": 80,
+      "ci95": [
+        0.9549359649323077,
+        1.0
+      ],
+      "covered": 78,
+      "mean_records": 13997.9125
+    },
+    {
+      "retention": 0.75,
+      "area": 400.0,
+      "alternative": false,
+      "planned": 80,
+      "supported": 80,
+      "alerts": 2,
+      "ci95": [
+        0.0030420861648096003,
+        0.08740715593059226
+      ],
+      "covered": 76,
+      "mean_records": 27997.1625
+    },
+    {
+      "retention": 0.75,
+      "area": 400.0,
+      "alternative": true,
+      "planned": 80,
+      "supported": 80,
+      "alerts": 80,
+      "ci95": [
+        0.9549359649323077,
+        1.0
+      ],
+      "covered": 77,
+      "mean_records": 28001.5625
+    }
+  ],
+  "new_fields": 960,
+  "reused_fields": 480,
+  "replayed_seeds": [
+    19100001,
+    19101001,
+    19110001,
+    19111001,
+    19120001,
+    19121001,
+    19200001,
+    19201001,
+    19210001,
+    19211001,
+    19220001,
+    19221001
+  ]
+}

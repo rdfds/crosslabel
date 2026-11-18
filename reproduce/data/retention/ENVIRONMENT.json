@@ -1,0 +1,11 @@
+{
+  "platform": "macOS-27.2.1-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "processor": "arm",
+  "python": "3.13.2 (main, Feb  4 2025, 14:51:09) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "openblas_threads": "1",
+  "omp_threads": "1",
+  "cpu": "Apple M6"
+}

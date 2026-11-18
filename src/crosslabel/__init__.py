@@ -33,7 +33,7 @@ from .report import analyze, duplicate_pairs, format_report, label_pair_excess
 from .io import read_picasso, read_table
 from .field import field_check
 
-__version__ = '0.4.0'
+__version__ = '0.4.1'
 
 cross_label_g = point_pair_g
 connected_triplets_m2 = triplet_m2

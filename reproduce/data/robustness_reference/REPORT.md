@@ -1,4 +1,4 @@
-# Additional comparison for Bioinformatics
+# Robustness and comparator simulation study
 
 The fixed experiment evaluated the existing Crosslabel lower limit and marked-pair
 residual on the same simulated catalogues. Both scores used the same prespecified

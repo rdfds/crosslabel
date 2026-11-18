@@ -15,6 +15,7 @@
     "spatial statistics",
     "oligomerization"
   ],
-  "description": "Crosslabel implements a connected three-code contrast and model interval for permanently coded localization microscopy. Includes Python source and wheel, synthetic examples, simulation and comparator results, replay scripts, and provenance for the Nup96 and CD20 analyses.",
-  "version": "0.4.0"
+  "description": "Crosslabel implements a connected three-code contrast and spatial interval for checking oligomer libraries in permanently coded localization microscopy. This release contains the Python package and wheel, simulation generators, all benchmark and sensitivity results, reproduction scripts, and manuscript figure sources. Analyses include marked-pair and SPINNA comparisons, connected triple correlation with tiled and shared nested intervals, retention and field-area sensitivity, runtime measurements, and Nup96 and CD20 reanalyses. Code is MIT licensed; experimental observations retain the source terms documented in DATA.md and THIRD_PARTY_NOTICES.md.",
+  "version": "0.4.1",
+  "doi": "10.5281/zenodo.24354693"
 }

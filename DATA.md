@@ -1,8 +1,9 @@
 # Data sources and reuse
 
 The archive includes author-generated example catalogues, simulation
-reference summaries, and derived analyses. Original third-party localization
-tables and archives are available from their respective sources.
+reference summaries, and derived analyses. Original third-party archives are available from their respective sources.
+Reduced Nup96 observations used for the witness certificate and the figure
+crop are included with attribution in THIRD_PARTY_NOTICES.md.
 
 | Source | Public record | Role |
 |---|---|---|
@@ -44,3 +45,21 @@ OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python -B \
   reproduce/field_only.py --cd20-sensitivity \
   --g5m-dir /path/to/extracted-g5m /path/to/cd20-sensitivity.json
 ```
+
+## Included sensitivity results
+
+- `reproduce/data/retention/`: all 2,400 fixed-footprint sensitivity fields,
+  interval outputs, decisions, coverage, runtime measurements and study design.
+- `reproduce/data/area/`: all 1,440 fixed-density area results, including
+  480 reused baseline fields and 960 new fields. Catalogue hashes and seeds
+  permit exact regeneration without storing duplicate raw catalogues.
+- `reproduce/data/shared_interval/`: all 540 full-field triple-correlation
+  interval results, sufficient arrays and nested calibration arrays.
+- `reproduce/data/witness_packing/`: reduced Nup96 observations, group map
+  and 110,732 record-disjoint witness triples. These observations derive from
+  the Reinhardt RESI deposit; they retain CC BY 4.0 terms.
+
+The manuscript figure inputs in `figures/figure_values.json` include a reduced
+Nup96 display crop from the same deposit. Reproduction code and author-generated
+simulation outputs are included in this release. Data from the other source
+records remain available through the linked deposits above.

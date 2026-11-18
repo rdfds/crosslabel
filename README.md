@@ -10,7 +10,7 @@ Use Python 3.9 or later. From the repository root, install the bundled wheel
 with HDF5 support.
 
 ```sh
-python -m pip install './dist/crosslabel-0.4.0-py3-none-any.whl[hdf5]'
+python -m pip install './dist/crosslabel-0.4.1-py3-none-any.whl[hdf5]'
 ```
 
 ## Quickstart
@@ -38,7 +38,7 @@ print(result["estimate"], result["interval_95_model"])
 ## Inputs and outputs
 
 Use a CSV with `x_nm,y_nm,code`, or one Picasso HDF5 file per imaging code
-with a pixel size in nanometres. Each catalogue must contain **4 or 6
+with a pixel size in nanometres. The validated field configurations contain **4 or 6
 permanent codes**. Choose a neighbourhood radius of **10 or 30 nm**.
 
 The report gives the contrast, a model-based interval, and checks for
@@ -60,3 +60,6 @@ original deposits. Simulation results and reference tables are included in
 
 See [CITATION.cff](CITATION.cff) for the software citation. Crosslabel is
 released under the [MIT license](LICENSE).
+
+Version 0.4.1, including all reported sensitivity studies, is archived at
+[doi:10.5281/zenodo.24354693](https://doi.org/10.5281/zenodo.24354693).
